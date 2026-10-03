@@ -1,0 +1,16 @@
+[
+  {"id":1,"letters":["К","О","Т"],"words":[
+    {"text":"КОТ","row":0,"col":0,"direction":"across"},
+    {"text":"ТОК","row":0,"col":2,"direction":"down"}
+  ]},
+  {"id":2,"letters":["К","И","Т","А"],"words":[
+    {"text":"КИТ","row":0,"col":0,"direction":"across"},
+    {"text":"ТИК","row":0,"col":2,"direction":"down"},
+    {"text":"АКТ","row":2,"col":1,"direction":"across"}
+  ]},
+  {"id":3,"letters":["К","А","Р","Т","А"],"words":[
+    {"text":"КАРТА","row":0,"col":0,"direction":"across"},
+    {"text":"АРКА","row":0,"col":1,"direction":"down"},
+    {"text":"ТАРА","row":0,"col":3,"direction":"down"}
+  ]}
+]
