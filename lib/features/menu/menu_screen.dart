@@ -6,6 +6,9 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../core/theme/game_theme.dart';
 import '../../core/widgets/pixel_ui.dart';
 import '../../core/widgets/scenic_background.dart';
+import '../../features/game/models/level.dart';
+import '../../progress/achievements.dart';
+import '../../progress/campaign_progress.dart';
 import 'info_content.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -13,16 +16,14 @@ class MenuScreen extends StatefulWidget {
     super.key,
     required this.themeMode,
     required this.onThemeChanged,
-    required this.completed,
-    required this.totalLevels,
-    required this.foundWords,
+    required this.progress,
+    required this.levels,
   });
 
   final ThemeMode themeMode;
   final ValueChanged<ThemeMode> onThemeChanged;
-  final int completed;
-  final int totalLevels;
-  final int foundWords;
+  final CampaignProgress progress;
+  final List<Level> levels;
 
   @override
   State<MenuScreen> createState() => _MenuScreenState();
@@ -239,9 +240,18 @@ class _MenuScreenState extends State<MenuScreen> {
         children: [
           _stat(
             'Пройдено уровней',
-            '${widget.completed} / ${widget.totalLevels}',
+            '${widget.progress.completedLevels} / ${widget.levels.length}',
           ),
-          _stat('Слов в пройденных уровнях', '${widget.foundWords}'),
+          _stat('Найдено слов', '${widget.progress.wordsFound}'),
+          _stat(
+            'Бесконечные раунды',
+            '${widget.progress.endlessRoundsCompleted}',
+          ),
+          _stat('Без подсказок', '${widget.progress.levelsWithoutHints}'),
+          _stat('Использовано подсказок', '${widget.progress.hintsUsed}'),
+          _stat('Текущая серия', '${widget.progress.currentStreak}'),
+          _stat('Лучшая серия', '${widget.progress.bestStreak}'),
+          _stat('Заработано кристаллов', '${widget.progress.crystalsEarned}'),
         ],
       ),
     ),
@@ -252,16 +262,29 @@ class _MenuScreenState extends State<MenuScreen> {
       builder: (_) => _DetailScreen(
         title: 'Достижения',
         children: [
-          _achievement(
-            'Первый шаг',
-            'Пройти первый уровень',
-            widget.completed >= 1,
-          ),
-          _achievement(
-            'Лесной путь',
-            'Пройти все уровни первой главы',
-            widget.totalLevels > 0 && widget.completed >= widget.totalLevels,
-          ),
+          for (final category
+              in AchievementRules.all.map((a) => a.category).toSet()) ...[
+            Builder(
+              builder: (context) => Padding(
+                padding: const EdgeInsets.only(top: 8),
+                child: _sectionTitle(
+                  category.toUpperCase(),
+                  GamePalette.of(context),
+                ),
+              ),
+            ),
+            for (final achievement in AchievementRules.all.where(
+              (a) => a.category == category,
+            ))
+              _achievement(
+                achievement.title,
+                achievement.description,
+                achievement.isUnlocked(widget.progress),
+                progress: achievement.progress(widget.progress, widget.levels),
+                target: achievement.target,
+                chapterName: achievement.chapter?.name,
+              ),
+          ],
         ],
       ),
     ),
@@ -293,37 +316,45 @@ class _MenuScreenState extends State<MenuScreen> {
     },
   );
 
-  Widget _achievement(String title, String description, bool unlocked) =>
-      Builder(
-        builder: (context) {
-          final palette = GamePalette.of(context);
-          return PixelPanel(
-            highlight: unlocked,
-            child: ListTile(
-              leading: Icon(
-                unlocked ? Icons.emoji_events_rounded : Icons.lock_outline,
-                color: unlocked ? GameColors.orange : palette.muted,
-                size: 30,
-              ),
-              title: Text(
-                title,
-                style: TextStyle(
-                  color: palette.ink,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w900,
-                ),
-              ),
-              subtitle: Text(
-                description,
-                style: TextStyle(color: palette.muted),
-              ),
-              trailing: unlocked
-                  ? const Icon(Icons.check_circle, color: GameColors.orange)
-                  : null,
+  Widget _achievement(
+    String title,
+    String description,
+    bool unlocked, {
+    required int progress,
+    required int target,
+    String? chapterName,
+  }) => Builder(
+    builder: (context) {
+      final palette = GamePalette.of(context);
+      return PixelPanel(
+        highlight: unlocked,
+        child: ListTile(
+          leading: Icon(
+            unlocked ? Icons.emoji_events_rounded : Icons.lock_outline,
+            color: unlocked ? GameColors.orange : palette.muted,
+            size: 30,
+          ),
+          title: Text(
+            title,
+            style: TextStyle(
+              color: palette.ink,
+              fontSize: 18,
+              fontWeight: FontWeight.w900,
             ),
-          );
-        },
+          ),
+          subtitle: Text(
+            unlocked
+                ? description
+                : '$description\n${chapterName == null ? '' : '$chapterName: '}${progress.clamp(0, target)} / $target',
+            style: TextStyle(color: palette.muted),
+          ),
+          trailing: unlocked
+              ? const Icon(Icons.check_circle, color: GameColors.orange)
+              : null,
+        ),
       );
+    },
+  );
 }
 
 class _DetailScreen extends StatelessWidget {

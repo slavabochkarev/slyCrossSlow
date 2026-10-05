@@ -81,6 +81,16 @@ class LetterBoardState extends State<LetterBoard>
   }
 
   List<Offset> _positions(Size size) {
+    final diameter = math.min(size.width, size.height);
+    final center = Offset(size.width / 2, size.height / 2);
+    if (widget.letters.length == 7) {
+      final orbit = diameter * .35;
+      return List.generate(7, (slot) {
+        final angle = -math.pi / 2 + slot * 2 * math.pi / 7;
+        return center +
+            Offset(orbit * math.cos(angle), orbit * math.sin(angle));
+      });
+    }
     final normalized =
         <int, List<Offset>>{
           3: [
@@ -109,19 +119,8 @@ class LetterBoardState extends State<LetterBoard>
             const Offset(.76, .68),
             const Offset(.5, .82),
           ],
-          7: [
-            const Offset(.5, .15),
-            const Offset(.23, .35),
-            const Offset(.77, .35),
-            const Offset(.5, .51),
-            const Offset(.23, .71),
-            const Offset(.77, .71),
-            const Offset(.5, .83),
-          ],
         }[widget.letters.length] ??
         const [Offset(.5, .5)];
-    final diameter = math.min(size.width, size.height);
-    final center = Offset(size.width / 2, size.height / 2);
     return normalized
         .map(
           (point) =>
@@ -131,9 +130,16 @@ class LetterBoardState extends State<LetterBoard>
         .toList();
   }
 
+  double _letterRadius(Size size) {
+    final diameter = math.min(size.width, size.height);
+    return widget.letters.length == 7
+        ? math.min(28.0, diameter * .105)
+        : math.min(32.0, diameter * .12);
+  }
+
   void _track(Offset local, Size size) {
     final positions = _positions(size);
-    final radius = math.min(32.0, math.min(size.width, size.height) * .12);
+    final radius = _letterRadius(size);
     setState(() {
       pointer = local;
       for (var slot = 0; slot < positions.length; slot++) {
@@ -167,7 +173,7 @@ class LetterBoardState extends State<LetterBoard>
       final palette = GamePalette.of(context);
       final size = Size(constraints.maxWidth, constraints.maxHeight);
       final positions = _positions(size);
-      final radius = math.min(32.0, math.min(size.width, size.height) * .12);
+      final radius = _letterRadius(size);
       final activeIds = selected.isEmpty ? feedbackIds : selected;
       final trace = activeIds
           .map((id) => positions[order.indexOf(id)])

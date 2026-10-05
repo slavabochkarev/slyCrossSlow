@@ -1,6 +1,8 @@
 import 'package:cross_slow/core/theme/game_theme.dart';
 import 'package:cross_slow/features/menu/menu_screen.dart';
 import 'package:cross_slow/progress/theme_repository.dart';
+import 'package:cross_slow/progress/campaign_progress.dart';
+import 'package:cross_slow/features/game/models/level.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences_platform_interface/in_memory_shared_preferences_async.dart';
@@ -31,9 +33,10 @@ void main() {
             home: MenuScreen(
               themeMode: ThemeMode.dark,
               onThemeChanged: (mode) => chosen = mode,
-              completed: 1,
-              totalLevels: 3,
-              foundWords: 2,
+              progress: CampaignProgress(completed: {1}, wordsFound: 2),
+              levels: const [
+                Level(id: 1, letters: ['К'], words: []),
+              ],
             ),
           ),
         );
@@ -43,7 +46,7 @@ void main() {
         expect(chosen, ThemeMode.light);
         await tester.tap(find.text('Статистика'));
         await tester.pumpAndSettle();
-        expect(find.text('1 / 3'), findsOneWidget);
+        expect(find.text('1 / 1'), findsOneWidget);
         expect(find.text('2'), findsOneWidget);
         await tester.pageBack();
         await tester.pumpAndSettle();

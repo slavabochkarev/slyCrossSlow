@@ -1,19 +1,22 @@
-import 'dart:math' as math;
-
 import 'package:flutter/material.dart';
 
 import '../../../core/widgets/pixel_ui.dart';
 import '../controller/game_controller.dart';
+import 'crossword_layout.dart';
 
 class CrosswordBoard extends StatefulWidget {
   const CrosswordBoard({
     super.key,
     required this.controller,
     this.celebrating = false,
+    this.revealAllForSizeLab = false,
+    this.onLayout,
   });
 
   final GameController controller;
   final bool celebrating;
+  final bool revealAllForSizeLab;
+  final ValueChanged<CrosswordLayoutDiagnostics>? onLayout;
 
   @override
   State<CrosswordBoard> createState() => _CrosswordBoardState();
@@ -87,13 +90,17 @@ class _CrosswordBoardState extends State<CrosswordBoard> {
   Widget build(BuildContext context) => LayoutBuilder(
     builder: (context, constraints) {
       final level = widget.controller.level;
-      final side = math.min(
-        74.0,
-        math.min(
-          (constraints.maxWidth - 28) / level.cols,
-          (constraints.maxHeight - 28) / level.rows,
-        ),
+      final layout = measureCrossword(
+        rows: level.rows,
+        cols: level.cols,
+        availableArea: Size(constraints.maxWidth, constraints.maxHeight),
       );
+      final side = layout.cellSize;
+      if (widget.onLayout != null) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) widget.onLayout?.call(layout);
+        });
+      }
       final cells = <String, String>{};
       for (final word in level.words) {
         for (var i = 0; i < word.text.length; i++) {
@@ -121,11 +128,13 @@ class _CrosswordBoardState extends State<CrosswordBoard> {
                       Positioned(
                         left: col * side + 2,
                         top: row * side + 2,
-                        width: side - 4,
-                        height: side - 4,
+                        width: side >= 4 ? side - 4 : 0,
+                        height: side >= 4 ? side - 4 : 0,
                         child: PixelCell(
                           letter: cells['$row:$col']!,
-                          open: visible.contains('$row:$col'),
+                          open:
+                              widget.revealAllForSizeLab ||
+                              visible.contains('$row:$col'),
                           side: side,
                           glowing:
                               glowing.contains('$row:$col') ||

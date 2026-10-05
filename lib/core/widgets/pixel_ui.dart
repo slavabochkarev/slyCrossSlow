@@ -2,6 +2,22 @@ import 'package:flutter/material.dart';
 
 import '../theme/game_theme.dart';
 
+class CrystalIcon extends StatelessWidget {
+  const CrystalIcon({super.key, this.size = 22});
+
+  final double size;
+
+  @override
+  Widget build(BuildContext context) => Icon(
+    Icons.diamond,
+    size: size,
+    color: GameColors.cyan,
+    shadows: const [
+      Shadow(color: Color(0xFF0B416E), offset: Offset(1, 2), blurRadius: 3),
+    ],
+  );
+}
+
 class PixelPanel extends StatelessWidget {
   const PixelPanel({
     super.key,
@@ -51,12 +67,14 @@ class PixelButton extends StatefulWidget {
     required this.child,
     this.accent = false,
     this.padding = const EdgeInsets.symmetric(horizontal: 18, vertical: 11),
+    this.borderRadius = 8,
   });
 
   final VoidCallback? onPressed;
   final Widget child;
   final bool accent;
   final EdgeInsetsGeometry padding;
+  final double borderRadius;
 
   @override
   State<PixelButton> createState() => _PixelButtonState();
@@ -93,7 +111,7 @@ class _PixelButtonState extends State<PixelButton> {
                     ? const [Color(0xFF7DD978), Color(0xFF269264)]
                     : [palette.buttonTop, palette.buttonBottom],
               ),
-              borderRadius: BorderRadius.circular(8),
+              borderRadius: BorderRadius.circular(widget.borderRadius),
               border: Border.all(
                 color: widget.accent ? const Color(0xFFC8FF9B) : palette.accent,
                 width: 2,

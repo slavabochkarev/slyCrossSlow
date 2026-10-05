@@ -1,16 +1,10311 @@
 [
-  {"id":1,"letters":["К","О","Т"],"words":[
-    {"text":"КОТ","row":0,"col":0,"direction":"across"},
-    {"text":"ТОК","row":0,"col":2,"direction":"down"}
-  ]},
-  {"id":2,"letters":["К","И","Т","А"],"words":[
-    {"text":"КИТ","row":0,"col":0,"direction":"across"},
-    {"text":"ТИК","row":0,"col":2,"direction":"down"},
-    {"text":"АКТ","row":2,"col":1,"direction":"across"}
-  ]},
-  {"id":3,"letters":["К","А","Р","Т","А"],"words":[
-    {"text":"КАРТА","row":0,"col":0,"direction":"across"},
-    {"text":"АРКА","row":0,"col":1,"direction":"down"},
-    {"text":"ТАРА","row":0,"col":3,"direction":"down"}
-  ]}
+  {
+    "id": 1,
+    "letters": [
+      "К",
+      "О",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОТ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "letters": [
+      "Н",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "НОС",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "letters": [
+      "Е",
+      "Л",
+      "О",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ЛЕТО",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "letters": [
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "РОСТ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ДОСКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОДА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "letters": [
+      "В",
+      "Л",
+      "О",
+      "П"
+    ],
+    "words": [
+      {
+        "text": "ПЛОВ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "letters": [
+      "Г",
+      "Л",
+      "О",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "УГОЛ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ГОЛ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГУЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУГ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "letters": [
+      "В",
+      "З",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ВЗОР",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "letters": [
+      "Д",
+      "О",
+      "У",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "УХОД",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ХОД",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ДУХ",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "УХО",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "letters": [
+      "А",
+      "Ж",
+      "К",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ЛОЖКА",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЖАЛО",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЖА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "letters": [
+      "А",
+      "Г",
+      "З",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ГАЗОН",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "НОГА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "letters": [
+      "А",
+      "Д",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "НАРОД",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "letters": [
+      "А",
+      "К",
+      "М",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КОМАР",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОМ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "letters": [
+      "А",
+      "Л",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛАТО",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЛПА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "letters": [
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "СПОРТ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "letters": [
+      "К",
+      "О",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "СУРОК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УКОР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "УРОК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КУРС",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ГРУДА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ДУГА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РУДА",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "УДАР",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ДРУГ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГРАД",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РЕПКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРК",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАРП",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "КОЛБА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "БЛОК",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "letters": [
+      "В",
+      "Е",
+      "Л",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВЕСЛО",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕС",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОВЕС",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "letters": [
+      "И",
+      "К",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СКРИП",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПИРС",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РИС",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "letters": [
+      "В",
+      "Е",
+      "К",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КОВЕР",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕК",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "И",
+      "Л"
+    ],
+    "words": [
+      {
+        "text": "ИДЕАЛ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕДИ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "letters": [
+      "А",
+      "В",
+      "И",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СЛИВА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СИЛА",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "letters": [
+      "А",
+      "Е",
+      "М",
+      "Н",
+      "О",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "МОНЕТА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "АТОМ",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НОТА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "МАТ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОМ",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ОТМЕНА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "letters": [
+      "А",
+      "Г",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ОРГАН",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРН",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "letters": [
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "Н",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "НИКЕЛЬ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КИЛЬ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИН",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КЛЕН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕНЬ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "letters": [
+      "Б",
+      "Л",
+      "О",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "СТОЛБ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "letters": [
+      "А",
+      "К",
+      "П",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КРУПА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАУК",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КАРП",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "letters": [
+      "А",
+      "З",
+      "Л",
+      "О",
+      "П",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ПОЛЬЗА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛП",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЗА",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "letters": [
+      "А",
+      "И",
+      "М",
+      "Р",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ШИРМА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МАРШ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ШАР",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ШРАМ",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "МИР",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "letters": [
+      "Г",
+      "Д",
+      "Л",
+      "О",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ГОЛОД",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ГОЛ",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ДОЛГ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ГОД",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "letters": [
+      "А",
+      "А",
+      "В",
+      "К",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СВАЛКА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СЛАВА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВКА",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КВАС",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "letters": [
+      "А",
+      "О",
+      "П",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ТРОПА",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТРАП",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "letters": [
+      "А",
+      "М",
+      "О",
+      "П",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "ПРОМАХ",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРОМ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОМАР",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПРАХ",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "МОХ",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ХРАМ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОХРА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХРОМ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "К",
+      "Л",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КАБЛУК",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КУЛАК",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КЛУБ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУКЛА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БУЛКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "letters": [
+      "Е",
+      "М",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ТЕРМОС",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "МЕТРО",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МОСТ",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МЕСТО",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МОРЕ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "МЕТР",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "СТИРКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТИР",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СТАРИК",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РИС",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "letters": [
+      "А",
+      "Е",
+      "Л",
+      "Н",
+      "П",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ПАНЕЛЬ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕНАЛ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛЕН",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАН",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕНЬ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "letters": [
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КОНСУЛ",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СУКНО",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КЛОУН",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СОН",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "НОС",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКЛОН",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОНУС",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "letters": [
+      "А",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КАРТОН",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КРОНА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "НОТА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТАНК",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "letters": [
+      "А",
+      "А",
+      "Е",
+      "К",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "РАКЕТА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РЕКА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КАТЕР",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕТА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛИТКА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КИПА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПИК",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТИП",
+        "row": 7,
+        "col": 6,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "letters": [
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "О",
+      "П"
+    ],
+    "words": [
+      {
+        "text": "ПОКЛОН",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛОН",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОКНО",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОКОН",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "letters": [
+      "А",
+      "М",
+      "О",
+      "Р",
+      "Т",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "ФОРМАТ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ФОРМА",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "АТОМ",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "МАРТ",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ФОРТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "letters": [
+      "Б",
+      "О",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОТБРОС",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОБОТ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СБОР",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОБОР",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "БОР",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "letters": [
+      "А",
+      "К",
+      "К",
+      "О",
+      "Р",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "КРОШКА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КОРКА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ШАР",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ШОК",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОШКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "letters": [
+      "Д",
+      "Е",
+      "Л",
+      "М",
+      "О",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "МОДЕЛЬ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МЕДЬ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "МОЛЬ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ДЕЛО",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "МЕЛЬ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОМ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ДОМ",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ГРАДУС",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РУДА",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ДРУГ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "САД",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ГРАД",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ДУГА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "УДАР",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ГРУДА",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "СУД",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "letters": [
+      "А",
+      "А",
+      "Д",
+      "К",
+      "Н",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КАРДАН",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "АРКАН",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАНА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАДР",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "letters": [
+      "В",
+      "Е",
+      "Е",
+      "К",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВЕРЕСК",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СЕВЕР",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СКВЕР",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕК",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕЕР",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕС",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "letters": [
+      "К",
+      "Л",
+      "О",
+      "С",
+      "Т",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ЛОСКУТ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СТУЛ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КУСТ",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "letters": [
+      "А",
+      "Ж",
+      "Л",
+      "Н",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ЖУРНАЛ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "УРАН",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "УРНА",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЖАР",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУЖА",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУНА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЖАНР",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "letters": [
+      "А",
+      "А",
+      "Л",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ЛОПАТА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТО",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЛПА",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТА",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "letters": [
+      "А",
+      "К",
+      "Л",
+      "О",
+      "О",
+      "П",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ПОЛОСКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОКОЛ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СОПКА",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОСПА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОКОП",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПОСОЛ",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛОС",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "letters": [
+      "К",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КОРПУС",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "УПОР",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "УКОР",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КУРС",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УРОК",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СУРОК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "letters": [
+      "А",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "МОНАРХ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРМА",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ОХРА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХРОМ",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ХРАМ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РОМАН",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 10,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ХОР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "МОХ",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СДЕЛКА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СКЛАД",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕСКА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "САД",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЕДА",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАД",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "letters": [
+      "А",
+      "К",
+      "О",
+      "Р",
+      "Т",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "ФАКТОР",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КОФТА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ФАКТ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ФРАК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "letters": [
+      "А",
+      "З",
+      "И",
+      "К",
+      "Л",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "КИНОЗАЛ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАКОН",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЗЛАК",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЗНАК",
+        "row": 1,
+        "col": 9,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИН",
+        "row": 4,
+        "col": 9,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 1,
+        "col": 12,
+        "direction": "down"
+      },
+      {
+        "text": "КИНО",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Р",
+      "Т",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ТРУБКА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТРУБА",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КУБ",
+        "row": 3,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "УТКА",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТУБА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "П",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПАРКЕТ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПКА",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРК",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РЕКА",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РЕПА",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "И",
+      "Н",
+      "Р",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ВЕРШИНА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НИВА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ШИНА",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "НРАВ",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ШАР",
+        "row": 3,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЕРШ",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕРА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "НЕРВ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "letters": [
+      "Е",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "РЕМОНТ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НОМЕР",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МОРЕ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "МЕТРО",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "Л",
+      "П",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КАПСУЛА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "АКУЛА",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУПА",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ПАУК",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "СУП",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЛКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "К",
+      "О",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ОКРАСКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАСКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОРКА",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАСА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАКАО",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КАРКАС",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 5,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РОСА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "letters": [
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "С",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ПОСТЕЛЬ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТЬ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛЕТ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОТЕЛЬ",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕС",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОСЬ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "letters": [
+      "В",
+      "Д",
+      "Е",
+      "О",
+      "С",
+      "Т",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ДЕТСТВО",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОТВЕТ",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СОВЕТ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТО",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СВЕТ",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕС",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ОВЕС",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕСТ",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "З",
+      "О",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ЗАГОВОР",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГРОЗА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОЗА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВЗОР",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОГ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОВРАГ",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "Н",
+      "Р",
+      "Т",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ТРИБУНА",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БАРИН",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "РУБИН",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "УРНА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТРУБА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАНТ",
+        "row": 5,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "БИТА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "УРАН",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТУБА",
+        "row": 5,
+        "col": 10,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "letters": [
+      "А",
+      "В",
+      "И",
+      "Л",
+      "О",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ПРАВИЛО",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПОВАР",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИРА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПРАВО",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАВР",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПРОЛИВ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОЛИВА",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ПИВО",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОВ",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Н",
+      "Р",
+      "Т",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "ИНФАРКТ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НИТКА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ФАНТИК",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТАРИФ",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КИТ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТАНК",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ФРАК",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "letters": [
+      "Б",
+      "И",
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "БИНОКЛЬ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ОБЛИК",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОНЬ",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БЛОК",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КИНО",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛЬ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "НОЛЬ",
+        "row": 6,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КИЛЬ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "БЛИН",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "Д",
+      "И",
+      "Р",
+      "Я"
+    ],
+    "words": [
+      {
+        "text": "ГВАРДИЯ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГРАД",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИГРА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГИРЯ",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ГИД",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВИД",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВРАГ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ГРИВА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "О",
+      "П",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ПОДУШКА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КАШПО",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОПУШКА",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПАУК",
+        "row": 7,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КОД",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ДУШ",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ШОК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УПАДОК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КУШ",
+        "row": 10,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ДУША",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "letters": [
+      "А",
+      "Е",
+      "Л",
+      "М",
+      "О",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "САМОЛЕТ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "МЕСТО",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "МАСЛО",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "МОСТ",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "АТОМ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "МЕТЛА",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СМОЛА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 6,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МАТ",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОМ",
+        "row": 7,
+        "col": 1,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛАСТИК",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СИЛА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИПСА",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 6,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "letters": [
+      "А",
+      "К",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "НАСМОРК",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НОРМА",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КРОНА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "СРОК",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОМ",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОМАН",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 4,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "РОСА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "Н",
+      "О",
+      "Т",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "КОНФЕТА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОКЕАН",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НОТА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КАФЕ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОФТА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОФЕ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ФЕН",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ФАКТ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТОН",
+        "row": 3,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 2,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 5,
+        "col": 8,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "letters": [
+      "А",
+      "А",
+      "Б",
+      "И",
+      "К",
+      "Н",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КАРАБИН",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КАБАН",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "АРКАН",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БАНКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РАНА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАРИН",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "БАРАН",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАНК",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ЛЕОПАРД",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ОПЕРА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ДЕЛО",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОРД",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛЕ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПА",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 5,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "letters": [
+      "А",
+      "Г",
+      "З",
+      "Л",
+      "Р",
+      "У",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ГЛАЗУРЬ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РУЛЬ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГЛАЗ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГУЛ",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАРЬ",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАЗУРЬ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУГ",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ГРУЗ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "letters": [
+      "А",
+      "Д",
+      "О",
+      "О",
+      "П",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "ПАРОХОД",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПОХОД",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПРАХ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОХРА",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ПРОХОД",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХРАП",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПОРОДА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХОД",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ХОР",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "letters": [
+      "А",
+      "В",
+      "К",
+      "Л",
+      "О",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ЛОВУШКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ШКОЛА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛК",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УЛОВ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОВШ",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КУШ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУК",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 7,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "Е",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ТРЕВОГА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТОВАР",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРГ",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВРАГ",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВОР",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕРА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОВРАГ",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "letters": [
+      "А",
+      "А",
+      "И",
+      "Л",
+      "П",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПАСТИЛА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТА",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПАСТА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "САЛАТ",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СИЛА",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "М",
+      "Р",
+      "Т",
+      "Я"
+    ],
+    "words": [
+      {
+        "text": "МАТЕРИЯ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "МЕТР",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "АРИЯ",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "МАРТ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ИМЯ",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "МЯТА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЯМА",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РИТМ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МИР",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "МАТ",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "letters": [
+      "А",
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "КОЛБАСА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛБА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "БОКС",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СОБАКА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "РУБАНОК",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КРОНА",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "НАБОР",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "УРАН",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 0,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "БАНК",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "РУКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УБОРКА",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "letters": [
+      "А",
+      "Б",
+      "Л",
+      "О",
+      "С",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ОБЛАСТЬ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СТАЛЬ",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛБ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОЛЬ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОСЬ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛЬ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "БАЛ",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "letters": [
+      "А",
+      "Г",
+      "М",
+      "Н",
+      "О",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "АГРОНОМ",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОРГАН",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РОМАН",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "НОРМА",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ГНОМ",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРМОН",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ОМАР",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ГРОМ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "О",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ПРОСЕКА",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РЕПКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОПКА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ОПЕРА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОСА",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕС",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕСОК",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "letters": [
+      "К",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т",
+      "Ы"
+    ],
+    "words": [
+      {
+        "text": "ОТПРЫСК",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ОПЫТ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СЫР",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КРОТ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "letters": [
+      "К",
+      "Л",
+      "О",
+      "О",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПОТОЛОК",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТОК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОКОП",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТОК",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 7,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "Н"
+    ],
+    "words": [
+      {
+        "text": "ВЕЛИКАН",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛИК",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВИЛКА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИН",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НИВА",
+        "row": 5,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕК",
+        "row": 0,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 7,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КЛЕН",
+        "row": 0,
+        "col": 10,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "О",
+      "П",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПОДРУГА",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГРУДА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ДУГА",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РУДА",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПРУД",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "УДАР",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДРУГ",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ГОД",
+        "row": 6,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ГРАД",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "letters": [
+      "А",
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Р",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "КАФЕДРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАФЕ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КЕДР",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КАДР",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ФРАК",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ФАРА",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "БАРИТОН",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "БАРИН",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БИТА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "БАТОН",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НАБОР",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НОТА",
+        "row": 9,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ОРБИТА",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "БОР",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "БАНТ",
+        "row": 6,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ТИР",
+        "row": 6,
+        "col": 10,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "letters": [
+      "А",
+      "В",
+      "Д",
+      "З",
+      "Л",
+      "О",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ВОДОЛАЗ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАВОД",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ДОЗА",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВОДА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "letters": [
+      "В",
+      "Е",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОНВЕРТ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КОВЕР",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНОК",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "НЕРВ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 7,
+        "col": 4,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "letters": [
+      "Е",
+      "Л",
+      "О",
+      "Р",
+      "С",
+      "Т",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОТСТРЕЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТО",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТ",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ОРЕЛ",
+        "row": 3,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 3,
+        "col": 11,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "letters": [
+      "Е",
+      "К",
+      "М",
+      "О",
+      "С",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ЕМКОСТЬ",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "МЕСТО",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКОТ",
+        "row": 8,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОМ",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТОМ",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "МОСТ",
+        "row": 10,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СЕТЬ",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОСТЬ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПУБЛИКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БУЛКА",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КЛУБ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ПАУК",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 8,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПИК",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "БАЛ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 10,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУПА",
+        "row": 11,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "letters": [
+      "А",
+      "Г",
+      "И",
+      "К",
+      "Р",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ИГРУШКА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РУКА",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ИГРА",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КРУГ",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ГРУША",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ШАГ",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ШАР",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУШ",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ИШАК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "letters": [
+      "А",
+      "Г",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ГАРМОНЬ",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "НОРМА",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "МАНГО",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОМАН",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГРОМ",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ОРГАН",
+        "row": 7,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 7,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 4,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРН",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОМАР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "НОГА",
+        "row": 9,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГНОМ",
+        "row": 8,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "letters": [
+      "А",
+      "И",
+      "Л",
+      "Н",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛОТИНА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТО",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПИЛОТ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОТА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАН",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТИП",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЛПА",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПИАНО",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ПОНИ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВАСИЛЕК",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛИК",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕСКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВИЛКА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КВАС",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СИЛА",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 5,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕК",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 3,
+        "col": 9,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СЛИВА",
+        "row": 2,
+        "col": 11,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "letters": [
+      "К",
+      "О",
+      "П",
+      "П",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПРОПУСК",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СУРОК",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КОРПУС",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СУП",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОП",
+        "row": 6,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 1,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "УПОР",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УКОР",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "УРОК",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КУРС",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПУПОК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "М",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ДОМКРАТ",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "МОРДА",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "МОДА",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "МАРТ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 3,
+        "col": 9,
+        "direction": "across"
+      },
+      {
+        "text": "КОМАР",
+        "row": 3,
+        "col": 11,
+        "direction": "down"
+      },
+      {
+        "text": "КОМ",
+        "row": 5,
+        "col": 9,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ДОМ",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КАДР",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "letters": [
+      "А",
+      "Е",
+      "Н",
+      "О",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ПЕРСОНА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ОПЕРА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НАПОР",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОН",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОСПА",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НОС",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕС",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОСА",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "letters": [
+      "Д",
+      "О",
+      "Р",
+      "С",
+      "Т",
+      "У",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ДУРОСТЬ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРУД",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СУТЬ",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "УТРО",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СУД",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "letters": [
+      "А",
+      "А",
+      "В",
+      "Е",
+      "К",
+      "Л",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КАВАЛЕР",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАВКА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕРА",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВР",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Л",
+      "О",
+      "П"
+    ],
+    "words": [
+      {
+        "text": "ПОДЕЛКА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛКА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОДКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАД",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДЕЛО",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "letters": [
+      "А",
+      "З",
+      "И",
+      "К",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КОРЗИНА",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАКОН",
+        "row": 0,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "КАРНИЗ",
+        "row": 5,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КРОНА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РОЗА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЗНАК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "letters": [
+      "Е",
+      "Л",
+      "Н",
+      "Н",
+      "О",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ТОННЕЛЬ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОТЕЛЬ",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОЛЕНЬ",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕНЬ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕНЬ",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТОН",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "НОЛЬ",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "letters": [
+      "А",
+      "К",
+      "О",
+      "С",
+      "Т",
+      "У",
+      "Ч"
+    ],
+    "words": [
+      {
+        "text": "УЧАСТОК",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЧКА",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КУЧА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СКОТ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "УТКА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТУЧА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КУСТ",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "З",
+      "Л",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВОЗГЛАС",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СОВА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ГЛАЗ",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 7,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "letters": [
+      "А",
+      "Б",
+      "В",
+      "К",
+      "Р",
+      "У",
+      "Ы"
+    ],
+    "words": [
+      {
+        "text": "ВЫРУБКА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РУКАВ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РЫБАК",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВРУБКА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РЫБА",
+        "row": 10,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "БУКВА",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "letters": [
+      "А",
+      "О",
+      "П",
+      "П",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПАСПОРТ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "СТОПА",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОПА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РОСА",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ПОП",
+        "row": 5,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОСПА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "letters": [
+      "Б",
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "О",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "БЛОКНОТ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТОК",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОКНО",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТОН",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОКОН",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "БЛОК",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КЛОН",
+        "row": 7,
+        "col": 6,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "letters": [
+      "В",
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПУЛОВЕР",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УЛОВ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛОВ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛЕ",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОРЕЛ",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "УПОР",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "Л",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "РУСАЛКА",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "АКУЛА",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КАРАУЛ",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУК",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РАСА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КУРС",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "К",
+      "М",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "МАТЕРИК",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАТЕР",
+        "row": 8,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 12,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РИТМ",
+        "row": 10,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "МЕТР",
+        "row": 8,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "МАТ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КИТ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "МАРТ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "МИР",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "letters": [
+      "И",
+      "Л",
+      "М",
+      "О",
+      "С",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "МИЛОСТЬ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "МОСТ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОМ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МОЛЬ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОЛЬ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОСЬ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОМ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "letters": [
+      "Е",
+      "К",
+      "О",
+      "Р",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОРКЕСТР",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТРЕСК",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КОСТЕР",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОРСЕТ",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 10,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 9,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 12,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 10,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 10,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 8,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 7,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "З",
+      "И",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ДИАГНОЗ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ГАЗОН",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ГОД",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ГИД",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ДОЗА",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ДНО",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "НОГА",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "letters": [
+      "А",
+      "А",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КАПИТАЛ",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТА",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КИПА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПАЛКА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 2,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 4,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ТИП",
+        "row": 0,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 0,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛИТКА",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "К",
+      "Л",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ВАЛЕНОК",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛНА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОКЕАН",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕНОК",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КЛЕН",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕК",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "letters": [
+      "А",
+      "А",
+      "Б",
+      "З",
+      "К",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ЗАРУБКА",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "УКАЗ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "АЗБУКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "БАЗА",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЗУБР",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "АРБУЗ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЗУБ",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "letters": [
+      "А",
+      "В",
+      "В",
+      "З",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ВОЗВРАТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОВАР",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАТВОР",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОЗА",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТАЗ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВЗОР",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "letters": [
+      "И",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "РИСУНОК",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СУКНО",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СУРОК",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УКОР",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СОН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РИС",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НОС",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ИСК",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУРС",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОНУС",
+        "row": 7,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СРОК",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КИНО",
+        "row": 8,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 11,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УРОК",
+        "row": 10,
+        "col": 6,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "letters": [
+      "А",
+      "Г",
+      "И",
+      "Л",
+      "О",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "ОЛИГАРХ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОХРА",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ИГЛА",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИРА",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ИГРА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ХОР",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ГОЛ",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОГ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "letters": [
+      "Б",
+      "Е",
+      "Л",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОБСТРЕЛ",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 8,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 10,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 6,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БОР",
+        "row": 7,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СБОР",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 7,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛБ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОРЕЛ",
+        "row": 9,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 12,
+        "col": 2,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "letters": [
+      "А",
+      "Д",
+      "И",
+      "К",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РОДИНКА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НАРОД",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РАДИО",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОДИНА",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ДНО",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАДР",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОД",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "letters": [
+      "А",
+      "З",
+      "К",
+      "Л",
+      "О",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ЗОЛУШКА",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЗЛАК",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ШКОЛА",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "УКАЗ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУК",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КУШ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 7,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛ",
+        "row": 9,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ШОК",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "К",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ИПОТЕКА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПАКЕТ",
+        "row": 10,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ИКОТА",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 8,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ОПТИКА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 8,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 8,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТИП",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "letters": [
+      "А",
+      "В",
+      "Д",
+      "И",
+      "Л",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ВАЛИДОЛ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОЛИВА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ИДОЛ",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ВОДА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВИД",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 7,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 9,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "letters": [
+      "А",
+      "А",
+      "И",
+      "К",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "АКТРИСА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "АСТРА",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 8,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ТИР",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РАСА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СТАРИК",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "letters": [
+      "В",
+      "Е",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПРОСВЕТ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 7,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СВЕТ",
+        "row": 6,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕС",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕС",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 9,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ВОР",
+        "row": 8,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СОВЕТ",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОВЕС",
+        "row": 4,
+        "col": 8,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "letters": [
+      "А",
+      "А",
+      "Г",
+      "М",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ГРАМОТА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "АТОМ",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРГ",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОГ",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "АГАТ",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МАРТ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "МАТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ГРОМ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "О",
+      "Р",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "КОРАБЛЬ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛБА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "БЛОК",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БАЛ",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "БОР",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОРЬ",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 0,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАРЬ",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "О",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КИСЛОТА",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИКОТА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СИЛА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 7,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КИТ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "letters": [
+      "А",
+      "А",
+      "В",
+      "К",
+      "Л",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КВАРТАЛ",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРАВА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВКА",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВАТА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАВР",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РЕПЛИКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАРК",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РЕПА",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПКА",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИП",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "letters": [
+      "Е",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПРОТЕСТ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТО",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕСТ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕС",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "letters": [
+      "А",
+      "К",
+      "Н",
+      "О",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОНТОРА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НОРКА",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОРОНА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "НОТА",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТАНК",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 8,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КРОТ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 5,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КАРТОН",
+        "row": 10,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОКНО",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "letters": [
+      "В",
+      "И",
+      "Л",
+      "О",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ТОПЛИВО",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПИЛОТ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОВ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПИВО",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТИП",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "З",
+      "К",
+      "Л",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "КЛАДЕЗЬ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАДЬ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЕЗДА",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЗЛАК",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАД",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЕДА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "К",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СКРИПКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СКРИП",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПИРС",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КРИК",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КИПА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КАРП",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ИСК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КРАСОТА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "АСТРА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОСА",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СТРОКА",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАСА",
+        "row": 7,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 8,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 7,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СКОТ",
+        "row": 9,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 6,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СРОК",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      }
+    ]
+  }
 ]

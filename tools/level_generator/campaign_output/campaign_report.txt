@@ -1,0 +1,201 @@
+КРОСССЛОВ · CANDIDATE CAMPAIGN (not production)
+BASE CAMPAIGN SEED: 20261006; TARGETED REPAIR SEED: 20261004; ONLY LEVELS 22, 46, 94, 120, 142 REPLACED
+TOTAL LEVELS: 150
+
+CHAPTERS
+Лес: 1–20, 20 levels, difficulty 3.08–49.93, words 2–7
+Озеро: 21–50, 30 levels, difficulty 37.68–78.80, words 5–9
+Горы: 51–80, 30 levels, difficulty 59.83–106.94, words 7–12
+Замок: 81–110, 30 levels, difficulty 83.43–120.74, words 9–15
+Север: 111–150, 40 levels, difficulty 78.95–133.01, words 10–18
+
+LETTER COUNTS: {"3": 2, "4": 6, "5": 22, "6": 31, "7": 89}
+WORD COUNTS: {"2": 3, "3": 4, "4": 4, "5": 14, "6": 9, "7": 11, "8": 11, "9": 16, "10": 23, "11": 19, "12": 14, "13": 11, "14": 4, "15": 3, "16": 2, "17": 1, "18": 1}
+GRID SIZES: {"10×10": 7, "10×11": 1, "10×12": 2, "10×13": 2, "10×7": 3, "10×8": 3, "10×9": 3, "11×11": 2, "11×12": 1, "11×7": 2, "11×8": 3, "11×9": 5, "12×10": 1, "12×11": 1, "12×7": 2, "12×8": 1, "12×9": 1, "13×5": 1, "3×3": 2, "3×4": 1, "3×6": 1, "4×4": 2, "4×5": 1, "4×6": 2, "4×8": 1, "5×10": 1, "5×3": 1, "5×4": 3, "5×6": 4, "5×8": 1, "6×11": 1, "6×5": 3, "6×6": 5, "6×7": 3, "6×8": 2, "6×9": 1, "7×10": 2, "7×12": 1, "7×4": 1, "7×5": 1, "7×7": 4, "7×8": 2, "7×9": 5, "8×10": 7, "8×11": 1, "8×12": 1, "8×6": 4, "8×7": 3, "8×8": 2, "8×9": 7, "9×10": 4, "9×11": 4, "9×13": 1, "9×5": 1, "9×6": 2, "9×7": 3, "9×8": 5, "9×9": 13}
+DIFFICULTY TOTAL RANGE: 3.08–133.01
+
+TOP-20 REPEATED WORDS
+РАК: 15 levels; min distance: 4; levels: 13, 29, 47, 61, 72, 97, 104, 109, 118, 123, 129, 134, 138, 143, 150
+ЛОТ: 13 levels; min distance: 4; levels: 3, 28, 54, 67, 90, 94, 101, 106, 115, 120, 124, 133, 147
+РОК: 13 levels; min distance: 4; levels: 13, 22, 47, 56, 89, 100, 108, 114, 125, 131, 141, 146, 150
+ЛАК: 12 levels; min distance: 4; levels: 10, 33, 43, 77, 95, 103, 107, 122, 128, 135, 143, 148
+СОРТ: 12 levels; min distance: 5; levels: 4, 15, 37, 46, 101, 111, 119, 125, 133, 139, 145, 150
+ТОК: 12 levels; min distance: 4; levels: 1, 41, 52, 79, 94, 100, 109, 116, 120, 125, 136, 142
+НОРА: 11 levels; min distance: 7; levels: 12, 26, 41, 57, 78, 91, 98, 105, 114, 134, 146
+ТРОС: 11 levels; min distance: 6; levels: 4, 15, 46, 93, 101, 111, 119, 125, 133, 139, 145
+КОРА: 10 levels; min distance: 4; levels: 13, 47, 59, 78, 89, 114, 134, 141, 146, 150
+КОТ: 10 levels; min distance: 4; levels: 1, 79, 93, 102, 116, 120, 125, 136, 142, 150
+РОСТ: 10 levels; min distance: 6; levels: 4, 15, 46, 93, 101, 111, 125, 133, 139, 150
+РОТА: 10 levels; min distance: 6; levels: 34, 45, 59, 85, 98, 109, 119, 130, 140, 146
+СОК: 10 levels; min distance: 6; levels: 5, 52, 78, 88, 102, 108, 116, 125, 131, 142
+ТОРС: 10 levels; min distance: 6; levels: 4, 15, 46, 93, 101, 111, 125, 133, 139, 145
+ВАЛ: 9 levels; min distance: 6; levels: 24, 33, 84, 95, 107, 117, 128, 137, 143
+КАРА: 9 levels; min distance: 5; levels: 50, 66, 97, 112, 122, 129, 138, 143, 150
+КОЛ: 9 levels; min distance: 7; levels: 10, 19, 40, 73, 84, 94, 113, 120, 135
+ТОН: 9 levels; min distance: 5; levels: 25, 41, 64, 79, 100, 106, 115, 120, 146
+АРКА: 8 levels; min distance: 7; levels: 42, 66, 97, 112, 122, 129, 143, 150
+ПОТ: 8 levels; min distance: 11; levels: 15, 34, 54, 94, 106, 119, 136, 147
+
+UNIQUE LETTER SETS: 150
+REPEATED LETTER SETS: 0
+
+LARGEST GRID: level 105, 11×12
+MAX WORD COUNT: 18
+LEVELS WITH 15+ WORDS: 106, 109, 125, 131, 133, 139, 150
+QUESTIONABLE USED: 0
+EXCLUDED USED: 0
+PLURALIA TANTUM USED: 0
+
+UNCHANGED WORD POTENTIAL METADATA: level 144: stored 18, current 17 (level record preserved exactly)
+
+LEVEL DETAILS
+001 Лес | КОТ | seed КОТ | 2 words | 3×3 | density 0.556 | crossings 1 | potential 2 | difficulty 3.08 | recent penalty 0.0 | КОТ, ТОК
+002 Лес | НОС | seed НОС | 2 words | 3×3 | density 0.556 | crossings 1 | potential 2 | difficulty 3.08 | recent penalty 0.0 | НОС, СОН
+003 Лес | ЕЛОТ | seed ЛЕТО | 3 words | 4×4 | density 0.562 | crossings 2 | potential 3 | difficulty 16.93 | recent penalty 0.0 | ЛЕТО, ЛОТ, ТЕЛО
+004 Лес | ОРСТ | seed РОСТ | 4 words | 4×6 | density 0.542 | crossings 3 | potential 4 | difficulty 22.95 | recent penalty 0.0 | РОСТ, СОРТ, ТОРС, ТРОС
+005 Лес | АДКОС | seed ДОСКА | 4 words | 5×4 | density 0.600 | crossings 4 | potential 7 | difficulty 33.60 | recent penalty 0.0 | ДОСКА, КОСА, СОК, СОДА
+006 Лес | ВЛОП | seed ПЛОВ | 2 words | 3×4 | density 0.500 | crossings 1 | potential 3 | difficulty 12.98 | recent penalty 0.0 | ПЛОВ, ВОЛ
+007 Лес | ГЛОУ | seed УГОЛ | 5 words | 3×6 | density 0.667 | crossings 4 | potential 5 | difficulty 24.21 | recent penalty 0.0 | УГОЛ, ГОЛ, ГУЛ, ЛУГ, ЛОГ
+008 Лес | ВЗОР | seed ВЗОР | 3 words | 4×4 | density 0.500 | crossings 2 | potential 4 | difficulty 17.64 | recent penalty 0.0 | ВЗОР, РОВ, ВОР
+009 Лес | ДОУХ | seed УХОД | 4 words | 5×4 | density 0.500 | crossings 3 | potential 4 | difficulty 21.75 | recent penalty 0.0 | УХОД, ХОД, ДУХ, УХО
+010 Лес | АЖКЛО | seed ЛОЖКА | 5 words | 4×6 | density 0.625 | crossings 4 | potential 5 | difficulty 35.61 | recent penalty 0.0 | ЛОЖКА, ЖАЛО, КОЖА, ЛАК, КОЛ
+011 Лес | АГЗНО | seed ГАЗОН | 4 words | 5×4 | density 0.600 | crossings 4 | potential 4 | difficulty 31.80 | recent penalty 0.0 | ГАЗОН, ГАЗ, НОГА, ЗОНА
+012 Лес | АДНОР | seed НАРОД | 3 words | 5×3 | density 0.667 | crossings 2 | potential 4 | difficulty 26.37 | recent penalty 0.0 | НАРОД, ОДА, НОРА
+013 Лес | АКМОР | seed КОМАР | 7 words | 6×7 | density 0.476 | crossings 6 | potential 7 | difficulty 48.23 | recent penalty 0.0 | КОМАР, КОРА, МРАК, КОМ, ОМАР, РОК, РАК
+014 Лес | АЛОПТ | seed ПЛАТО | 3 words | 4×5 | density 0.600 | crossings 2 | potential 6 | difficulty 30.90 | recent penalty 0.0 | ПЛАТО, ПЛОТ, ТОЛПА
+015 Лес | ОПРСТ | seed СПОРТ | 7 words | 6×8 | density 0.458 | crossings 6 | potential 7 | difficulty 49.93 | recent penalty 0.0 | СПОРТ, СОРТ, ТРОС, ПОРТ, РОСТ, ПОТ, ТОРС
+016 Лес | КОРСУ | seed СУРОК | 5 words | 6×7 | density 0.381 | crossings 5 | potential 7 | difficulty 43.30 | recent penalty 0.0 | СУРОК, УКОР, УРОК, КУРС, СРОК
+017 Лес | АГДРУ | seed ГРУДА | 6 words | 7×7 | density 0.408 | crossings 5 | potential 6 | difficulty 46.72 | recent penalty 0.0 | ГРУДА, ДУГА, РУДА, УДАР, ДРУГ, ГРАД
+018 Лес | АЕКПР | seed РЕПКА | 5 words | 7×5 | density 0.486 | crossings 4 | potential 8 | difficulty 40.99 | recent penalty 0.0 | РЕПКА, РЕКА, КАРЕ, ПАРК, КАРП
+019 Лес | АБКЛО | seed КОЛБА | 6 words | 6×5 | density 0.533 | crossings 5 | potential 7 | difficulty 41.73 | recent penalty 0.0 | КОЛБА, БЛОК, БАЛ, КОЛ, БАК, ЛОБ
+020 Лес | ВЕЛОС | seed ВЕСЛО | 6 words | 6×5 | density 0.533 | crossings 5 | potential 6 | difficulty 41.13 | recent penalty 0.0 | ВЕСЛО, ЛЕВ, ЛЕС, ВЕС, ВОЛ, ОВЕС
+021 Озеро | ИКПРС | seed СКРИП | 5 words | 6×6 | density 0.389 | crossings 4 | potential 5 | difficulty 39.56 | recent penalty 0.0 | СКРИП, ПИРС, ПИК, РИС, ИСК
+022 Озеро | ВЕКОР | seed КОВЕР | 6 words | 6×5 | density 0.500 | crossings 5 | potential 6 | difficulty 41.20 | recent penalty 0.0 | КОВЕР, РОВ, РОК, ВЕК, ВОР, РЕВ
+023 Озеро | АДЕИЛ | seed ИДЕАЛ | 5 words | 6×6 | density 0.389 | crossings 4 | potential 5 | difficulty 39.56 | recent penalty 0.0 | ИДЕАЛ, ЛЕДИ, ЛАД, ЛЕД, ЕДА
+024 Озеро | АВИЛС | seed СЛИВА | 5 words | 5×6 | density 0.500 | crossings 4 | potential 5 | difficulty 37.68 | recent penalty 0.0 | СЛИВА, ЛИСА, СИЛА, ИВА, ВАЛ
+025 Озеро | АЕМНОТ | seed МОНЕТА | 8 words | 6×8 | density 0.521 | crossings 8 | potential 8 | difficulty 63.59 | recent penalty 0.0 | МОНЕТА, АТОМ, НОТА, ЕНОТ, МАТ, ТОМ, ОТМЕНА, ТОН
+026 Озеро | АГНОР | seed ОРГАН | 5 words | 6×6 | density 0.444 | crossings 4 | potential 6 | difficulty 40.12 | recent penalty 0.0 | ОРГАН, ГОРА, ГОРН, РОГ, НОРА
+027 Озеро | ЕИКЛНЬ | seed НИКЕЛЬ | 7 words | 6×7 | density 0.500 | crossings 7 | potential 7 | difficulty 56.98 | recent penalty 0.0 | НИКЕЛЬ, КИЛЬ, КЛИН, ЛЕН, КЛЕН, ЕЛЬ, ЛЕНЬ
+028 Озеро | БЛОСТ | seed СТОЛБ | 5 words | 5×6 | density 0.467 | crossings 5 | potential 5 | difficulty 38.55 | recent penalty 0.0 | СТОЛБ, БОЛТ, ЛОТ, ЛОБ, СТОЛ
+029 Озеро | АКПРУ | seed КРУПА | 6 words | 5×6 | density 0.600 | crossings 6 | potential 6 | difficulty 41.80 | recent penalty 0.0 | КРУПА, ПАУК, КАРП, ПАРК, РАК, РУКА
+030 Озеро | АЗЛОПЬ | seed ПОЛЬЗА | 7 words | 8×6 | density 0.438 | crossings 7 | potential 7 | difficulty 58.73 | recent penalty 0.0 | ПОЛЬЗА, ЛОЗА, ЗОЛА, ЗАЛП, ЗАЛ, ПОЛ, ПОЗА
+031 Озеро | АИМРШ | seed ШИРМА | 5 words | 5×6 | density 0.500 | crossings 4 | potential 5 | difficulty 37.68 | recent penalty 0.0 | ШИРМА, МАРШ, ШАР, ШРАМ, МИР
+032 Озеро | ГДЛОО | seed ГОЛОД | 5 words | 7×4 | density 0.464 | crossings 5 | potential 5 | difficulty 37.96 | recent penalty 0.0 | ГОЛОД, ЛОГ, ГОЛ, ДОЛГ, ГОД
+033 Озеро | ААВКЛС | seed СВАЛКА | 9 words | 7×9 | density 0.476 | crossings 10 | potential 9 | difficulty 76.31 | recent penalty 0.0 | СВАЛКА, СЛАВА, ЛАВКА, ВАЛ, КВАС, ЛАВА, ЛАСКА, ЛАК, СКАЛА
+034 Озеро | АОПРТ | seed ТРОПА | 5 words | 6×6 | density 0.444 | crossings 4 | potential 5 | difficulty 39.52 | recent penalty 0.0 | ТРОПА, ТРАП, РОТА, ПОРТ, ПОТ
+035 Озеро | АМОПРХ | seed ПРОМАХ | 8 words | 5×10 | density 0.540 | crossings 7 | potential 10 | difficulty 64.55 | recent penalty 0.0 | ПРОМАХ, ПАРОМ, ОМАР, ПРАХ, МОХ, ХРАМ, ОХРА, ХРОМ
+036 Озеро | АБККЛУ | seed КАБЛУК | 6 words | 7×7 | density 0.449 | crossings 6 | potential 10 | difficulty 62.12 | recent penalty 0.0 | КАБЛУК, КУЛАК, КЛУБ, ЛУК, КУКЛА, БУЛКА
+037 Озеро | ЕМОРСТ | seed ТЕРМОС | 7 words | 6×9 | density 0.463 | crossings 7 | potential 11 | difficulty 65.59 | recent penalty 0.0 | ТЕРМОС, МЕТРО, МОСТ, МЕСТО, МОРЕ, СОРТ, МЕТР
+038 Озеро | АИКРСТ | seed СТИРКА | 6 words | 5×8 | density 0.550 | crossings 6 | potential 10 | difficulty 59.45 | recent penalty 0.0 | СТИРКА, ИСКРА, ТИР, ТАКСИ, СТАРИК, РИС
+039 Озеро | АЕЛНПЬ | seed ПАНЕЛЬ | 6 words | 7×7 | density 0.408 | crossings 6 | potential 8 | difficulty 58.12 | recent penalty 0.0 | ПАНЕЛЬ, ПЕНАЛ, ПЛЕН, ЕЛЬ, ПЛАН, ПЕНЬ
+040 Озеро | КЛНОСУ | seed КОНСУЛ | 8 words | 8×7 | density 0.482 | crossings 8 | potential 12 | difficulty 72.45 | recent penalty 0.0 | КОНСУЛ, СУКНО, КЛОУН, СОН, НОС, КОЛ, СКЛОН, КОНУС
+041 Озеро | АКНОРТ | seed КАРТОН | 9 words | 8×9 | density 0.403 | crossings 9 | potential 15 | difficulty 78.80 | recent penalty 0.0 | КАРТОН, НОРКА, КРОНА, НОРА, ТОК, ТОН, КОРТ, НОТА, ТАНК
+042 Озеро | ААЕКРТ | seed РАКЕТА | 6 words | 8×6 | density 0.479 | crossings 6 | potential 8 | difficulty 59.22 | recent penalty 0.0 | РАКЕТА, РЕКА, КАТЕР, КАРЕТА, КАРЕ, АРКА
+043 Озеро | АИКЛПТ | seed ПЛИТКА | 9 words | 9×8 | density 0.361 | crossings 9 | potential 9 | difficulty 73.81 | recent penalty 0.0 | ПЛИТКА, КЛИП, ЛИПА, ПЛИТА, ЛАК, КИПА, ПИК, КИТ, ТИП
+044 Озеро | КЛНООП | seed ПОКЛОН | 5 words | 4×8 | density 0.562 | crossings 5 | potential 8 | difficulty 50.23 | recent penalty 0.0 | ПОКЛОН, КЛОН, ОКНО, ЛОКОН, ПОЛК
+045 Озеро | АМОРТФ | seed ФОРМАТ | 8 words | 9×7 | density 0.413 | crossings 8 | potential 9 | difficulty 68.41 | recent penalty 0.0 | ФОРМАТ, ФОРМА, АТОМ, МАРТ, ОМАР, РОТА, ФОРТ, ТОМ
+046 Озеро | БООРСТ | seed ОТБРОС | 9 words | 9×8 | density 0.431 | crossings 8 | potential 9 | difficulty 74.43 | recent penalty 0.0 | ОТБРОС, РОБОТ, РОСТ, СОРТ, СБОР, ТРОС, ТОРС, СОБОР, БОР
+047 Озеро | АККОРШ | seed КРОШКА | 8 words | 8×6 | density 0.500 | crossings 8 | potential 8 | difficulty 65.02 | recent penalty 0.0 | КРОШКА, КОРКА, ШАР, КОРА, ШОК, КОШКА, РАК, РОК
+048 Озеро | ДЕЛМОЬ | seed МОДЕЛЬ | 9 words | 8×8 | density 0.406 | crossings 8 | potential 9 | difficulty 69.50 | recent penalty 0.0 | МОДЕЛЬ, МЕДЬ, МОЛЬ, ДЕЛО, МЕЛЬ, ЛОМ, ЛЕД, ДОМ, ЕЛЬ
+049 Озеро | АГДРСУ | seed ГРАДУС | 9 words | 10×7 | density 0.414 | crossings 8 | potential 9 | difficulty 72.50 | recent penalty 0.0 | ГРАДУС, РУДА, ДРУГ, САД, ГРАД, ДУГА, УДАР, ГРУДА, СУД
+050 Озеро | ААДКНР | seed КАРДАН | 5 words | 6×6 | density 0.528 | crossings 4 | potential 7 | difficulty 50.06 | recent penalty 0.0 | КАРДАН, АРКАН, РАНА, КАДР, КАРА
+051 Горы | ВЕЕКРС | seed ВЕРЕСК | 7 words | 9×5 | density 0.511 | crossings 6 | potential 7 | difficulty 59.83 | recent penalty 0.0 | ВЕРЕСК, СЕВЕР, СКВЕР, ВЕК, ВЕЕР, РЕВ, ВЕС
+052 Горы | КЛОСТУ | seed ЛОСКУТ | 8 words | 9×6 | density 0.444 | crossings 8 | potential 12 | difficulty 66.34 | recent penalty 0.0 | ЛОСКУТ, СТУЛ, СТОЛ, СКОТ, ТОК, СОК, КУСТ, УКОЛ
+053 Горы | АЖЛНРУ | seed ЖУРНАЛ | 7 words | 8×7 | density 0.411 | crossings 6 | potential 7 | difficulty 60.17 | recent penalty 0.0 | ЖУРНАЛ, УРАН, УРНА, ЖАР, ЛУЖА, ЛУНА, ЖАНР
+054 Горы | ААЛОПТ | seed ЛОПАТА | 8 words | 8×8 | density 0.438 | crossings 7 | potential 9 | difficulty 70.70 | recent penalty 0.0 | ЛОПАТА, ПЛАТО, ТОЛПА, ПЛОТ, ЛАПА, ПОТ, ЛОТ, ПЛАТА
+055 Горы | АКЛООПС | seed ПОЛОСКА | 10 words | 8×10 | density 0.450 | crossings 10 | potential 15 | difficulty 94.71 | recent penalty 0.0 | ПОЛОСКА, СОКОЛ, СОПКА, ОСПА, ОКОП, ПОЛ, КОСА, ПОСОЛ, ПОЛК, КОЛОС
+056 Горы | КОПРСУ | seed КОРПУС | 7 words | 8×6 | density 0.479 | crossings 7 | potential 10 | difficulty 61.90 | recent penalty 0.0 | КОРПУС, УПОР, УКОР, КУРС, УРОК, РОК, СУРОК
+057 Горы | АМНОРХ | seed МОНАРХ | 9 words | 6×11 | density 0.455 | crossings 8 | potential 10 | difficulty 73.40 | recent penalty 0.0 | МОНАРХ, НОРМА, ОХРА, ХРОМ, ХРАМ, РОМАН, НОРА, ХОР, МОХ
+058 Горы | АДЕКЛС | seed СДЕЛКА | 7 words | 7×7 | density 0.469 | crossings 6 | potential 10 | difficulty 62.80 | recent penalty 0.0 | СДЕЛКА, СКЛАД, ЛЕСКА, САД, ЕДА, ЛЕС, КЛАД
+059 Горы | АКОРТФ | seed ФАКТОР | 8 words | 9×7 | density 0.429 | crossings 8 | potential 13 | difficulty 70.80 | recent penalty 0.0 | ФАКТОР, КОФТА, КОРА, КРОТ, РОТА, КОРТ, ФАКТ, ФРАК
+060 Горы | АЗИКЛНО | seed КИНОЗАЛ | 10 words | 13×5 | density 0.508 | crossings 10 | potential 14 | difficulty 85.84 | recent penalty 0.0 | КИНОЗАЛ, ЗАКОН, ЗОНА, ЗЛАК, ЗАЛ, ЗНАК, КЛИН, ЛОЗА, КЛОН, КИНО
+061 Горы | АБКРТУ | seed ТРУБКА | 8 words | 10×7 | density 0.357 | crossings 7 | potential 8 | difficulty 68.91 | recent penalty 0.0 | ТРУБКА, РУКА, ТРУБА, БАК, РАК, КУБ, УТКА, ТУБА
+062 Горы | АЕКПРТ | seed ПАРКЕТ | 7 words | 8×7 | density 0.411 | crossings 8 | potential 12 | difficulty 66.14 | recent penalty 0.0 | ПАРКЕТ, РЕПКА, ПАРК, РЕКА, РЕПА, КАРЕ, ПАЕК
+063 Горы | АВЕИНРШ | seed ВЕРШИНА | 11 words | 10×8 | density 0.412 | crossings 10 | potential 11 | difficulty 88.98 | recent penalty 0.0 | ВЕРШИНА, НИВА, ШИНА, НРАВ, ИВА, ШАР, ВЕНА, ЕРШ, ВЕРА, НЕРВ, РЕВ
+064 Горы | ЕМНОРТ | seed РЕМОНТ | 7 words | 7×8 | density 0.411 | crossings 7 | potential 8 | difficulty 64.36 | recent penalty 0.0 | РЕМОНТ, НОМЕР, МОРЕ, ЕНОТ, МЕТРО, ТОН, ТОМ
+065 Горы | ААКЛПСУ | seed КАПСУЛА | 10 words | 11×8 | density 0.398 | crossings 10 | potential 11 | difficulty 94.43 | recent penalty 0.0 | КАПСУЛА, ЛАСКА, АКУЛА, ЛУПА, ПАУК, СУП, ПАЛКА, СКАЛА, ЛУК, ЛАПА
+066 Горы | ААККОРС | seed ОКРАСКА | 9 words | 9×9 | density 0.420 | crossings 10 | potential 15 | difficulty 92.77 | recent penalty 0.0 | ОКРАСКА, КАСКА, КОРКА, РАСА, КАКАО, КАРКАС, КАРА, АРКА, РОСА
+067 Горы | ЕЛОПСТЬ | seed ПОСТЕЛЬ | 10 words | 7×9 | density 0.508 | crossings 10 | potential 19 | difficulty 91.10 | recent penalty 0.0 | ПОСТЕЛЬ, ПЛОТЬ, ПОЛЕТ, ПОЛ, ЛОТ, ОТЕЛЬ, ПЕС, ЛОСЬ, ОСЬ, ТЕЛО
+068 Горы | ВДЕОСТТ | seed ДЕТСТВО | 9 words | 11×8 | density 0.364 | crossings 9 | potential 9 | difficulty 88.84 | recent penalty 0.0 | ДЕТСТВО, ОТВЕТ, СОВЕТ, ТЕСТО, СВЕТ, ВЕС, ОВЕС, ТЕСТ, ВЕТО
+069 Горы | АВГЗООР | seed ЗАГОВОР | 9 words | 7×8 | density 0.536 | crossings 8 | potential 12 | difficulty 79.79 | recent penalty 0.0 | ЗАГОВОР, ГРОЗА, РОЗА, ВОЗ, ГОРА, ВЗОР, РОГ, ГАЗ, ОВРАГ
+070 Горы | АБИНРТУ | seed ТРИБУНА | 10 words | 11×9 | density 0.364 | crossings 9 | potential 10 | difficulty 94.54 | recent penalty 0.0 | ТРИБУНА, БАРИН, РУБИН, УРНА, ТРУБА, БАНТ, БИТА, ТИР, УРАН, ТУБА
+071 Горы | АВИЛОПР | seed ПРАВИЛО | 12 words | 11×9 | density 0.434 | crossings 12 | potential 17 | difficulty 106.94 | recent penalty 8.0 | ПРАВИЛО, ПОВАР, ЛИРА, ПРАВО, ПАРИ, ИВА, ЛАВР, ЛИПА, ПРОЛИВ, ОЛИВА, ПИВО, ПЛОВ
+072 Горы | АИКНРТФ | seed ИНФАРКТ | 9 words | 8×9 | density 0.431 | crossings 10 | potential 11 | difficulty 86.56 | recent penalty 0.0 | ИНФАРКТ, НИТКА, ФАНТИК, ТАРИФ, КИТ, ТАНК, ФРАК, РАК, ИКРА
+073 Горы | БИКЛНОЬ | seed БИНОКЛЬ | 12 words | 10×10 | density 0.390 | crossings 11 | potential 13 | difficulty 99.85 | recent penalty 0.0 | БИНОКЛЬ, ОБЛИК, КОНЬ, КЛОН, КОЛ, БЛОК, КИНО, БОЛЬ, ЛОБ, НОЛЬ, КИЛЬ, БЛИН
+074 Горы | АВГДИРЯ | seed ГВАРДИЯ | 8 words | 9×9 | density 0.321 | crossings 8 | potential 10 | difficulty 81.79 | recent penalty 0.0 | ГВАРДИЯ, ГРАД, ИГРА, ГИРЯ, ГИД, ВИД, ВРАГ, ГРИВА
+075 Горы | АДКОПУШ | seed ПОДУШКА | 11 words | 8×11 | density 0.420 | crossings 10 | potential 11 | difficulty 95.28 | recent penalty 0.0 | ПОДУШКА, КАШПО, ОПУШКА, ПАУК, КОД, ДУШ, ШОК, УПАДОК, КУШ, ДУША, ОДА
+076 Горы | АЕЛМОСТ | seed САМОЛЕТ | 12 words | 10×10 | density 0.400 | crossings 12 | potential 15 | difficulty 106.00 | recent penalty 0.0 | САМОЛЕТ, МЕСТО, МАСЛО, МОСТ, АТОМ, МЕТЛА, СМОЛА, ЛЕС, ТЕЛО, ЛЕТО, МАТ, ЛОМ
+077 Горы | АИКЛПСТ | seed ПЛАСТИК | 10 words | 8×10 | density 0.450 | crossings 9 | potential 16 | difficulty 93.15 | recent penalty 0.0 | ПЛАСТИК, ТАКСИ, ПЛИТА, СИЛА, ЛАК, КИПА, ИСК, КЛИПСА, ЛИСТ, ЛИСА
+078 Горы | АКМНОРС | seed НАСМОРК | 12 words | 10×9 | density 0.444 | crossings 13 | potential 19 | difficulty 106.53 | recent penalty 0.0 | НАСМОРК, НОРМА, КРОНА, НОРКА, СРОК, КОМ, КОРА, РОМАН, МРАК, РОСА, НОРА, СОК
+079 Горы | АЕКНОТФ | seed КОНФЕТА | 12 words | 11×9 | density 0.384 | crossings 11 | potential 13 | difficulty 100.99 | recent penalty 0.0 | КОНФЕТА, ОКЕАН, НОТА, КАФЕ, КОФТА, КОФЕ, ТОК, ФЕН, ФАКТ, ТОН, ЕНОТ, КОТ
+080 Горы | ААБИКНР | seed КАРАБИН | 8 words | 8×10 | density 0.400 | crossings 8 | potential 14 | difficulty 89.60 | recent penalty 0.0 | КАРАБИН, КАБАН, АРКАН, БАНКА, РАНА, БАРИН, БАРАН, БАНК
+081 Замок | АДЕЛОПР | seed ЛЕОПАРД | 9 words | 8×9 | density 0.417 | crossings 8 | potential 13 | difficulty 83.43 | recent penalty 0.0 | ЛЕОПАРД, ОПЕРА, ПЕРО, ДЕЛО, ЛОРД, ПОЛЕ, РЕПА, ЛЕД, ЕДА
+082 Замок | АГЗЛРУЬ | seed ГЛАЗУРЬ | 10 words | 9×9 | density 0.395 | crossings 9 | potential 10 | difficulty 87.02 | recent penalty 0.0 | ГЛАЗУРЬ, РУЛЬ, ГЛАЗ, ЗАЛ, ГАЗ, ГУЛ, ЛАРЬ, ЛАЗУРЬ, ЛУГ, ГРУЗ
+083 Замок | АДООПРХ | seed ПАРОХОД | 9 words | 9×8 | density 0.472 | crossings 8 | potential 11 | difficulty 85.02 | recent penalty 0.0 | ПАРОХОД, ПОХОД, ПРАХ, ОХРА, ПРОХОД, ХРАП, ПОРОДА, ХОД, ХОР
+084 Замок | АВКЛОУШ | seed ЛОВУШКА | 10 words | 9×8 | density 0.417 | crossings 10 | potential 15 | difficulty 88.40 | recent penalty 0.0 | ЛОВУШКА, ШКОЛА, ВОЛК, УЛОВ, КОВШ, ВАЛ, КУШ, КОЛ, ЛУК, УКОЛ
+085 Замок | АВГЕОРТ | seed ТРЕВОГА | 12 words | 10×11 | density 0.345 | crossings 12 | potential 13 | difficulty 104.57 | recent penalty 0.0 | ТРЕВОГА, ТОВАР, ТОРГ, РОТА, ГОРА, РОГ, ВРАГ, РЕВ, ВЕТО, ВОР, ВЕРА, ОВРАГ
+086 Замок | ААИЛПСТ | seed ПАСТИЛА | 9 words | 7×10 | density 0.486 | crossings 9 | potential 11 | difficulty 86.64 | recent penalty 0.0 | ПАСТИЛА, ПЛАТА, ПЛИТА, ПАСТА, ЛИСТ, ЛИПА, ЛАПА, САЛАТ, СИЛА
+087 Замок | АЕИМРТЯ | seed МАТЕРИЯ | 11 words | 9×9 | density 0.395 | crossings 10 | potential 11 | difficulty 89.26 | recent penalty 0.0 | МАТЕРИЯ, МЕТР, АРИЯ, МАРТ, ИМЯ, МЯТА, ЯМА, РИТМ, МИР, МАТ, ТИР
+088 Замок | ААБКЛОС | seed КОЛБАСА | 9 words | 9×7 | density 0.524 | crossings 9 | potential 14 | difficulty 86.50 | recent penalty 0.0 | КОЛБАСА, ЛАСКА, КОЛБА, КОСА, БОКС, БАК, СОК, СКАЛА, СОБАКА
+089 Замок | АБКНОРУ | seed РУБАНОК | 11 words | 11×7 | density 0.506 | crossings 11 | potential 18 | difficulty 98.67 | recent penalty 0.0 | РУБАНОК, КРОНА, НАБОР, НОРКА, УРАН, КУБ, РОК, БАНК, РУКА, КОРА, УБОРКА
+090 Замок | АБЛОСТЬ | seed ОБЛАСТЬ | 12 words | 9×9 | density 0.469 | crossings 11 | potential 12 | difficulty 95.64 | recent penalty 0.0 | ОБЛАСТЬ, СТАЛЬ, СТОЛБ, СОЛЬ, ОСЬ, ЛОТ, ЛОБ, ЛОСЬ, БОЛЬ, БОЛТ, СТОЛ, БАЛ
+091 Замок | АГМНООР | seed АГРОНОМ | 10 words | 11×8 | density 0.432 | crossings 10 | potential 14 | difficulty 96.24 | recent penalty 0.0 | АГРОНОМ, ОРГАН, РОМАН, НОРМА, ГНОМ, ГОРМОН, НОРА, ОМАР, ГОРН, ГРОМ
+092 Замок | АЕКОПРС | seed ПРОСЕКА | 9 words | 9×9 | density 0.407 | crossings 9 | potential 21 | difficulty 95.60 | recent penalty 0.0 | ПРОСЕКА, РЕПКА, СОПКА, ПАЕК, ОПЕРА, РОСА, ПЕРО, ПЕС, ПЕСОК
+093 Замок | КОПРСТЫ | seed ОТПРЫСК | 13 words | 10×10 | density 0.420 | crossings 12 | potential 18 | difficulty 105.89 | recent penalty 0.0 | ОТПРЫСК, ТОРС, СКОТ, ОПЫТ, СЫР, ПОРТ, КОРТ, РОСТ, СРОК, КРОТ, КОТ, ТРОС, СПОРТ
+094 Замок | КЛОООПТ | seed ПОТОЛОК | 10 words | 8×10 | density 0.400 | crossings 9 | potential 12 | difficulty 89.36 | recent penalty 40.0 | ПОТОЛОК, ПОТОК, ПЛОТ, ПОТ, ПОЛК, ТОК, ОКОП, ЛОТОК, КОЛ, ЛОТ
+095 Замок | АВЕИКЛН | seed ВЕЛИКАН | 13 words | 11×9 | density 0.384 | crossings 13 | potential 13 | difficulty 104.79 | recent penalty 0.0 | ВЕЛИКАН, ВАЛИК, ВЕНА, ВИЛКА, КЛИН, ЛЕН, ЛАК, НИВА, ВАЛ, ВЕК, ЛЕВ, ИВА, КЛЕН
+096 Замок | АГДОПРУ | seed ПОДРУГА | 11 words | 9×9 | density 0.444 | crossings 10 | potential 14 | difficulty 92.43 | recent penalty 0.0 | ПОДРУГА, ГРУДА, ДУГА, РУДА, ГОРА, ПРУД, УДАР, ДРУГ, РОГ, ГОД, ГРАД
+097 Замок | ААДЕКРФ | seed КАФЕДРА | 12 words | 10×10 | density 0.370 | crossings 12 | potential 12 | difficulty 98.60 | recent penalty 0.0 | КАФЕДРА, КАРЕ, КАФЕ, КЕДР, ЕДА, КАРА, АРКА, РЕКА, КАДР, ФРАК, ФАРА, РАК
+098 Замок | АБИНОРТ | seed БАРИТОН | 12 words | 11×11 | density 0.347 | crossings 12 | potential 13 | difficulty 110.20 | recent penalty 16.0 | БАРИТОН, БАРИН, НОРА, РОТА, БИТА, БАТОН, НАБОР, НОТА, ОРБИТА, БОР, БАНТ, ТИР
+099 Замок | АВДЗЛОО | seed ВОДОЛАЗ | 11 words | 8×9 | density 0.458 | crossings 10 | potential 12 | difficulty 88.83 | recent penalty 0.0 | ВОДОЛАЗ, ЗАВОД, ЛОЗА, ЗАЛ, ВОЛ, ОДА, ЛАД, ВОЗ, ЗОЛА, ДОЗА, ВОДА
+100 Замок | ВЕКНОРТ | seed КОНВЕРТ | 13 words | 9×10 | density 0.433 | crossings 12 | potential 17 | difficulty 104.09 | recent penalty 40.0 | КОНВЕРТ, КОВЕР, ВЕНОК, ЕНОТ, ВЕТО, ТОК, РОК, ВОР, РЕВ, НЕРВ, РОВ, КОРТ, ТОН
+101 Замок | ЕЛОРСТТ | seed ОТСТРЕЛ | 14 words | 12×10 | density 0.367 | crossings 14 | potential 14 | difficulty 112.45 | recent penalty 40.0 | ОТСТРЕЛ, ТЕСТО, ТОРС, ЛЕТО, РОСТ, ТЕЛО, ТОРТ, СТОЛ, СОРТ, ТЕСТ, ТРОС, ОРЕЛ, ЛЕС, ЛОТ
+102 Замок | ЕКМОСТЬ | seed ЕМКОСТЬ | 11 words | 7×12 | density 0.393 | crossings 11 | potential 12 | difficulty 94.20 | recent penalty 0.0 | ЕМКОСТЬ, МЕСТО, СКОТ, КОМ, ТОМ, МОСТ, СОК, КОТ, СЕТЬ, ОСЬ, КОСТЬ
+103 Замок | АБИКЛПУ | seed ПУБЛИКА | 14 words | 8×12 | density 0.417 | crossings 14 | potential 14 | difficulty 106.27 | recent penalty 8.0 | ПУБЛИКА, БУЛКА, ЛИПА, КИПА, ЛУК, КУБ, КЛУБ, ПАУК, КЛИП, ПИК, БАЛ, ЛАК, ЛУПА, БАК
+104 Замок | АГИКРУШ | seed ИГРУШКА | 11 words | 7×9 | density 0.524 | crossings 11 | potential 11 | difficulty 86.50 | recent penalty 16.0 | ИГРУШКА, РУКА, ИГРА, КРУГ, ГРУША, РАК, ШАГ, ШАР, КУШ, ИШАК, ИКРА
+105 Замок | АГМНОРЬ | seed ГАРМОНЬ | 13 words | 11×12 | density 0.341 | crossings 13 | potential 13 | difficulty 116.05 | recent penalty 16.0 | ГАРМОНЬ, НОРМА, МАНГО, РОМАН, ГРОМ, ОРГАН, РОГ, НОРА, ГОРН, ОМАР, НОГА, ГОРА, ГНОМ
+106 Замок | АИЛНОПТ | seed ПЛОТИНА | 15 words | 9×11 | density 0.485 | crossings 15 | potential 16 | difficulty 116.86 | recent penalty 64.0 | ПЛОТИНА, ПЛАТО, ПИЛОТ, НОТА, ПЛОТ, ПЛАН, ПЛИТА, ПОТ, ТОН, ЛОТ, ТИП, ТОЛПА, ПИАНО, ПОНИ, ПОЛ
+107 Замок | АВЕИКЛС | seed ВАСИЛЕК | 13 words | 12×7 | density 0.488 | crossings 13 | potential 16 | difficulty 105.41 | recent penalty 40.0 | ВАСИЛЕК, ВАЛИК, ЛЕСКА, ВИЛКА, ИСК, КВАС, СИЛА, ИВА, ЛАК, ВЕК, ВАЛ, ЛИСА, СЛИВА
+108 Замок | КОППРСУ | seed ПРОПУСК | 13 words | 11×9 | density 0.434 | crossings 12 | potential 13 | difficulty 105.43 | recent penalty 32.0 | ПРОПУСК, СУРОК, КОРПУС, СУП, ПОП, РОК, УПОР, СРОК, СОК, УКОР, УРОК, КУРС, ПУПОК
+109 Замок | АДКМОРТ | seed ДОМКРАТ | 15 words | 12×9 | density 0.389 | crossings 17 | potential 23 | difficulty 120.74 | recent penalty 64.0 | ДОМКРАТ, МОРДА, КРОТ, РОТА, МРАК, МОДА, МАРТ, ТОМ, ТОК, РАК, КОМАР, КОМ, ОДА, ДОМ, КАДР
+110 Замок | АЕНОПРС | seed ПЕРСОНА | 10 words | 10×9 | density 0.367 | crossings 9 | potential 11 | difficulty 91.39 | recent penalty 0.0 | ПЕРСОНА, ОПЕРА, ПЕРО, НАПОР, СОН, ОСПА, РЕПА, НОС, ПЕС, РОСА
+111 Север | ДОРСТУЬ | seed ДУРОСТЬ | 10 words | 9×6 | density 0.574 | crossings 10 | potential 10 | difficulty 78.95 | recent penalty 0.0 | ДУРОСТЬ, ТРОС, СОРТ, ТРУД, ОСЬ, СУТЬ, РОСТ, УТРО, ТОРС, СУД
+112 Север | ААВЕКЛР | seed КАВАЛЕР | 10 words | 8×9 | density 0.458 | crossings 9 | potential 15 | difficulty 87.61 | recent penalty 0.0 | КАВАЛЕР, ЛАВКА, ВЕРА, КАРА, ЛАВА, КАРЕ, ЛАВР, ЛЕВ, РЕВ, АРКА
+113 Север | АДЕКЛОП | seed ПОДЕЛКА | 10 words | 7×9 | density 0.492 | crossings 10 | potential 16 | difficulty 87.92 | recent penalty 16.0 | ПОДЕЛКА, ПОЛКА, ЛОДКА, КЛАД, КОЛ, ПОЛК, ЛЕД, ЛАД, ДЕЛО, ПОЛ
+114 Север | АЗИКНОР | seed КОРЗИНА | 11 words | 12×7 | density 0.464 | crossings 12 | potential 15 | difficulty 99.52 | recent penalty 24.0 | КОРЗИНА, НОРКА, ЗАКОН, КАРНИЗ, ЗОНА, НОРА, КРОНА, РОК, КОРА, РОЗА, ЗНАК
+115 Север | ЕЛННОТЬ | seed ТОННЕЛЬ | 13 words | 10×10 | density 0.410 | crossings 12 | potential 13 | difficulty 104.30 | recent penalty 0.0 | ТОННЕЛЬ, ОТЕЛЬ, ТЕЛО, ЛЕН, ОЛЕНЬ, ЛЕТО, ТЕНЬ, ЛЕНЬ, ТОН, НОЛЬ, ЕЛЬ, ЕНОТ, ЛОТ
+116 Север | АКОСТУЧ | seed УЧАСТОК | 11 words | 10×8 | density 0.425 | crossings 11 | potential 11 | difficulty 91.13 | recent penalty 24.0 | УЧАСТОК, ТОЧКА, КОСА, КУЧА, СОК, СКОТ, УТКА, КОТ, ТУЧА, ТОК, КУСТ
+117 Север | АВГЗЛОС | seed ВОЗГЛАС | 11 words | 9×8 | density 0.431 | crossings 10 | potential 12 | difficulty 87.46 | recent penalty 0.0 | ВОЗГЛАС, ЛОЗА, ВАЛ, ЛОГ, СОВА, ВОЗ, ВОЛ, ЗОЛА, ГАЗ, ГЛАЗ, ЗАЛ
+118 Север | АБВКРУЫ | seed ВЫРУБКА | 10 words | 9×11 | density 0.364 | crossings 9 | potential 10 | difficulty 95.94 | recent penalty 0.0 | ВЫРУБКА, РУКАВ, РЫБАК, БАК, ВРУБКА, РУКА, РЫБА, БУКВА, РАК, КУБ
+119 Север | АОППРСТ | seed ПАСПОРТ | 12 words | 10×9 | density 0.444 | crossings 12 | potential 15 | difficulty 101.98 | recent penalty 16.0 | ПАСПОРТ, СПОРТ, СТОПА, ТРОПА, РОСА, ПОП, СОРТ, РОТА, ОСПА, ТРОС, ПОРТ, ПОТ
+120 Север | БКЛНООТ | seed БЛОКНОТ | 13 words | 10×10 | density 0.390 | crossings 12 | potential 13 | difficulty 104.30 | recent penalty 160.0 | БЛОКНОТ, ЛОТОК, ОКНО, КОТ, КОЛ, ТОК, БОЛТ, ТОН, ЛОБ, ЛОКОН, БЛОК, ЛОТ, КЛОН
+121 Север | ВЕЛОПРУ | seed ПУЛОВЕР | 11 words | 8×10 | density 0.400 | crossings 11 | potential 13 | difficulty 90.95 | recent penalty 8.0 | ПУЛОВЕР, ПЕРО, УЛОВ, ПЛОВ, ПОЛЕ, РОВ, РЕВ, ПОЛ, ОРЕЛ, УПОР, ЛЕВ
+122 Север | ААКЛРСУ | seed РУСАЛКА | 10 words | 8×10 | density 0.438 | crossings 10 | potential 13 | difficulty 92.11 | recent penalty 0.0 | РУСАЛКА, ЛАСКА, АКУЛА, КАРАУЛ, АРКА, ЛУК, РАСА, КАРА, КУРС, ЛАК
+123 Север | АЕИКМРТ | seed МАТЕРИК | 14 words | 9×13 | density 0.350 | crossings 14 | potential 14 | difficulty 111.69 | recent penalty 32.0 | МАТЕРИК, КАРЕ, КАТЕР, РЕКА, РАК, РИТМ, МЕТР, МАТ, ИКРА, КИТ, МРАК, ТИР, МАРТ, МИР
+124 Север | ИЛМОСТЬ | seed МИЛОСТЬ | 11 words | 9×10 | density 0.367 | crossings 10 | potential 11 | difficulty 91.61 | recent penalty 40.0 | МИЛОСТЬ, МОСТ, ЛОМ, ОСЬ, МОЛЬ, ЛОТ, СОЛЬ, ЛИСТ, СТОЛ, ЛОСЬ, ТОМ
+125 Север | ЕКОРРСТ | seed ОРКЕСТР | 16 words | 10×13 | density 0.400 | crossings 16 | potential 16 | difficulty 125.15 | recent penalty 112.0 | ОРКЕСТР, ТРЕСК, ТРОС, КОСТЕР, КОРСЕТ, СКОТ, РОСТ, КРОТ, КОРТ, РОК, СОК, СОРТ, ТОРС, ТОК, СРОК, КОТ
+126 Север | АГДЗИНО | seed ДИАГНОЗ | 10 words | 10×7 | density 0.429 | crossings 9 | potential 10 | difficulty 84.10 | recent penalty 0.0 | ДИАГНОЗ, ГАЗОН, ЗОНА, ГОД, ГИД, ОДА, ГАЗ, ДОЗА, ДНО, НОГА
+127 Север | ААИКЛПТ | seed КАПИТАЛ | 12 words | 12×8 | density 0.427 | crossings 12 | potential 13 | difficulty 103.75 | recent penalty 40.0 | КАПИТАЛ, ПЛАТА, КЛИП, КИПА, ПАЛКА, ЛАПА, ЛИПА, ПИК, ТИП, ПЛИТА, КИТ, ПЛИТКА
+128 Север | АВЕКЛНО | seed ВАЛЕНОК | 11 words | 9×9 | density 0.444 | crossings 10 | potential 15 | difficulty 95.83 | recent penalty 32.0 | ВАЛЕНОК, ВОЛНА, ОКЕАН, ВЕНА, ВЕНОК, КЛОН, ЛЕН, КЛЕН, ВАЛ, ВЕК, ЛАК
+129 Север | ААБЗКРУ | seed ЗАРУБКА | 13 words | 9×11 | density 0.424 | crossings 12 | potential 13 | difficulty 104.03 | recent penalty 56.0 | ЗАРУБКА, КАРА, УКАЗ, АРКА, РУКА, АЗБУКА, КУБ, РАК, БАК, БАЗА, ЗУБР, АРБУЗ, ЗУБ
+130 Север | АВВЗОРТ | seed ВОЗВРАТ | 10 words | 8×9 | density 0.444 | crossings 10 | potential 10 | difficulty 86.78 | recent penalty 0.0 | ВОЗВРАТ, ТОВАР, ЗАТВОР, РОЗА, ТАЗ, РОТА, ВОР, ВОЗ, РОВ, ВЗОР
+131 Север | ИКНОРСУ | seed РИСУНОК | 15 words | 10×12 | density 0.383 | crossings 14 | potential 15 | difficulty 118.18 | recent penalty 72.0 | РИСУНОК, СУКНО, СУРОК, УКОР, СОН, РИС, НОС, ИСК, КУРС, КОНУС, СРОК, КИНО, РОК, СОК, УРОК
+132 Север | АГИЛОРХ | seed ОЛИГАРХ | 10 words | 9×9 | density 0.358 | crossings 10 | potential 10 | difficulty 86.39 | recent penalty 0.0 | ОЛИГАРХ, ГОРА, ЛОГ, ОХРА, ИГЛА, ЛИРА, ИГРА, ХОР, ГОЛ, РОГ
+133 Север | БЕЛОРСТ | seed ОБСТРЕЛ | 16 words | 10×13 | density 0.377 | crossings 15 | potential 16 | difficulty 121.62 | recent penalty 32.0 | ОБСТРЕЛ, РОСТ, ТРОС, БОЛТ, ТОРС, ЛЕТО, БОР, СБОР, ЛЕС, ТЕЛО, ЛОБ, СТОЛБ, СОРТ, ОРЕЛ, СТОЛ, ЛОТ
+134 Север | АДИКНОР | seed РОДИНКА | 12 words | 9×9 | density 0.506 | crossings 12 | potential 18 | difficulty 102.76 | recent penalty 40.0 | РОДИНКА, НАРОД, РАДИО, РОДИНА, КОРА, НОРКА, ДНО, КАДР, КОД, РАК, ИКРА, НОРА
+135 Север | АЗКЛОУШ | seed ЗОЛУШКА | 13 words | 10×10 | density 0.380 | crossings 12 | potential 13 | difficulty 102.91 | recent penalty 40.0 | ЗОЛУШКА, ЗЛАК, ШКОЛА, УКАЗ, ЛУК, КУШ, ЛАК, ЛОЗА, ЗОЛА, ЗАЛ, КОЛ, УКОЛ, ШОК
+136 Север | АЕИКОПТ | seed ИПОТЕКА | 12 words | 9×11 | density 0.384 | crossings 11 | potential 12 | difficulty 101.79 | recent penalty 0.0 | ИПОТЕКА, ПАКЕТ, ИКОТА, ПОТ, ОПТИКА, ПАЕК, КОТ, КИПА, ПИК, КИТ, ТИП, ТОК
+137 Север | АВДИЛЛО | seed ВАЛИДОЛ | 10 words | 8×10 | density 0.362 | crossings 9 | potential 10 | difficulty 86.77 | recent penalty 0.0 | ВАЛИДОЛ, ОЛИВА, ИДОЛ, ВАЛ, ОДА, ИВА, ВОДА, ВИД, ВОЛ, ЛАД
+138 Север | ААИКРСТ | seed АКТРИСА | 11 words | 9×9 | density 0.481 | crossings 10 | potential 15 | difficulty 97.21 | recent penalty 96.0 | АКТРИСА, АСТРА, ИСКРА, ТАКСИ, КАРА, РАК, ТИР, РАСА, ИКРА, ИСК, СТАРИК
+139 Север | ВЕОПРСТ | seed ПРОСВЕТ | 17 words | 12×11 | density 0.394 | crossings 16 | potential 18 | difficulty 127.81 | recent penalty 96.0 | ПРОСВЕТ, СПОРТ, ПЕРО, ПОРТ, РОВ, РЕВ, СВЕТ, ПЕС, ВЕТО, ВЕС, ТРОС, ВОР, СОРТ, СОВЕТ, РОСТ, ТОРС, ОВЕС
+140 Север | ААГМОРТ | seed ГРАМОТА | 12 words | 9×10 | density 0.411 | crossings 11 | potential 12 | difficulty 95.24 | recent penalty 16.0 | ГРАМОТА, ГОРА, АТОМ, ТОРГ, РОГ, АГАТ, ОМАР, ТОМ, МАРТ, МАТ, РОТА, ГРОМ
+141 Север | АБКЛОРЬ | seed КОРАБЛЬ | 11 words | 11×7 | density 0.416 | crossings 11 | potential 16 | difficulty 93.35 | recent penalty 32.0 | КОРАБЛЬ, КОЛБА, БЛОК, КОРА, БАЛ, БОР, КОРЬ, РОК, ЛОБ, БАК, ЛАРЬ
+142 Север | АИКЛОСТ | seed КИСЛОТА | 13 words | 9×9 | density 0.494 | crossings 13 | potential 17 | difficulty 102.42 | recent penalty 104.0 | КИСЛОТА, ТАКСИ, ИКОТА, КОСА, ЛИСА, СОК, СКОТ, СТОЛ, СИЛА, ЛИСТ, ТОК, КОТ, КИТ
+143 Север | ААВКЛРТ | seed КВАРТАЛ | 11 words | 7×10 | density 0.500 | crossings 11 | potential 11 | difficulty 89.81 | recent penalty 96.0 | КВАРТАЛ, ТРАВА, ЛАВКА, ВАТА, ЛАВА, ЛАВР, АРКА, КАРА, РАК, ВАЛ, ЛАК
+144 Север | АЕИКЛПР | seed РЕПЛИКА | 11 words | 9×10 | density 0.411 | crossings 11 | potential 18 | difficulty 97.96 | recent penalty 40.0 | РЕПЛИКА, ПАРК, ПАРИ, ПАЕК, РЕПА, КАРЕ, КИПА, ИКРА, РЕПКА, ЛИРА, КЛИП
+145 Север | ЕОПРСТТ | seed ПРОТЕСТ | 10 words | 10×8 | density 0.425 | crossings 10 | potential 13 | difficulty 90.72 | recent penalty 156.0 | ПРОТЕСТ, ТЕСТО, СПОРТ, СОРТ, ТОРС, ТЕСТ, ПОРТ, ТРОС, ПЕРО, ПЕС
+146 Север | АКНООРТ | seed КОНТОРА | 14 words | 11×11 | density 0.405 | crossings 13 | potential 18 | difficulty 117.17 | recent penalty 88.0 | КОНТОРА, НОРКА, КОРОНА, НОРА, НОТА, ТАНК, РОТА, РОК, КРОТ, КОРА, ТОН, КОРТ, КАРТОН, ОКНО
+147 Север | ВИЛООПТ | seed ТОПЛИВО | 10 words | 8×9 | density 0.417 | crossings 9 | potential 10 | difficulty 84.64 | recent penalty 0.0 | ТОПЛИВО, ПИЛОТ, ПЛОТ, ПЛОВ, ПОЛ, ЛОТ, ПОТ, ВОЛ, ПИВО, ТИП
+148 Север | АДЕЗКЛЬ | seed КЛАДЕЗЬ | 11 words | 7×9 | density 0.508 | crossings 10 | potential 11 | difficulty 85.77 | recent penalty 32.0 | КЛАДЕЗЬ, КЛАДЬ, ЕЗДА, ЗАЛ, ЛАД, ЛАК, ЗЛАК, ЛЕД, ЕЛЬ, КЛАД, ЕДА
+149 Север | АИККПРС | seed СКРИПКА | 10 words | 9×9 | density 0.420 | crossings 9 | potential 14 | difficulty 90.82 | recent penalty 64.0 | СКРИПКА, ИСКРА, СКРИП, ПИРС, КРИК, КИПА, ПИК, КАРП, ИСК, ПАРИ
+150 Север | ААКОРСТ | seed КРАСОТА | 18 words | 10×12 | density 0.458 | crossings 20 | potential 23 | difficulty 133.01 | recent penalty 264.0 | КРАСОТА, АСТРА, РОСА, СОРТ, СТРОКА, АРКА, РАСА, КАРА, КОРА, РОСТ, РАК, СКОТ, КРОТ, СРОК, КОТ, РОК, КОСА, КОРТ

@@ -1,0 +1,11118 @@
+[
+  {
+    "id": 1,
+    "letters": [
+      "К",
+      "О",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "КОТ",
+    "difficulty_score": 3.08,
+    "word_potential": 2
+  },
+  {
+    "id": 2,
+    "letters": [
+      "Н",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "НОС",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СОН",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "НОС",
+    "difficulty_score": 3.08,
+    "word_potential": 2
+  },
+  {
+    "id": 3,
+    "letters": [
+      "К",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КРОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "КРОТ",
+    "difficulty_score": 15.75,
+    "word_potential": 5
+  },
+  {
+    "id": 4,
+    "letters": [
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "РОСТ",
+    "difficulty_score": 19.0,
+    "word_potential": 4
+  },
+  {
+    "id": 5,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ДОСКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "САД",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОДА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ДОСКА",
+    "difficulty_score": 36.18,
+    "word_potential": 7
+  },
+  {
+    "id": 6,
+    "letters": [
+      "Г",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ГОЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ГОЛ",
+    "difficulty_score": 3.08,
+    "word_potential": 2
+  },
+  {
+    "id": 7,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "Н",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "АРКАН",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАНА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "АРКАН",
+    "difficulty_score": 38.5,
+    "word_potential": 5
+  },
+  {
+    "id": 8,
+    "letters": [
+      "Л",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛОТ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ПЛОТ",
+    "difficulty_score": 17.64,
+    "word_potential": 4
+  },
+  {
+    "id": 9,
+    "letters": [
+      "Д",
+      "О",
+      "У",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "УХОД",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ХОД",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДУХ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "УХО",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "УХОД",
+    "difficulty_score": 21.75,
+    "word_potential": 4
+  },
+  {
+    "id": 10,
+    "letters": [
+      "А",
+      "К",
+      "П",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КРУПА",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРК",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАРП",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАУК",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "КРУПА",
+    "difficulty_score": 39.05,
+    "word_potential": 6
+  },
+  {
+    "id": 11,
+    "letters": [
+      "В",
+      "З",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ВЗОР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВОР",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ВЗОР",
+    "difficulty_score": 21.75,
+    "word_potential": 4
+  },
+  {
+    "id": 12,
+    "letters": [
+      "Л",
+      "О",
+      "С",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ЛОСЬ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СОЛЬ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ЛОСЬ",
+    "difficulty_score": 16.93,
+    "word_potential": 3
+  },
+  {
+    "id": 13,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "КОЛБА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БЛОК",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "БАЛ",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "БАК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "КОЛБА",
+    "difficulty_score": 48.29,
+    "word_potential": 7
+  },
+  {
+    "id": 14,
+    "letters": [
+      "А",
+      "М",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "НОРМА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОМАН",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "НОРМА",
+    "difficulty_score": 31.5,
+    "word_potential": 4
+  },
+  {
+    "id": 15,
+    "letters": [
+      "А",
+      "К",
+      "М",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КОМАР",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОМАР",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "МРАК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОМ",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "КОМАР",
+    "difficulty_score": 51.05,
+    "word_potential": 7
+  },
+  {
+    "id": 16,
+    "letters": [
+      "Г",
+      "К",
+      "О",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ОКРУГ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КРУГ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УКОР",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "УРОК",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ОКРУГ",
+    "difficulty_score": 39.1,
+    "word_potential": 6
+  },
+  {
+    "id": 17,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ГРУДА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РУДА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ГРАД",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДРУГ",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ДУГА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УДАР",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ГРУДА",
+    "difficulty_score": 46.44,
+    "word_potential": 6
+  },
+  {
+    "id": 18,
+    "letters": [
+      "А",
+      "Л",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛАТО",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЛПА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ПЛАТО",
+    "difficulty_score": 41.21,
+    "word_potential": 6
+  },
+  {
+    "id": 19,
+    "letters": [
+      "В",
+      "Е",
+      "Л",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВЕСЛО",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕС",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОВЕС",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "ВЕСЛО",
+    "difficulty_score": 44.78,
+    "word_potential": 6
+  },
+  {
+    "id": 20,
+    "letters": [
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "СПОРТ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Лес",
+    "seed": "СПОРТ",
+    "difficulty_score": 52.42,
+    "word_potential": 7
+  },
+  {
+    "id": 21,
+    "letters": [
+      "А",
+      "И",
+      "М",
+      "Р",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ШИРМА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ШРАМ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "МАРШ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ШАР",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "МИР",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ШИРМА",
+    "difficulty_score": 39.54,
+    "word_potential": 5
+  },
+  {
+    "id": 22,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ЛОДКА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КЛАД",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОД",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ЛОДКА",
+    "difficulty_score": 45.38,
+    "word_potential": 7
+  },
+  {
+    "id": 23,
+    "letters": [
+      "Е",
+      "Л",
+      "Н",
+      "О",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ОЛЕНЬ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОЛЬ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕНЬ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ОЛЕНЬ",
+    "difficulty_score": 41.27,
+    "word_potential": 5
+  },
+  {
+    "id": 24,
+    "letters": [
+      "А",
+      "К",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КРОНА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРКА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "КРОНА",
+    "difficulty_score": 42.06,
+    "word_potential": 6
+  },
+  {
+    "id": 25,
+    "letters": [
+      "А",
+      "Г",
+      "З",
+      "О",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "УГРОЗА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ГРОЗА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ГРУЗ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОЗА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "УЗОР",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "УГРОЗА",
+    "difficulty_score": 64.53,
+    "word_potential": 8
+  },
+  {
+    "id": 26,
+    "letters": [
+      "А",
+      "В",
+      "И",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СЛИВА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СИЛА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "СЛИВА",
+    "difficulty_score": 39.24,
+    "word_potential": 5
+  },
+  {
+    "id": 27,
+    "letters": [
+      "А",
+      "М",
+      "О",
+      "П",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "ПРОМАХ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХРАП",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРОМ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПРАХ",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МОХ",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОХРА",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ХРАМ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ПРОМАХ",
+    "difficulty_score": 61.9,
+    "word_potential": 10
+  },
+  {
+    "id": 28,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РЕПКА",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ПАРК",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РЕПА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "РЕПКА",
+    "difficulty_score": 45.05,
+    "word_potential": 8
+  },
+  {
+    "id": 29,
+    "letters": [
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПОЛЕТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛЕ",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ПОЛЕТ",
+    "difficulty_score": 45.35,
+    "word_potential": 8
+  },
+  {
+    "id": 30,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "О",
+      "П"
+    ],
+    "words": [
+      {
+        "text": "ОПИЛКА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ОПИЛКА",
+    "difficulty_score": 60.15,
+    "word_potential": 10
+  },
+  {
+    "id": 31,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "И",
+      "Л"
+    ],
+    "words": [
+      {
+        "text": "ИДЕАЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕДИ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАД",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ИДЕАЛ",
+    "difficulty_score": 37.73,
+    "word_potential": 5
+  },
+  {
+    "id": 32,
+    "letters": [
+      "Г",
+      "Л",
+      "О",
+      "У",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "УГОЛЬ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "УГОЛ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГОЛ",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ГУЛ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУГ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "УГОЛЬ",
+    "difficulty_score": 40.16,
+    "word_potential": 6
+  },
+  {
+    "id": 33,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "СТИРКА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СТАРИК",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РИС",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КИТ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТИР",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 3,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "СТИРКА",
+    "difficulty_score": 73.29,
+    "word_potential": 10
+  },
+  {
+    "id": 34,
+    "letters": [
+      "К",
+      "Н",
+      "О",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КОНУС",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОН",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СУКНО",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "НОС",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "КОНУС",
+    "difficulty_score": 42.67,
+    "word_potential": 5
+  },
+  {
+    "id": 35,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "М",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КЛУМБА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "БУЛКА",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КЛУБ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КУБ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МУКА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "МУЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "КЛУМБА",
+    "difficulty_score": 64.65,
+    "word_potential": 11
+  },
+  {
+    "id": 36,
+    "letters": [
+      "А",
+      "К",
+      "О",
+      "П",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПРОКАТ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОПА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТРАП",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАРП",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ПРОКАТ",
+    "difficulty_score": 58.42,
+    "word_potential": 15
+  },
+  {
+    "id": 37,
+    "letters": [
+      "А",
+      "В",
+      "Д",
+      "З",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РАЗВОД",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ДРОВА",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ДВОР",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ДОЗА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВОДА",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОЗА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАВОД",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "РАЗВОД",
+    "difficulty_score": 68.95,
+    "word_potential": 12
+  },
+  {
+    "id": 38,
+    "letters": [
+      "К",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КОРПУС",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УРОК",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СУРОК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "УКОР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КУРС",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "КОРПУС",
+    "difficulty_score": 57.3,
+    "word_potential": 10
+  },
+  {
+    "id": 39,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СДЕЛКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕСКА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАД",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СКЛАД",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "СДЕЛКА",
+    "difficulty_score": 56.86,
+    "word_potential": 10
+  },
+  {
+    "id": 40,
+    "letters": [
+      "Е",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "РЕМОНТ",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НОМЕР",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "МОРЕ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МЕТРО",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МЕТР",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТОН",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "РЕМОНТ",
+    "difficulty_score": 69.21,
+    "word_potential": 8
+  },
+  {
+    "id": 41,
+    "letters": [
+      "А",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "МОНАРХ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОМАН",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ХРОМ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НОРМА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХОР",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МОХ",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОХРА",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ХРАМ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "МОНАРХ",
+    "difficulty_score": 75.03,
+    "word_potential": 10
+  },
+  {
+    "id": 42,
+    "letters": [
+      "А",
+      "К",
+      "Л",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛАТОК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЛПА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТО",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ПЛАТОК",
+    "difficulty_score": 59.7,
+    "word_potential": 13
+  },
+  {
+    "id": 43,
+    "letters": [
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КОНСУЛ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКЛОН",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОНУС",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СУКНО",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОУН",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "НОС",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "КОНСУЛ",
+    "difficulty_score": 79.26,
+    "word_potential": 12
+  },
+  {
+    "id": 44,
+    "letters": [
+      "А",
+      "М",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "МАТРОС",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "МОСТ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "МАРТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОСА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "МАТРОС",
+    "difficulty_score": 50.52,
+    "word_potential": 13
+  },
+  {
+    "id": 45,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "П",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПАРКЕТ",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПАКЕТ",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПАРК",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРАП",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КАРП",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КАТЕР",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ПАРКЕТ",
+    "difficulty_score": 68.27,
+    "word_potential": 12
+  },
+  {
+    "id": 46,
+    "letters": [
+      "А",
+      "А",
+      "В",
+      "К",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СВАЛКА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СЛАВА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВА",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАВКА",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КВАС",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "СВАЛКА",
+    "difficulty_score": 79.63,
+    "word_potential": 9
+  },
+  {
+    "id": 47,
+    "letters": [
+      "А",
+      "Е",
+      "Л",
+      "Н",
+      "П",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ПАНЕЛЬ",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕНАЛ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛАН",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕНЬ",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛЕН",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕНЬ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ПАНЕЛЬ",
+    "difficulty_score": 69.45,
+    "word_potential": 8
+  },
+  {
+    "id": 48,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "И",
+      "Л",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ДИАЛОГ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ИДОЛ",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ГОД",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ДОЛГ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАД",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОДА",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ИГЛА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГИД",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ДИАЛОГ",
+    "difficulty_score": 69.84,
+    "word_potential": 10
+  },
+  {
+    "id": 49,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ГРАДУС",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГРУДА",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ДУГА",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ДРУГ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РУДА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СУД",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ГРАД",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "УДАР",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "САД",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "ГРАДУС",
+    "difficulty_score": 73.03,
+    "word_potential": 9
+  },
+  {
+    "id": 50,
+    "letters": [
+      "А",
+      "К",
+      "Н",
+      "О",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КОРОНА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КРОНА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОКНО",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Озеро",
+    "seed": "КОРОНА",
+    "difficulty_score": 52.88,
+    "word_potential": 8
+  },
+  {
+    "id": 51,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "М",
+      "Н",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КАРМАН",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МАРКА",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "АРКАН",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РАНА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КАРМАН",
+    "difficulty_score": 62.06,
+    "word_potential": 8
+  },
+  {
+    "id": 52,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛИТКА",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КИПА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТИП",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИП",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПИК",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КИТ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ПЛИТКА",
+    "difficulty_score": 65.94,
+    "word_potential": 9
+  },
+  {
+    "id": 53,
+    "letters": [
+      "В",
+      "Е",
+      "Е",
+      "К",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВЕРЕСК",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКВЕР",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕЕР",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СЕВЕР",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕС",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ВЕРЕСК",
+    "difficulty_score": 61.0,
+    "word_potential": 7
+  },
+  {
+    "id": 54,
+    "letters": [
+      "Е",
+      "К",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОСТЕР",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТРЕСК",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КРОТ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КОСТЕР",
+    "difficulty_score": 70.07,
+    "word_potential": 15
+  },
+  {
+    "id": 55,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "К",
+      "Л",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КАБЛУК",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУЛАК",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КЛУБ",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "БАЛ",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 1,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КУКЛА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БУЛКА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУК",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КАБЛУК",
+    "difficulty_score": 81.53,
+    "word_potential": 10
+  },
+  {
+    "id": 56,
+    "letters": [
+      "А",
+      "В",
+      "И",
+      "Л",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ЛИСТВА",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СИЛА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СЛИВА",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИВА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ЛИСТВА",
+    "difficulty_score": 64.53,
+    "word_potential": 7
+  },
+  {
+    "id": 57,
+    "letters": [
+      "Е",
+      "Л",
+      "М",
+      "О",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "МОТЕЛЬ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОТЕЛЬ",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "МОЛЬ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "МЕЛЬ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОМ",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "МОТЕЛЬ",
+    "difficulty_score": 73.64,
+    "word_potential": 10
+  },
+  {
+    "id": 58,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Р",
+      "Ч"
+    ],
+    "words": [
+      {
+        "text": "ЧЕРДАК",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РЕЧКА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КЕДР",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАДР",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ЧЕРДАК",
+    "difficulty_score": 59.82,
+    "word_potential": 8
+  },
+  {
+    "id": 59,
+    "letters": [
+      "А",
+      "Г",
+      "Ж",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ЖАРГОН",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОРГАН",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "НОЖ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРН",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЖАНР",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОГА",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ЖАРГОН",
+    "difficulty_score": 68.5,
+    "word_potential": 10
+  },
+  {
+    "id": 60,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "Н",
+      "Р",
+      "Т",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ТРИБУНА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТРУБА",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАНТ",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "БИТА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАРИН",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "УРНА",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТУБА",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "УРАН",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РУБИН",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ТРИБУНА",
+    "difficulty_score": 89.82,
+    "word_potential": 10
+  },
+  {
+    "id": 61,
+    "letters": [
+      "А",
+      "В",
+      "З",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ЗАТВОР",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОВАР",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОЗА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТАЗ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ВОР",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ВЗОР",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ЗАТВОР",
+    "difficulty_score": 65.71,
+    "word_potential": 9
+  },
+  {
+    "id": 62,
+    "letters": [
+      "А",
+      "К",
+      "К",
+      "М",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КРОМКА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОРКА",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОМАР",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОМАР",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "МРАК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КРОМКА",
+    "difficulty_score": 64.16,
+    "word_potential": 9
+  },
+  {
+    "id": 63,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Н",
+      "О",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОСТАНКИ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ИКОТА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОСИНА",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НОС",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОН",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТАНК",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 7,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 7,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ОСТАНКИ",
+    "difficulty_score": 92.62,
+    "word_potential": 18
+  },
+  {
+    "id": 64,
+    "letters": [
+      "Б",
+      "О",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОТБРОС",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РОБОТ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СБОР",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОБОР",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ОТБРОС",
+    "difficulty_score": 64.39,
+    "word_potential": 9
+  },
+  {
+    "id": 65,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "Л",
+      "П",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "КАПСУЛА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ПАЛКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПАУК",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУПА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "АКУЛА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СУП",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КАПСУЛА",
+    "difficulty_score": 89.6,
+    "word_potential": 11
+  },
+  {
+    "id": 66,
+    "letters": [
+      "А",
+      "Д",
+      "О",
+      "О",
+      "П",
+      "Р",
+      "Х"
+    ],
+    "words": [
+      {
+        "text": "ПАРОХОД",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПОРОХ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПРОХОД",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПОРОДА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПРАХ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ХОР",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОХОД",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ОХРА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ХОД",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ПАРОХОД",
+    "difficulty_score": 87.19,
+    "word_potential": 11
+  },
+  {
+    "id": 67,
+    "letters": [
+      "А",
+      "Б",
+      "Л",
+      "О",
+      "С",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ОБЛАСТЬ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СТАЛЬ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛЬ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОСЬ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОЛЬ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛБ",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ОБЛАСТЬ",
+    "difficulty_score": 92.75,
+    "word_potential": 12
+  },
+  {
+    "id": 68,
+    "letters": [
+      "В",
+      "Д",
+      "Е",
+      "О",
+      "С",
+      "Т",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ДЕТСТВО",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОТВЕТ",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТО",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОВЕТ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕС",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ОВЕС",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТ",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СВЕТ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ДЕТСТВО",
+    "difficulty_score": 86.24,
+    "word_potential": 9
+  },
+  {
+    "id": 69,
+    "letters": [
+      "А",
+      "В",
+      "И",
+      "Л",
+      "О",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ПРАВИЛО",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ПРАВО",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ОЛИВА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОВАР",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ИВА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПИВО",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ПРАВИЛО",
+    "difficulty_score": 86.08,
+    "word_potential": 17
+  },
+  {
+    "id": 70,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "К",
+      "О",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ОКРАСКА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАСКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КАРКАС",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАКАО",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РАСА",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОРКА",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ОКРАСКА",
+    "difficulty_score": 92.52,
+    "word_potential": 15
+  },
+  {
+    "id": 71,
+    "letters": [
+      "А",
+      "З",
+      "И",
+      "К",
+      "Л",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "КИНОЗАЛ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КИНО",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЗНАК",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАКОН",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИН",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КЛОН",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАЗИНО",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЗЛАК",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 0,
+        "col": 10,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КИНОЗАЛ",
+    "difficulty_score": 105.19,
+    "word_potential": 14
+  },
+  {
+    "id": 72,
+    "letters": [
+      "А",
+      "Г",
+      "М",
+      "Н",
+      "О",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "АГРОНОМ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОМАН",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МАНГО",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОМАР",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НОГА",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ГНОМ",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГРОМ",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НОРМА",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "АГРОНОМ",
+    "difficulty_score": 86.82,
+    "word_potential": 14
+  },
+  {
+    "id": 73,
+    "letters": [
+      "А",
+      "Д",
+      "И",
+      "К",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РОДИНКА",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КРОНА",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РАДИО",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "НОРКА",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КОД",
+        "row": 7,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "НАРОД",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ДРАКОН",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДНО",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОДНИК",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "РОДИНКА",
+    "difficulty_score": 110.6,
+    "word_potential": 18
+  },
+  {
+    "id": 74,
+    "letters": [
+      "И",
+      "К",
+      "Н",
+      "П",
+      "С",
+      "Т",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "СПУТНИК",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПУНКТ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СУТКИ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ИСК",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КНУТ",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КУСТ",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "СУП",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "СПУТНИК",
+    "difficulty_score": 77.63,
+    "word_potential": 10
+  },
+  {
+    "id": 75,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "Н",
+      "О",
+      "Т",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "КОНФЕТА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОКЕАН",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КОФЕ",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КОФТА",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КАФЕ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ФАКТ",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ФЕН",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОТА",
+        "row": 4,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "КОНФЕТА",
+    "difficulty_score": 92.96,
+    "word_potential": 13
+  },
+  {
+    "id": 76,
+    "letters": [
+      "А",
+      "Е",
+      "Л",
+      "М",
+      "О",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "САМОЛЕТ",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "МАСЛО",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "МЕТЛА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 10,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "МОСТ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СМОЛА",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "АТОМ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "МЕСТО",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "САМОЛЕТ",
+    "difficulty_score": 107.84,
+    "word_potential": 15
+  },
+  {
+    "id": 77,
+    "letters": [
+      "А",
+      "О",
+      "П",
+      "П",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПАСПОРТ",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СТОПА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОПА",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОСПА",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПОП",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ПАСПОРТ",
+    "difficulty_score": 90.61,
+    "word_potential": 15
+  },
+  {
+    "id": 78,
+    "letters": [
+      "А",
+      "Е",
+      "К",
+      "О",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ПРОСЕКА",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕСОК",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОПЕРА",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СОПКА",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РЕПА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОСА",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СРОК",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РЕПКА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ПРОСЕКА",
+    "difficulty_score": 109.6,
+    "word_potential": 21
+  },
+  {
+    "id": 79,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "РУБАНОК",
+        "row": 2,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "НАБОР",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КРОНА",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РУКА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НОРКА",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "УРНА",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "БОР",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "БАНК",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "БАК",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УБОРКА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "РУБАНОК",
+    "difficulty_score": 104.42,
+    "word_potential": 18
+  },
+  {
+    "id": 80,
+    "letters": [
+      "В",
+      "Д",
+      "Е",
+      "Е",
+      "И",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ДОВЕРИЕ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕДРО",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ДЕРЕВО",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВОР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВИД",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕЕР",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ДВОР",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Горы",
+    "seed": "ДОВЕРИЕ",
+    "difficulty_score": 76.97,
+    "word_potential": 9
+  },
+  {
+    "id": 81,
+    "letters": [
+      "А",
+      "А",
+      "Е",
+      "Л",
+      "Н",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛАНЕТА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НАЛЕТ",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛАТА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕНТА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАН",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕНАЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛЕН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПЛАНЕТА",
+    "difficulty_score": 87.64,
+    "word_potential": 9
+  },
+  {
+    "id": 82,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "О",
+      "П",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ПОДУШКА",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КАШПО",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "УПАДОК",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОПУШКА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ОДА",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КУШ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ШОК",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОД",
+        "row": 0,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ДУША",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДУШ",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПОДУШКА",
+    "difficulty_score": 90.12,
+    "word_potential": 11
+  },
+  {
+    "id": 83,
+    "letters": [
+      "А",
+      "Г",
+      "З",
+      "Л",
+      "Р",
+      "У",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ГЛАЗУРЬ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАРЬ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РУЛЬ",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАЗУРЬ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГУЛ",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУГ",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГРУЗ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ГЛАЗУРЬ",
+    "difficulty_score": 82.4,
+    "word_potential": 10
+  },
+  {
+    "id": 84,
+    "letters": [
+      "И",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "РИСУНОК",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СУРОК",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СУКНО",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КИНО",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КУРС",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОНУС",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "НОС",
+        "row": 7,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "УКОР",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РИС",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "РИСУНОК",
+    "difficulty_score": 93.32,
+    "word_potential": 15
+  },
+  {
+    "id": 85,
+    "letters": [
+      "А",
+      "Г",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ГАРМОНЬ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРМА",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОРГАН",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "НОГА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "МАНГО",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ГНОМ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РОМАН",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ГРОМ",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРН",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РОГ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ГАРМОНЬ",
+    "difficulty_score": 107.39,
+    "word_potential": 13
+  },
+  {
+    "id": 86,
+    "letters": [
+      "А",
+      "И",
+      "Л",
+      "Н",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛОТИНА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТОЛПА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТО",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПОНИ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПИАНО",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТИП",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "НОТА",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПЛОТИНА",
+    "difficulty_score": 86.6,
+    "word_potential": 16
+  },
+  {
+    "id": 87,
+    "letters": [
+      "А",
+      "К",
+      "Л",
+      "О",
+      "О",
+      "П",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ПОЛОСКА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛКА",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОСОЛ",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СОКОЛ",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ОСПА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛОС",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОПКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПОЛОСКА",
+    "difficulty_score": 103.63,
+    "word_potential": 15
+  },
+  {
+    "id": 88,
+    "letters": [
+      "А",
+      "Б",
+      "Е",
+      "И",
+      "К",
+      "Н",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КАБИНЕТ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БАНК",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТАНК",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "БАК",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "БАНКЕТ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "БИТА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НИТКА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "БАНТ",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "КАБИНЕТ",
+    "difficulty_score": 83.42,
+    "word_potential": 9
+  },
+  {
+    "id": 89,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "И",
+      "Н",
+      "Р",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ВЕРШИНА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "НЕРВ",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НИВА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЕРШ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ШИНА",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ИВА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕНА",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕРА",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ШАР",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "НРАВ",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ВЕРШИНА",
+    "difficulty_score": 89.75,
+    "word_potential": 11
+  },
+  {
+    "id": 90,
+    "letters": [
+      "А",
+      "Д",
+      "К",
+      "М",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ДОМКРАТ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КОМАР",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "МАРТ",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "АТОМ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "МАТ",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ДОМ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ДОМКРАТ",
+    "difficulty_score": 96.98,
+    "word_potential": 23
+  },
+  {
+    "id": 91,
+    "letters": [
+      "А",
+      "А",
+      "И",
+      "К",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "АКТРИСА",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАСА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ИСК",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "АСТРА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СТАРИК",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТИР",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "АКТРИСА",
+    "difficulty_score": 91.78,
+    "word_potential": 15
+  },
+  {
+    "id": 92,
+    "letters": [
+      "А",
+      "А",
+      "Б",
+      "З",
+      "К",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ЗАРУБКА",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "АРБУЗ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "УКАЗ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "АЗБУКА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "БАЗА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КУБ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЗУБ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ЗАРУБКА",
+    "difficulty_score": 84.82,
+    "word_potential": 13
+  },
+  {
+    "id": 93,
+    "letters": [
+      "К",
+      "О",
+      "П",
+      "П",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПРОПУСК",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СУРОК",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "УПОР",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "УКОР",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПОП",
+        "row": 7,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СУП",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПУПОК",
+        "row": 9,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КУРС",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОРПУС",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "УРОК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПРОПУСК",
+    "difficulty_score": 105.69,
+    "word_potential": 13
+  },
+  {
+    "id": 94,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "О",
+      "П",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПОДРУГА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПУДРА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ДУГА",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "УДАР",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПРУД",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РУДА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ДРУГ",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ГРУДА",
+        "row": 6,
+        "col": 6,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПОДРУГА",
+    "difficulty_score": 90.51,
+    "word_potential": 14
+  },
+  {
+    "id": 95,
+    "letters": [
+      "Б",
+      "И",
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "БИНОКЛЬ",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОНЬ",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИН",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БЛОК",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛ",
+        "row": 10,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОБЛИК",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "НОЛЬ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КИНО",
+        "row": 7,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 3,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "БОЛЬ",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "БЛИН",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КИЛЬ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "БИНОКЛЬ",
+    "difficulty_score": 105.48,
+    "word_potential": 13
+  },
+  {
+    "id": 96,
+    "letters": [
+      "А",
+      "А",
+      "И",
+      "Л",
+      "П",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПАСТИЛА",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛАТА",
+        "row": 3,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "САЛАТ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТИП",
+        "row": 6,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ПАСТА",
+        "row": 6,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "СИЛА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 10,
+        "col": 5,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПАСТИЛА",
+    "difficulty_score": 105.96,
+    "word_potential": 11
+  },
+  {
+    "id": 97,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "БАРИТОН",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАТОН",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ОРБИТА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "БОР",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "НАБОР",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НОТА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БИТА",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "БАНТ",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "БАРИТОН",
+    "difficulty_score": 101.0,
+    "word_potential": 13
+  },
+  {
+    "id": 98,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "Н"
+    ],
+    "words": [
+      {
+        "text": "ВЕЛИКАН",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВИЛКА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛИК",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НИВА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕК",
+        "row": 7,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕНА",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛЕН",
+        "row": 9,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 7,
+        "col": 4,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ВЕЛИКАН",
+    "difficulty_score": 94.05,
+    "word_potential": 13
+  },
+  {
+    "id": 99,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Л",
+      "О",
+      "П"
+    ],
+    "words": [
+      {
+        "text": "ПОДЕЛКА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛЕ",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЕДА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОДКА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ДЕЛО",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАД",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОД",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПОДЕЛКА",
+    "difficulty_score": 96.38,
+    "word_potential": 16
+  },
+  {
+    "id": 100,
+    "letters": [
+      "А",
+      "А",
+      "Б",
+      "И",
+      "К",
+      "Н",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КАРАБИН",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КАБАН",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАНКА",
+        "row": 11,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАРАН",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 7,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РАНА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БАРИН",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "АРКАН",
+        "row": 11,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "БАНК",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "КАРАБИН",
+    "difficulty_score": 109.53,
+    "word_potential": 14
+  },
+  {
+    "id": 101,
+    "letters": [
+      "В",
+      "Е",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПРОСВЕТ",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ОВЕС",
+        "row": 5,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СОВЕТ",
+        "row": 5,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕС",
+        "row": 8,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "СВЕТ",
+        "row": 9,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕС",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПРОСВЕТ",
+    "difficulty_score": 116.75,
+    "word_potential": 18
+  },
+  {
+    "id": 102,
+    "letters": [
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "С",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ПОСТЕЛЬ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОТЕЛЬ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПЛОТЬ",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОСЬ",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ОСЬ",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ПОСТЕЛЬ",
+    "difficulty_score": 95.16,
+    "word_potential": 19
+  },
+  {
+    "id": 103,
+    "letters": [
+      "И",
+      "К",
+      "Л",
+      "О",
+      "С",
+      "Т",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ОКУЛИСТ",
+        "row": 0,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 0,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 5,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОСКУТ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СТУЛ",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КУСТ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СУТКИ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ОКУЛИСТ",
+    "difficulty_score": 114.89,
+    "word_potential": 17
+  },
+  {
+    "id": 104,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "М",
+      "Р",
+      "Т",
+      "Я"
+    ],
+    "words": [
+      {
+        "text": "МАТЕРИЯ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "МАРТ",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "МАТ",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "МЯТА",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЯМА",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "МЕТР",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 7,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РИТМ",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МИР",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ИМЯ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "АРИЯ",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "МАТЕРИЯ",
+    "difficulty_score": 89.26,
+    "word_potential": 11
+  },
+  {
+    "id": 105,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "К",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "СКРИПКА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПИРС",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РИС",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КАРП",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СКРИП",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ПАРК",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КРИК",
+        "row": 6,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 9,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 9,
+        "col": 8,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "СКРИПКА",
+    "difficulty_score": 113.11,
+    "word_potential": 14
+  },
+  {
+    "id": 106,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "К",
+      "Л",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ВАЛЕНОК",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОКЕАН",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНОК",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛК",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 6,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНА",
+        "row": 5,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛНА",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КЛЕН",
+        "row": 10,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ВАЛЕНОК",
+    "difficulty_score": 112.55,
+    "word_potential": 15
+  },
+  {
+    "id": 107,
+    "letters": [
+      "А",
+      "З",
+      "И",
+      "К",
+      "Н",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КОРЗИНА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КРОНА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КАРНИЗ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОЗА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРКА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЗНАК",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 0,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАКОН",
+        "row": 5,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КАЗИНО",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "КОРЗИНА",
+    "difficulty_score": 110.42,
+    "word_potential": 15
+  },
+  {
+    "id": 108,
+    "letters": [
+      "Б",
+      "Е",
+      "Л",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОБСТРЕЛ",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛБ",
+        "row": 11,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 7,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ОРЕЛ",
+        "row": 6,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 5,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "БОР",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 8,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СБОР",
+        "row": 11,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ОБСТРЕЛ",
+    "difficulty_score": 119.04,
+    "word_potential": 16
+  },
+  {
+    "id": 109,
+    "letters": [
+      "В",
+      "Е",
+      "К",
+      "Н",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОНВЕРТ",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕНОК",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КРОТ",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КОВЕР",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 6,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕКТОР",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 7,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 4,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "НЕРВ",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТОН",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "КОНВЕРТ",
+    "difficulty_score": 120.38,
+    "word_potential": 17
+  },
+  {
+    "id": 110,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ЛЕОПАРД",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ДЕЛО",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОПЕРА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ОДА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОРД",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПОЛЕ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Замок",
+    "seed": "ЛЕОПАРД",
+    "difficulty_score": 91.84,
+    "word_potential": 13
+  },
+  {
+    "id": 111,
+    "letters": [
+      "А",
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "КОЛБАСА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛБА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БОКС",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "БЛОК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "БАЛ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СОБАКА",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КОЛБАСА",
+    "difficulty_score": 99.36,
+    "word_potential": 14
+  },
+  {
+    "id": 112,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛАСТИК",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИПСА",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТИП",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СИЛА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПЛАСТИК",
+    "difficulty_score": 98.81,
+    "word_potential": 16
+  },
+  {
+    "id": 113,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "Д",
+      "И",
+      "Р",
+      "Я"
+    ],
+    "words": [
+      {
+        "text": "ГВАРДИЯ",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ГРИВА",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ИГРА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "АРИЯ",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВИД",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГРАД",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ГИРЯ",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ГИД",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВРАГ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИВА",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ГВАРДИЯ",
+    "difficulty_score": 84.62,
+    "word_potential": 10
+  },
+  {
+    "id": 114,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "З",
+      "Л",
+      "О",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВОЗГЛАС",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СОВА",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ГЛАЗ",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОГ",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ГОЛ",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 6,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 9,
+        "col": 6,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ВОЗГЛАС",
+    "difficulty_score": 92.97,
+    "word_potential": 12
+  },
+  {
+    "id": 115,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "К",
+      "М",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "МАТЕРИК",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 1,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КАТЕР",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "МЕТР",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РЕКА",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "МАТ",
+        "row": 8,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТИР",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ИКРА",
+        "row": 3,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РИТМ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МИР",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 10,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "МАТЕРИК",
+    "difficulty_score": 103.24,
+    "word_potential": 14
+  },
+  {
+    "id": 116,
+    "letters": [
+      "А",
+      "А",
+      "Г",
+      "М",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ГРАМОТА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 1,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "МАРТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГОРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "АГАТ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "АТОМ",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРГ",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ГРОМ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ГРАМОТА",
+    "difficulty_score": 86.82,
+    "word_potential": 12
+  },
+  {
+    "id": 117,
+    "letters": [
+      "А",
+      "К",
+      "Н",
+      "О",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КОНТОРА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРКА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КАРТОН",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КРОНА",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТАНК",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ОКНО",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРА",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "НОТА",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 8,
+        "col": 5,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КОНТОРА",
+    "difficulty_score": 103.24,
+    "word_potential": 18
+  },
+  {
+    "id": 118,
+    "letters": [
+      "Б",
+      "Е",
+      "И",
+      "Л",
+      "О",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ОБИТЕЛЬ",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "БИЛЕТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ОТЕЛЬ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛЬ",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 4,
+        "col": 9,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ОБИТЕЛЬ",
+    "difficulty_score": 88.92,
+    "word_potential": 10
+  },
+  {
+    "id": 119,
+    "letters": [
+      "Е",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПРОТЕСТ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТО",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТ",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 6,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРТ",
+        "row": 3,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 9,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 6,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПРОТЕСТ",
+    "difficulty_score": 101.25,
+    "word_potential": 13
+  },
+  {
+    "id": 120,
+    "letters": [
+      "А",
+      "З",
+      "К",
+      "Л",
+      "О",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ЗОЛУШКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ШКОЛА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УКАЗ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОЛ",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЗЛАК",
+        "row": 4,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КУШ",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ШОК",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ЗОЛУШКА",
+    "difficulty_score": 101.05,
+    "word_potential": 13
+  },
+  {
+    "id": 121,
+    "letters": [
+      "А",
+      "К",
+      "О",
+      "С",
+      "Т",
+      "У",
+      "Ч"
+    ],
+    "words": [
+      {
+        "text": "УЧАСТОК",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТОЧКА",
+        "row": 11,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКОТ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УТКА",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТУЧА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 7,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КУСТ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КУЧА",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СОК",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 8,
+        "col": 5,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "УЧАСТОК",
+    "difficulty_score": 88.97,
+    "word_potential": 11
+  },
+  {
+    "id": 122,
+    "letters": [
+      "А",
+      "В",
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ВАСИЛЕК",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СЛИВА",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕСКА",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛИК",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕС",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СИЛА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ИВА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ВАСИЛЕК",
+    "difficulty_score": 94.18,
+    "word_potential": 16
+  },
+  {
+    "id": 123,
+    "letters": [
+      "А",
+      "Е",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "РЕПЛИКА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПКА",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КАРП",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПИК",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЕК",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 4,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "РЕПЛИКА",
+    "difficulty_score": 109.42,
+    "word_potential": 18
+  },
+  {
+    "id": 124,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "З",
+      "О",
+      "О",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "ЗАГОВОР",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ГРОЗА",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОВРАГ",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВЗОР",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ВРАГ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 8,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 10,
+        "col": 4,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ЗАГОВОР",
+    "difficulty_score": 91.57,
+    "word_potential": 12
+  },
+  {
+    "id": 125,
+    "letters": [
+      "А",
+      "К",
+      "М",
+      "Н",
+      "О",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "НАСМОРК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "НОРКА",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КРОНА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "МРАК",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОМАН",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОСА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КОМ",
+        "row": 1,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "НОС",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 6,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СРОК",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 9,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "СОН",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "НАСМОРК",
+    "difficulty_score": 111.2,
+    "word_potential": 19
+  },
+  {
+    "id": 126,
+    "letters": [
+      "Е",
+      "Л",
+      "Н",
+      "Н",
+      "О",
+      "Т",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "ТОННЕЛЬ",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ОТЕЛЬ",
+        "row": 4,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕНЬ",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕН",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТОН",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕНЬ",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "НОЛЬ",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 7,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЕНОТ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ТОННЕЛЬ",
+    "difficulty_score": 98.0,
+    "word_potential": 13
+  },
+  {
+    "id": 127,
+    "letters": [
+      "А",
+      "В",
+      "К",
+      "Л",
+      "О",
+      "У",
+      "Ш"
+    ],
+    "words": [
+      {
+        "text": "ЛОВУШКА",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛК",
+        "row": 7,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ШКОЛА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "УЛОВ",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАК",
+        "row": 6,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "УЛОВКА",
+        "row": 2,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "КОВШ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "УКОЛ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КУШ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ЛОВУШКА",
+    "difficulty_score": 105.24,
+    "word_potential": 15
+  },
+  {
+    "id": 128,
+    "letters": [
+      "И",
+      "О",
+      "П",
+      "Р",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПРИРОСТ",
+        "row": 9,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 7,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СИРОП",
+        "row": 7,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТИП",
+        "row": 11,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 6,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ПИРС",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТИР",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 0,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПРИРОСТ",
+    "difficulty_score": 100.21,
+    "word_potential": 13
+  },
+  {
+    "id": 129,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "О",
+      "Р",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КРАСОТА",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "АСТРА",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "СТРОКА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОСА",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РАСА",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РОК",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 5,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 5,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КРАСОТА",
+    "difficulty_score": 106.73,
+    "word_potential": 23
+  },
+  {
+    "id": 130,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПУБЛИКА",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "БУЛКА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "КИПА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "БАК",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "БАЛ",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУПА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ПАУК",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КЛИП",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛУК",
+        "row": 4,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "КУБ",
+        "row": 4,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "ПИК",
+        "row": 8,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛУБ",
+        "row": 10,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПУБЛИКА",
+    "difficulty_score": 111.96,
+    "word_potential": 14
+  },
+  {
+    "id": 131,
+    "letters": [
+      "И",
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ПЛОТНИК",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КИНО",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ТИП",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИП",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "КИТ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 5,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 3,
+        "col": 9,
+        "direction": "down"
+      },
+      {
+        "text": "ПОТ",
+        "row": 7,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ПОНИ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛК",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИН",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПИЛОТ",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОТ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПЛОТНИК",
+    "difficulty_score": 115.22,
+    "word_potential": 19
+  },
+  {
+    "id": 132,
+    "letters": [
+      "А",
+      "В",
+      "Д",
+      "З",
+      "Л",
+      "О",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ВОДОЛАЗ",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАВОД",
+        "row": 3,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОЛА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 3,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОЗА",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ВОДА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЗ",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАД",
+        "row": 8,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ДОЗА",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОДА",
+        "row": 4,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ВОДОЛАЗ",
+    "difficulty_score": 96.13,
+    "word_potential": 12
+  },
+  {
+    "id": 133,
+    "letters": [
+      "А",
+      "В",
+      "Г",
+      "Е",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ТРЕВОГА",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТОВАР",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕРА",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ВРАГ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРГ",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ВОР",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 4,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РЕВ",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ОВРАГ",
+        "row": 5,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РОВ",
+        "row": 5,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕТО",
+        "row": 7,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "РОГ",
+        "row": 3,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ТРЕВОГА",
+    "difficulty_score": 104.04,
+    "word_potential": 13
+  },
+  {
+    "id": 134,
+    "letters": [
+      "А",
+      "А",
+      "Д",
+      "Е",
+      "К",
+      "Р",
+      "Ф"
+    ],
+    "words": [
+      {
+        "text": "КАФЕДРА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КАДР",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ФРАК",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ФАРА",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КАФЕ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КЕДР",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 0,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЕДА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 2,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КАФЕДРА",
+    "difficulty_score": 92.53,
+    "word_potential": 12
+  },
+  {
+    "id": 135,
+    "letters": [
+      "А",
+      "М",
+      "О",
+      "Р",
+      "С",
+      "Т",
+      "Э"
+    ],
+    "words": [
+      {
+        "text": "МАЭСТРО",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "АТОМ",
+        "row": 7,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "РОТА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "МАРТ",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "МАТРОС",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ОМАР",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТОМ",
+        "row": 7,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "МОСТ",
+        "row": 9,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "МАТ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 3,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "РОСА",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "МЭР",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СОРТ",
+        "row": 5,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 9,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "МАЭСТРО",
+    "difficulty_score": 121.22,
+    "word_potential": 15
+  },
+  {
+    "id": 136,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "Л",
+      "О",
+      "С",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КИСЛОТА",
+        "row": 8,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИКОТА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ТАКСИ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 6,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "СКОТ",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСА",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 1,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "СИЛА",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИСТ",
+        "row": 8,
+        "col": 4,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КИСЛОТА",
+    "difficulty_score": 114.9,
+    "word_potential": 17
+  },
+  {
+    "id": 137,
+    "letters": [
+      "А",
+      "Б",
+      "К",
+      "Л",
+      "О",
+      "Р",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "КОРАБЛЬ",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛБА",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "КОРЬ",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "БАК",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БЛОК",
+        "row": 5,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛЬ",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 8,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "БАЛ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 5,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАРЬ",
+        "row": 5,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "БОР",
+        "row": 6,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОРА",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОЛЬ",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КОРАБЛЬ",
+    "difficulty_score": 113.16,
+    "word_potential": 16
+  },
+  {
+    "id": 138,
+    "letters": [
+      "А",
+      "И",
+      "К",
+      "П",
+      "Р",
+      "У",
+      "Ц"
+    ],
+    "words": [
+      {
+        "text": "КРУПИЦА",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РУКА",
+        "row": 5,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПАРК",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "КУРИЦА",
+        "row": 2,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ПАУК",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КАРП",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 4,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЦИРК",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КИПА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПИК",
+        "row": 8,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КРУПА",
+        "row": 0,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПАРИ",
+        "row": 1,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 10,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КРУПИЦА",
+    "difficulty_score": 104.02,
+    "word_potential": 13
+  },
+  {
+    "id": 139,
+    "letters": [
+      "К",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т",
+      "Ы"
+    ],
+    "words": [
+      {
+        "text": "ОТПРЫСК",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "СПОРТ",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ТРОС",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 1,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "СКОТ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КОРТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ТОРС",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "СЫР",
+        "row": 9,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "РОСТ",
+        "row": 4,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ПОТ",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 9,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "СРОК",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 11,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОПЫТ",
+        "row": 3,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 7,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 5,
+        "col": 10,
+        "direction": "down"
+      },
+      {
+        "text": "ПОРТ",
+        "row": 0,
+        "col": 11,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 1,
+        "col": 10,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ОТПРЫСК",
+    "difficulty_score": 136.31,
+    "word_potential": 18
+  },
+  {
+    "id": 140,
+    "letters": [
+      "В",
+      "Е",
+      "Л",
+      "О",
+      "П",
+      "Р",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "ПУЛОВЕР",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "УЛОВ",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "РОВ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВОЛ",
+        "row": 5,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛ",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ОРЕЛ",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛОВ",
+        "row": 8,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПОЛЕ",
+        "row": 8,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ВОР",
+        "row": 8,
+        "col": 7,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПУЛОВЕР",
+    "difficulty_score": 98.17,
+    "word_potential": 13
+  },
+  {
+    "id": 141,
+    "letters": [
+      "А",
+      "А",
+      "К",
+      "Л",
+      "Р",
+      "С",
+      "У"
+    ],
+    "words": [
+      {
+        "text": "РУСАЛКА",
+        "row": 6,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СКАЛА",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РУКА",
+        "row": 4,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛУК",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "КУРС",
+        "row": 2,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "АРКА",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАРАУЛ",
+        "row": 3,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 1,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАСКА",
+        "row": 3,
+        "col": 11,
+        "direction": "down"
+      },
+      {
+        "text": "АКУЛА",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "РАСА",
+        "row": 7,
+        "col": 8,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "РУСАЛКА",
+    "difficulty_score": 106.03,
+    "word_potential": 13
+  },
+  {
+    "id": 142,
+    "letters": [
+      "А",
+      "Г",
+      "Д",
+      "З",
+      "И",
+      "Н",
+      "О"
+    ],
+    "words": [
+      {
+        "text": "ДИАГНОЗ",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ДОЗА",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ГАЗОН",
+        "row": 3,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ОДА",
+        "row": 6,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ДНО",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЗОНА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ГОД",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "НОГА",
+        "row": 1,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ГАЗ",
+        "row": 5,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ГИД",
+        "row": 5,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ДИАГНОЗ",
+    "difficulty_score": 86.77,
+    "word_potential": 10
+  },
+  {
+    "id": 143,
+    "letters": [
+      "А",
+      "А",
+      "И",
+      "К",
+      "Л",
+      "П",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КАПИТАЛ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПАЛКА",
+        "row": 7,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛИТКА",
+        "row": 11,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КИТ",
+        "row": 7,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛИТА",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ПЛАТА",
+        "row": 5,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАПА",
+        "row": 2,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КЛИП",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "КИПА",
+        "row": 7,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ПИК",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛИПА",
+        "row": 4,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТИП",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КАПИТАЛ",
+    "difficulty_score": 106.79,
+    "word_potential": 13
+  },
+  {
+    "id": 144,
+    "letters": [
+      "А",
+      "Б",
+      "И",
+      "К",
+      "О",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "АБРИКОС",
+        "row": 3,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ИСКРА",
+        "row": 6,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "БОКС",
+        "row": 4,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РОСА",
+        "row": 6,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "СБОР",
+        "row": 8,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "БАК",
+        "row": 9,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "БОР",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 3,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ИСК",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РИС",
+        "row": 2,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "СРОК",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "СОК",
+        "row": 8,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РАК",
+        "row": 10,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ИКРА",
+        "row": 8,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КОСА",
+        "row": 9,
+        "col": 8,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "АБРИКОС",
+    "difficulty_score": 115.22,
+    "word_potential": 16
+  },
+  {
+    "id": 145,
+    "letters": [
+      "Б",
+      "К",
+      "Л",
+      "Н",
+      "О",
+      "О",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "БЛОКНОТ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОКОН",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОКНО",
+        "row": 1,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "БОЛТ",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "КОТ",
+        "row": 6,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОБ",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КЛОН",
+        "row": 6,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "БЛОК",
+        "row": 8,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КОЛ",
+        "row": 2,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЛОТОК",
+        "row": 2,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ТОН",
+        "row": 4,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "ТОК",
+        "row": 6,
+        "col": 6,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "БЛОКНОТ",
+    "difficulty_score": 106.88,
+    "word_potential": 13
+  },
+  {
+    "id": 146,
+    "letters": [
+      "А",
+      "А",
+      "В",
+      "Е",
+      "К",
+      "Л",
+      "Р"
+    ],
+    "words": [
+      {
+        "text": "КАВАЛЕР",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ВЕРА",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВКА",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "РЕКА",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "КАРЕ",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАВА",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 6,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "КАРА",
+        "row": 8,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "ВАЛ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАВР",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 5,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "ЛАК",
+        "row": 3,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "ЛЕВ",
+        "row": 3,
+        "col": 8,
+        "direction": "across"
+      },
+      {
+        "text": "РЕВ",
+        "row": 8,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ВЕК",
+        "row": 10,
+        "col": 5,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КАВАЛЕР",
+    "difficulty_score": 115.64,
+    "word_potential": 15
+  },
+  {
+    "id": 147,
+    "letters": [
+      "Е",
+      "Л",
+      "О",
+      "Р",
+      "С",
+      "Т",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "ОТСТРЕЛ",
+        "row": 5,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТО",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ТРОС",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "СОРТ",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРТ",
+        "row": 3,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ТЕСТ",
+        "row": 5,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "РОСТ",
+        "row": 5,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "ЛОТ",
+        "row": 1,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРС",
+        "row": 7,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕС",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "СТОЛ",
+        "row": 8,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕТО",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      },
+      {
+        "text": "ОРЕЛ",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ТЕЛО",
+        "row": 1,
+        "col": 9,
+        "direction": "down"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ОТСТРЕЛ",
+    "difficulty_score": 106.27,
+    "word_potential": 14
+  },
+  {
+    "id": 148,
+    "letters": [
+      "А",
+      "Д",
+      "Е",
+      "З",
+      "К",
+      "Л",
+      "Ь"
+    ],
+    "words": [
+      {
+        "text": "КЛАДЕЗЬ",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "КЛАДЬ",
+        "row": 4,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КЛАД",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "ЗЛАК",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ЛАД",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "ЕДА",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ЛЕД",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ЕЛЬ",
+        "row": 5,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ЕЗДА",
+        "row": 0,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ЗАЛ",
+        "row": 1,
+        "col": 7,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КЛАДЕЗЬ",
+    "difficulty_score": 87.36,
+    "word_potential": 11
+  },
+  {
+    "id": 149,
+    "letters": [
+      "А",
+      "Е",
+      "Н",
+      "О",
+      "П",
+      "Р",
+      "С"
+    ],
+    "words": [
+      {
+        "text": "ПЕРСОНА",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ОПЕРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "НАПОР",
+        "row": 1,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕС",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "ОСПА",
+        "row": 3,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОСА",
+        "row": 0,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "НОС",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ПЕРО",
+        "row": 5,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "РЕПА",
+        "row": 5,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "СОН",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "НОРА",
+        "row": 6,
+        "col": 3,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "ПЕРСОНА",
+    "difficulty_score": 94.41,
+    "word_potential": 11
+  },
+  {
+    "id": 150,
+    "letters": [
+      "А",
+      "А",
+      "Г",
+      "К",
+      "О",
+      "Р",
+      "Т"
+    ],
+    "words": [
+      {
+        "text": "КАТОРГА",
+        "row": 4,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "АГАТ",
+        "row": 5,
+        "col": 3,
+        "direction": "across"
+      },
+      {
+        "text": "АРКА",
+        "row": 5,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "ТОРГ",
+        "row": 9,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "КРОТ",
+        "row": 7,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ТОК",
+        "row": 4,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "КОРТ",
+        "row": 2,
+        "col": 6,
+        "direction": "down"
+      },
+      {
+        "text": "РОК",
+        "row": 2,
+        "col": 4,
+        "direction": "across"
+      },
+      {
+        "text": "РАК",
+        "row": 4,
+        "col": 6,
+        "direction": "across"
+      },
+      {
+        "text": "КОРА",
+        "row": 7,
+        "col": 5,
+        "direction": "across"
+      },
+      {
+        "text": "КОТ",
+        "row": 2,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "РОТА",
+        "row": 7,
+        "col": 7,
+        "direction": "down"
+      },
+      {
+        "text": "ГОРА",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "РОГАТКА",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "КАРА",
+        "row": 4,
+        "col": 8,
+        "direction": "down"
+      },
+      {
+        "text": "РОГ",
+        "row": 6,
+        "col": 8,
+        "direction": "across"
+      }
+    ],
+    "chapter": "Север",
+    "seed": "КАТОРГА",
+    "difficulty_score": 120.05,
+    "word_potential": 16
+  }
+]

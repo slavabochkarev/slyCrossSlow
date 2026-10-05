@@ -1,0 +1,335 @@
+PRELIMINARY SHORTLIST (square_score >= 0.85, used >= 7, no flagged words)
+01, 02, 11, 12, 13, 14, 15, 16, 17, 19, 20
+
+CANDIDATE 01 / 6 букв
+LETTER SET: К Л О С Т У
+SEED: ЛОСКУТ
+WORD POTENTIAL: 3: 6 · 4: 5 · 6: 1 · TOTAL 12
+ALL POSSIBLE: КОЛ, КОТ, КУСТ, ЛОСКУТ, ЛОТ, ЛУК, СКОТ, СОК, СТОЛ, СТУЛ, ТОК, УКОЛ
+USED WORDS (7): ЛОСКУТ, СТУЛ, СТОЛ, КОЛ, ТОК, УКОЛ, СКОТ
+GRID
+С · Л · · К
+К · О · · О
+О · С Т У Л
+Т О К · К ·
+· · У · О ·
+· С Т О Л ·
+SIZE: 6 × 6 · DENSITY: 0.583 · CROSSINGS: 7 · SQUARE SCORE: 1.000 · GEOMETRY: 153.524
+QUESTIONABLE USED: none
+
+CANDIDATE 02 / 6 букв
+LETTER SET: В Е К О Р Т
+SEED: ВЕКТОР
+WORD POTENTIAL: 3: 7 · 4: 3 · 5: 1 · 6: 1 · TOTAL 12
+ALL POSSIBLE: ВЕК, ВЕКТОР, ВЕТО, ВОР, КОВЕР, КОРТ, КОТ, КРОТ, РЕВ, РОВ, РОК, ТОК
+USED WORDS (7): ВЕКТОР, КОВЕР, КРОТ, РОК, РОВ, ВОР, РЕВ
+GRID
+· · · Р Е В
+В О Р · · Е
+· · О · · К
+· · К Р О Т
+· · · О · О
+· К О В Е Р
+SIZE: 6 × 6 · DENSITY: 0.556 · CROSSINGS: 7 · SQUARE SCORE: 1.000 · GEOMETRY: 151.302
+QUESTIONABLE USED: none
+
+CANDIDATE 03 / 6 букв
+LETTER SET: А М О Р С Т
+SEED: МАТРОС
+WORD POTENTIAL: 3: 2 · 4: 10 · 6: 1 · TOTAL 13
+ALL POSSIBLE: АТОМ, МАРТ, МАТ, МАТРОС, МОСТ, ОМАР, РОСА, РОСТ, РОТА, СОРТ, ТОМ, ТОРС, ТРОС
+USED WORDS (6): МАТРОС, АТОМ, РОСТ, РОТА, ОМАР, РОСА
+GRID
+· · О М А Р
+· Р · А · О
+Р О С Т · С
+· Т · Р · А
+· А Т О М ·
+· · · С · ·
+SIZE: 6 × 6 · DENSITY: 0.556 · CROSSINGS: 6 · SQUARE SCORE: 1.000 · GEOMETRY: 150.778
+QUESTIONABLE USED: none
+
+CANDIDATE 04 / 6 букв
+LETTER SET: К О П Р С У
+SEED: КОРПУС
+WORD POTENTIAL: 3: 3 · 4: 5 · 5: 1 · 6: 1 · TOTAL 10
+ALL POSSIBLE: КОРПУС, КУРС, РОК, СОК, СРОК, СУП, СУРОК, УКОР, УПОР, УРОК
+USED WORDS (6): КОРПУС, СУРОК, КУРС, УПОР, УКОР, УРОК
+GRID
+· · У Р О К
+С · К · · ·
+У П О Р · К
+Р · Р · · У
+О · · · · Р
+К О Р П У С
+SIZE: 6 × 6 · DENSITY: 0.611 · CROSSINGS: 5 · SQUARE SCORE: 1.000 · GEOMETRY: 150.222
+QUESTIONABLE USED: none
+
+CANDIDATE 05 / 6 букв
+LETTER SET: А Д К Н О Р
+SEED: ДРАКОН
+WORD POTENTIAL: 3: 5 · 4: 3 · 5: 3 · 6: 1 · TOTAL 12
+ALL POSSIBLE: ДНО, ДРАКОН, КАДР, КОД, КОРА, КРОНА, НАРОД, НОРА, НОРКА, ОДА, РАК, РОК
+USED WORDS (6): ДРАКОН, НАРОД, КРОНА, РАК, НОРА, ОДА
+GRID
+Р · · О Д А
+А · Н · Р ·
+К Р О Н А ·
+· · Р · К ·
+· Н А Р О Д
+· · · · Н ·
+SIZE: 6 × 6 · DENSITY: 0.556 · CROSSINGS: 6 · SQUARE SCORE: 1.000 · GEOMETRY: 149.111
+QUESTIONABLE USED: none
+
+CANDIDATE 06 / 6 букв
+LETTER SET: А И К Л О П
+SEED: ОПИЛКА
+WORD POTENTIAL: 3: 4 · 4: 4 · 5: 1 · 6: 1 · TOTAL 10
+ALL POSSIBLE: КИПА, КЛИП, КОЛ, ЛАК, ЛИПА, ОПИЛКА, ПИК, ПОЛ, ПОЛК, ПОЛКА
+USED WORDS (6): ОПИЛКА, ПОЛКА, ПОЛК, КЛИП, ПИК, ЛИПА
+GRID
+П · · · · П
+И · · · · О
+К Л И П · Л
+· И · О · К
+О П И Л К А
+· А · К · ·
+SIZE: 6 × 6 · DENSITY: 0.556 · CROSSINGS: 6 · SQUARE SCORE: 1.000 · GEOMETRY: 149.111
+QUESTIONABLE USED: none
+
+CANDIDATE 07 / 6 букв
+LETTER SET: А В З К Л О
+SEED: ВОКЗАЛ
+WORD POTENTIAL: 3: 8 · 4: 4 · 6: 1 · TOTAL 13
+ALL POSSIBLE: ВАЛ, ВОЗ, ВОКЗАЛ, ВОЛ, ВОЛК, ЗАЛ, ЗЛАК, ЗОЛА, КОЛ, ЛАЗ, ЛАК, ЛОВ, ЛОЗА
+USED WORDS (7): ВОКЗАЛ, ЛОЗА, ВОЛК, ВАЛ, ЗАЛ, КОЛ, ЛОВ
+GRID
+· · · В · ·
+· · · О · К
+В О Л К · О
+А · · З А Л
+Л О З А · ·
+· · · Л О В
+SIZE: 6 × 6 · DENSITY: 0.528 · CROSSINGS: 7 · SQUARE SCORE: 1.000 · GEOMETRY: 149.079
+QUESTIONABLE USED: ЛОВ
+
+CANDIDATE 08 / 6 букв
+LETTER SET: А И К П Р Т
+SEED: КРИПТА
+WORD POTENTIAL: 3: 5 · 4: 6 · 6: 1 · TOTAL 12
+ALL POSSIBLE: ИКРА, КАРП, КИПА, КИТ, КРИПТА, ПАРИ, ПАРК, ПИК, РАК, ТИП, ТИР, ТРАП
+USED WORDS (6): КРИПТА, ИКРА, ПАРК, РАК, ПАРИ, КИПА
+GRID
+К · К · · ·
+И К Р А · ·
+П · И · · ·
+А · П А Р И
+· · Т · А ·
+· П А Р К ·
+SIZE: 6 × 6 · DENSITY: 0.528 · CROSSINGS: 6 · SQUARE SCORE: 1.000 · GEOMETRY: 148.556
+QUESTIONABLE USED: none
+
+CANDIDATE 09 / 6 букв
+LETTER SET: К Л Н О Т У
+SEED: КОЛТУН
+WORD POTENTIAL: 3: 6 · 4: 3 · 5: 1 · 6: 1 · TOTAL 11
+ALL POSSIBLE: КЛОН, КЛОУН, КНУТ, КОЛ, КОЛТУН, КОТ, ЛОТ, ЛУК, ТОК, ТОН, УКОЛ
+USED WORDS (6): КОЛТУН, КЛОУН, КНУТ, УКОЛ, ТОН, ЛОТ
+GRID
+· К Н У Т ·
+· О · · О ·
+К Л О У Н ·
+· Т · К · ·
+· У · О · ·
+· Н · Л О Т
+SIZE: 6 × 6 · DENSITY: 0.528 · CROSSINGS: 6 · SQUARE SCORE: 1.000 · GEOMETRY: 148.556
+QUESTIONABLE USED: none
+
+CANDIDATE 10 / 6 букв
+LETTER SET: А К М О Р Ш
+SEED: КОШМАР
+WORD POTENTIAL: 3: 5 · 4: 5 · 5: 1 · 6: 1 · TOTAL 12
+ALL POSSIBLE: КОМ, КОМАР, КОРА, КОШМАР, МАРШ, МРАК, ОМАР, РАК, РОК, ШАР, ШОК, ШРАМ
+USED WORDS (6): КОШМАР, КОМАР, КОРА, РОК, ОМАР, КОМ
+GRID
+· · · · · О
+· · · К О М
+· К · О · А
+К О Ш М А Р
+· Р · А · ·
+· А · Р О К
+SIZE: 6 × 6 · DENSITY: 0.528 · CROSSINGS: 6 · SQUARE SCORE: 1.000 · GEOMETRY: 146.889
+QUESTIONABLE USED: none
+
+CANDIDATE 11 / 7 букв
+LETTER SET: А А К О Р С Т
+SEED: КРАСОТА
+WORD POTENTIAL: 3: 5 · 4: 15 · 5: 1 · 6: 1 · 7: 1 · TOTAL 23
+ALL POSSIBLE: АРКА, АСТРА, КАРА, КОРА, КОРТ, КОСА, КОТ, КРАСОТА, КРОТ, РАК, РАСА, РОК, РОСА, РОСТ, РОТА, СКОТ, СОК, СОРТ, СРОК, СТРОКА, ТОК, ТОРС, ТРОС
+USED WORDS (8): КРАСОТА, СТРОКА, ТОРС, КАРА, СОК, АСТРА, РАК, КОРА
+GRID
+· · · · · · К
+А С Т Р А · О
+· Т · · · · Р
+К Р А С О Т А
+· О · О · О ·
+· К · К А Р А
+Р А К · · С ·
+SIZE: 7 × 7 · DENSITY: 0.571 · CROSSINGS: 8 · SQUARE SCORE: 1.000 · GEOMETRY: 149.714
+QUESTIONABLE USED: none
+
+CANDIDATE 12 / 7 букв
+LETTER SET: А Д И К Н О Р
+SEED: РОДИНКА
+WORD POTENTIAL: 3: 5 · 4: 5 · 5: 4 · 6: 3 · 7: 1 · TOTAL 18
+ALL POSSIBLE: ДНО, ДРАКОН, ИКРА, КАДР, КИНО, КОД, КОРА, КРОНА, НАРОД, НОРА, НОРКА, ОДА, РАДИО, РАК, РОДИНА, РОДИНКА, РОДНИК, РОК
+USED WORDS (9): РОДИНКА, РОДНИК, НАРОД, РОДИНА, НОРКА, ДРАКОН, КОРА, ИКРА, РОК
+GRID
+· · К О Р А · ·
+· · · · О · · ·
+Н А Р О Д · Д ·
+О · О · И · Р ·
+Р О Д И Н К А ·
+К · Н · А · К ·
+А · И · · Р О К
+· И К Р А · Н ·
+SIZE: 8 × 8 · DENSITY: 0.562 · CROSSINGS: 10 · SQUARE SCORE: 1.000 · GEOMETRY: 149.667
+QUESTIONABLE USED: none
+
+CANDIDATE 13 / 7 букв
+LETTER SET: А А К К О Р С
+SEED: ОКРАСКА
+WORD POTENTIAL: 3: 3 · 4: 7 · 5: 3 · 6: 1 · 7: 1 · TOTAL 15
+ALL POSSIBLE: АРКА, КАКАО, КАРА, КАРКАС, КАСКА, КОРА, КОРКА, КОСА, ОКРАСКА, РАК, РАСА, РОК, РОСА, СОК, СРОК
+USED WORDS (10): ОКРАСКА, КАРКАС, КАКАО, РОСА, РАСА, КАСКА, СОК, КОСА, РОК, КОРА
+GRID
+· К О С А · · ·
+К · · О · О · Р
+О · · К А К А О
+Р О К · · Р · С
+А · А · Р А С А
+· · С · · С · ·
+· · К А Р К А С
+· · А · · А · ·
+SIZE: 8 × 8 · DENSITY: 0.547 · CROSSINGS: 10 · SQUARE SCORE: 1.000 · GEOMETRY: 148.950
+QUESTIONABLE USED: none
+
+CANDIDATE 14 / 7 букв
+LETTER SET: Е О П Р С Т Т
+SEED: ПРОТЕСТ
+WORD POTENTIAL: 3: 2 · 4: 8 · 5: 2 · 7: 1 · TOTAL 13
+ALL POSSIBLE: ПЕРО, ПЕС, ПОРТ, ПОТ, ПРОТЕСТ, РОСТ, СОРТ, СПОРТ, ТЕСТ, ТЕСТО, ТОРС, ТОРТ, ТРОС
+USED WORDS (8): ПРОТЕСТ, ТЕСТО, ПОРТ, ТЕСТ, СПОРТ, СОРТ, ТОРС, ПЕС
+GRID
+С О Р Т · П ·
+П · · · · Е ·
+О · Т О Р С ·
+Р · Е · · · П
+Т Е С Т · · О
+· · Т · · · Р
+П Р О Т Е С Т
+SIZE: 7 × 7 · DENSITY: 0.592 · CROSSINGS: 7 · SQUARE SCORE: 1.000 · GEOMETRY: 148.847
+QUESTIONABLE USED: none
+
+CANDIDATE 15 / 7 букв
+LETTER SET: А И К Л О С Т
+SEED: КИСЛОТА
+WORD POTENTIAL: 3: 8 · 4: 6 · 5: 2 · 7: 1 · TOTAL 17
+ALL POSSIBLE: ИКОТА, ИСК, КИСЛОТА, КИТ, КОЛ, КОСА, КОТ, ЛАК, ЛИСА, ЛИСТ, ЛОТ, СИЛА, СКОТ, СОК, СТОЛ, ТАКСИ, ТОК
+USED WORDS (9): КИСЛОТА, ИКОТА, ТАКСИ, КОСА, ИСК, СОК, ТОК, КИТ, ЛАК
+GRID
+Л А К · · · ·
+· · И С К · Т
+· · С · О · О
+К · Л · С О К
+И К О Т А · ·
+Т · Т · · · ·
+· Т А К С И ·
+SIZE: 7 × 7 · DENSITY: 0.551 · CROSSINGS: 9 · SQUARE SCORE: 1.000 · GEOMETRY: 148.748
+QUESTIONABLE USED: none
+
+CANDIDATE 16 / 7 букв
+LETTER SET: В Е К Н О Р Т
+SEED: КОНВЕРТ
+WORD POTENTIAL: 3: 8 · 4: 5 · 5: 2 · 6: 1 · 7: 1 · TOTAL 17
+ALL POSSIBLE: ВЕК, ВЕКТОР, ВЕНОК, ВЕТО, ВОР, ЕНОТ, КОВЕР, КОНВЕРТ, КОРТ, КОТ, КРОТ, НЕРВ, РЕВ, РОВ, РОК, ТОК, ТОН
+USED WORDS (10): КОНВЕРТ, ВЕКТОР, КОВЕР, КРОТ, ВЕК, ВЕНОК, КОТ, ЕНОТ, ТОК, РЕВ
+GRID
+· · · К О В Е Р
+· · · О · Е · ·
+· В Е Н О К · ·
+· · · В · · · К
+· · В Е К Т О Р
+Р · · Р · О · О
+Е Н О Т · К О Т
+В · · · · · · ·
+SIZE: 8 × 8 · DENSITY: 0.500 · CROSSINGS: 11 · SQUARE SCORE: 1.000 · GEOMETRY: 148.200
+QUESTIONABLE USED: none
+
+CANDIDATE 17 / 7 букв
+LETTER SET: А А Г К О Р Т
+SEED: КАТОРГА
+WORD POTENTIAL: 3: 5 · 4: 9 · 7: 2 · TOTAL 16
+ALL POSSIBLE: АГАТ, АРКА, ГОРА, КАРА, КАТОРГА, КОРА, КОРТ, КОТ, КРОТ, РАК, РОГ, РОГАТКА, РОК, РОТА, ТОК, ТОРГ
+USED WORDS (8): КАТОРГА, РОГАТКА, РОТА, ТОК, КАРА, АРКА, РОК, КОТ
+GRID
+· А · · · · Р
+· Р О К · · О
+· К · · · · Г
+К А Т О Р Г А
+О · · · О · Т
+Т · · · Т О К
+· К А Р А · А
+SIZE: 7 × 7 · DENSITY: 0.551 · CROSSINGS: 8 · SQUARE SCORE: 1.000 · GEOMETRY: 148.082
+QUESTIONABLE USED: none
+
+CANDIDATE 18 / 7 букв
+LETTER SET: А Е З К Л О Р
+SEED: ЗЕРКАЛО
+WORD POTENTIAL: 3: 7 · 4: 8 · 5: 1 · 7: 1 · TOTAL 17
+ALL POSSIBLE: ЗАЛ, ЗЕРКАЛО, ЗЛАК, ЗОЛА, КАРЕ, КОЗЕЛ, КОЛ, КОРА, ЛАЗ, ЛАК, ЛОЗА, ОРЕЛ, РАЗ, РАК, РЕКА, РОЗА, РОК
+USED WORDS (8): ЗЕРКАЛО, КОЗЕЛ, РЕКА, ОРЕЛ, ЛАЗ, РОЗА, ЛОЗА, РАЗ
+GRID
+· К О З Е Л ·
+· · · Е · А ·
+· О · Р О З А
+· Р · К · · ·
+Р Е К А · · Р
+· Л · Л О З А
+· · · О · · З
+SIZE: 7 × 7 · DENSITY: 0.531 · CROSSINGS: 8 · SQUARE SCORE: 1.000 · GEOMETRY: 147.699
+QUESTIONABLE USED: ЛАЗ, РАЗ
+
+CANDIDATE 19 / 7 букв
+LETTER SET: А Д К М О Р Т
+SEED: ДОМКРАТ
+WORD POTENTIAL: 3: 10 · 4: 10 · 5: 2 · 7: 1 · TOTAL 23
+ALL POSSIBLE: АТОМ, ДОМ, ДОМКРАТ, КАДР, КОД, КОМ, КОМАР, КОРА, КОРТ, КОТ, КРОТ, МАРТ, МАТ, МОДА, МОРДА, МРАК, ОДА, ОМАР, РАК, РОК, РОТА, ТОК, ТОМ
+USED WORDS (8): ДОМКРАТ, КОМАР, КОРТ, КРОТ, ТОМ, КОМ, РОК, КОРА
+GRID
+· К О Р А · ·
+· · · О · К ·
+· · · К Р О Т
+· К · · · М ·
+Д О М К Р А Т
+· Р · О · Р ·
+· Т О М · · ·
+SIZE: 7 × 7 · DENSITY: 0.510 · CROSSINGS: 8 · SQUARE SCORE: 1.000 · GEOMETRY: 147.316
+QUESTIONABLE USED: none
+
+CANDIDATE 20 / 7 букв
+LETTER SET: А А И К Н О Р
+SEED: ОКРАИНА
+WORD POTENTIAL: 3: 2 · 4: 7 · 5: 3 · 7: 1 · TOTAL 13
+ALL POSSIBLE: АРКА, АРКАН, ИКРА, КАРА, КИНО, КОРА, КРОНА, НОРА, НОРКА, ОКРАИНА, РАК, РАНА, РОК
+USED WORDS (7): ОКРАИНА, АРКАН, НОРКА, РАНА, ИКРА, КАРА, КРОНА
+GRID
+· · К Р О Н А
+Н · А · · · ·
+О К Р А И Н А
+Р · А · К · Р
+К · · · Р · К
+А · · Р А Н А
+· · · · · · Н
+SIZE: 7 × 7 · DENSITY: 0.551 · CROSSINGS: 7 · SQUARE SCORE: 1.000 · GEOMETRY: 147.224
+QUESTIONABLE USED: none

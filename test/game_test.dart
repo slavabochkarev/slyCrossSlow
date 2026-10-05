@@ -20,7 +20,7 @@ void main() {
 
   test('every word can be made from its level letters', () async {
     final levels = await LevelRepository().load();
-    expect(levels.length, 3);
+    expect(levels.length, 150);
     for (final level in levels) {
       for (final word in level.words) {
         final available = [...level.letters];
@@ -113,7 +113,7 @@ void main() {
       expect(openCount(), 1);
       await tester.pump(const Duration(milliseconds: 180));
       expect(openCount(), 3);
-      await tester.tap(find.text('10 💎'));
+      await tester.tap(find.byIcon(Icons.lightbulb));
       await tester.pump();
       expect(openCount(), 4);
       await tester.pump(const Duration(seconds: 2));

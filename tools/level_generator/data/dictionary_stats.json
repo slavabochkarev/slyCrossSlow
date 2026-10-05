@@ -1,0 +1,33 @@
+{
+  "source_lines": {
+    "pyatibukv_answers": 423,
+    "pyatibukv_accepted": 3470,
+    "harrix": 51301,
+    "common": 3261
+  },
+  "pyatibukv_five_raw": 3470,
+  "pyatibukv_five_game": 423,
+  "raw_by_length": {
+    "3": 470,
+    "4": 1605,
+    "5": 3470,
+    "6": 4830,
+    "7": 6313
+  },
+  "game_by_length": {
+    "3": 126,
+    "4": 403,
+    "5": 420,
+    "6": 618,
+    "7": 522
+  },
+  "raw_total": 16688,
+  "game_total": 2089,
+  "cleaning": {
+    "duplicates_removed": 32,
+    "invalid_characters": 391,
+    "other_rejected": 14599,
+    "wrong_length": 34187
+  },
+  "common_not_in_harrix": 42
+}

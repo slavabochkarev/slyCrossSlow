@@ -1,25 +1,47 @@
+import 'dart:convert';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
-class SavedProgress {
-  const SavedProgress(this.currentLevel, this.completed);
-  final int currentLevel;
-  final Set<int> completed;
-}
+import 'campaign_progress.dart';
 
 class ProgressRepository {
-  final _preferences = SharedPreferencesAsync();
+  ProgressRepository({SharedPreferencesAsync? preferences})
+    : _preferences = preferences ?? SharedPreferencesAsync();
 
-  Future<SavedProgress> load() async {
-    final current = await _preferences.getInt('current_level') ?? 1;
-    final ids = await _preferences.getStringList('completed_levels') ?? [];
-    return SavedProgress(current, ids.map(int.parse).toSet());
+  static const stateKey = 'campaign_150_state_v2';
+  static const _legacyKeys = <String>[
+    'current_level',
+    'completed_levels',
+    'crystal_balance',
+  ];
+
+  final SharedPreferencesAsync _preferences;
+
+  Future<CampaignProgress> load() async {
+    final source = await _preferences.getString(stateKey);
+    if (source != null) {
+      try {
+        return CampaignProgress.fromJson(
+          jsonDecode(source) as Map<String, dynamic>,
+        );
+      } on FormatException {
+        // A malformed or unknown campaign schema starts a clean campaign.
+      } on TypeError {
+        // Treat malformed local state the same way as an unknown schema.
+      }
+    }
+    final fresh = CampaignProgress();
+    // Save first so a crash during legacy cleanup cannot revive test progress.
+    await save(fresh);
+    for (final key in _legacyKeys) {
+      await _preferences.remove(key);
+    }
+    return fresh;
   }
 
-  Future<void> save(int currentLevel, Set<int> completed) async {
-    await _preferences.setInt('current_level', currentLevel);
-    await _preferences.setStringList(
-      'completed_levels',
-      completed.map((id) => '$id').toList(),
-    );
-  }
+  Future<void> save(CampaignProgress state) =>
+      saveEncoded(jsonEncode(state.toJson()));
+
+  Future<void> saveEncoded(String encoded) =>
+      _preferences.setString(stateKey, encoded);
 }

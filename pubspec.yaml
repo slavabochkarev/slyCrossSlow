@@ -66,8 +66,29 @@ flutter:
   uses-material-design: true
   assets:
     - assets/levels.json
+    - assets/game_words.txt
     - assets/backgrounds/forest_portrait.png
     - assets/backgrounds/forest_wide.png
+    - assets/backgrounds/forest_01.webp
+    - assets/backgrounds/forest_02.webp
+    - assets/backgrounds/forest_03.webp
+    - assets/backgrounds/lake_01.webp
+    - assets/backgrounds/lake_02.webp
+    - assets/backgrounds/lake_03.webp
+    - assets/backgrounds/lake_04.webp
+    - assets/backgrounds/mountains_01.webp
+    - assets/backgrounds/mountains_02.webp
+    - assets/backgrounds/mountains_03.webp
+    - assets/backgrounds/mountains_04.webp
+    - assets/backgrounds/castle_01.webp
+    - assets/backgrounds/castle_02.webp
+    - assets/backgrounds/castle_03.webp
+    - assets/backgrounds/castle_04.webp
+    - assets/backgrounds/north_01.webp
+    - assets/backgrounds/north_02.webp
+    - assets/backgrounds/north_03.webp
+    - assets/backgrounds/north_04.webp
+    - assets/backgrounds/north_05.webp
     - doc/load.png
     - doc/logo.png
 
