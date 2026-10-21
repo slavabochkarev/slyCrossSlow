@@ -1,3 +1,5 @@
+import '../../l10n/localized_content.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../campaign/campaign_chapter.dart';
@@ -6,10 +8,12 @@ import '../../campaign/chapter_scene_backdrop.dart';
 import '../../core/theme/game_theme.dart';
 import '../../core/widgets/pixel_ui.dart';
 import '../../core/widgets/scenic_background.dart';
+import '../../game_language.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({
     super.key,
+    this.language = GameLanguage.ru,
     required this.level,
     required this.totalLevels,
     required this.completed,
@@ -21,6 +25,7 @@ class HomeScreen extends StatelessWidget {
   });
 
   final int level;
+  final GameLanguage language;
   final int totalLevels;
   final int completed;
   final bool campaignCompleted;
@@ -60,7 +65,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             PixelIconButton(
                               icon: Icons.menu_rounded,
-                              label: 'Меню',
+                              label: context.l10n.menuTooltip,
                               onPressed: () => onMenu?.call(context),
                             ),
                             const Spacer(),
@@ -106,7 +111,7 @@ class HomeScreen extends StatelessWidget {
                                 ),
                                 SizedBox(height: wide ? 26 : 20),
                                 Text(
-                                  'ПУТЕШЕСТВИЕ',
+                                  context.l10n.journeyTitle,
                                   style: TextStyle(
                                     color: palette.ink,
                                     fontSize: wide ? 19 : 16,
@@ -132,8 +137,9 @@ class HomeScreen extends StatelessWidget {
                                     children: [
                                       Text(
                                         campaignCompleted
-                                            ? 'КРАЙ СВЕТА'
-                                            : 'УРОВЕНЬ $level',
+                                            ? context.l10n.sceneNorth05
+                                                  .toUpperCase()
+                                            : context.l10n.levelLabel(level),
                                         style: TextStyle(
                                           color: palette.ink,
                                           fontSize: campaignCompleted
@@ -145,8 +151,13 @@ class HomeScreen extends StatelessWidget {
                                       const SizedBox(height: 5),
                                       Text(
                                         campaignCompleted
-                                            ? 'Кампания пройдена'
-                                            : 'Глава ${chapter.id} · ${chapter.name}',
+                                            ? context.l10n.campaignCompleted
+                                            : context.l10n.chapterLabel(
+                                                chapter.id,
+                                                context.l10n.chapterName(
+                                                  chapter.id,
+                                                ),
+                                              ),
                                         style: TextStyle(
                                           color: palette.muted,
                                           fontSize: 16,
@@ -186,7 +197,9 @@ class HomeScreen extends StatelessWidget {
                                       if (campaignCompleted) ...[
                                         const SizedBox(height: 12),
                                         Text(
-                                          'Бесконечная игра · $endlessRoundsCompleted',
+                                          context.l10n.endlessHomeSummary(
+                                            endlessRoundsCompleted,
+                                          ),
                                         ),
                                       ],
                                     ],
@@ -210,8 +223,8 @@ class HomeScreen extends StatelessWidget {
                                         children: [
                                           Text(
                                             campaignCompleted
-                                                ? 'ИГРАТЬ'
-                                                : 'ПРОДОЛЖИТЬ',
+                                                ? context.l10n.playButton
+                                                : context.l10n.continueButton,
                                             style: const TextStyle(
                                               fontSize: 20,
                                               letterSpacing: 1,
@@ -272,7 +285,7 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         PixelIconButton(
                           icon: Icons.menu_rounded,
-                          label: 'Меню',
+                          label: context.l10n.menuTooltip,
                           onPressed: () => onMenu?.call(context),
                         ),
                         const Spacer(),
@@ -317,8 +330,8 @@ class HomeScreen extends StatelessWidget {
                         children: [
                           Text(
                             campaignCompleted
-                                ? scene.title.toUpperCase()
-                                : 'УРОВЕНЬ $level',
+                                ? context.l10n.sceneName(scene.id).toUpperCase()
+                                : context.l10n.levelLabel(level),
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.white,
@@ -330,8 +343,11 @@ class HomeScreen extends StatelessWidget {
                           const SizedBox(height: 4),
                           Text(
                             campaignCompleted
-                                ? 'Кампания пройдена'
-                                : 'Глава ${chapter.id} · ${chapter.name}',
+                                ? context.l10n.campaignCompleted
+                                : context.l10n.chapterLabel(
+                                    chapter.id,
+                                    context.l10n.chapterName(chapter.id),
+                                  ),
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 17,
@@ -397,7 +413,9 @@ class HomeScreen extends StatelessWidget {
                           const SizedBox(height: 23),
                           if (campaignCompleted) ...[
                             Text(
-                              'Бесконечная игра · $endlessRoundsCompleted',
+                              context.l10n.endlessHomeSummary(
+                                endlessRoundsCompleted,
+                              ),
                               style: const TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
@@ -417,7 +435,9 @@ class HomeScreen extends StatelessWidget {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Text(
-                                    campaignCompleted ? 'ИГРАТЬ' : 'ПРОДОЛЖИТЬ',
+                                    campaignCompleted
+                                        ? context.l10n.playButton
+                                        : context.l10n.continueButton,
                                     style: const TextStyle(
                                       fontSize: 17,
                                       letterSpacing: .6,

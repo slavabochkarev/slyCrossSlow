@@ -44,6 +44,7 @@ void main() {
     final source = levels.singleWhere((level) => level.id == sourceId);
     expect(state.startEndless(levels, random: Random(1)), sourceId);
     expect(state.recordEndlessHint(), isTrue);
+    state.recordEndlessRevealedHintCell('0:0');
     expect(state.crystals, 10);
     for (final word in source.words) {
       expect(state.recordEndlessWord(source, word.text), isTrue);
@@ -60,6 +61,7 @@ void main() {
     expect(state.completedLevels, 150);
     expect(state.pendingChapterId, isNull);
     expect(state.activeEndlessSourceLevelId, isNull);
+    expect(state.endlessRevealedHintCells, isEmpty);
   });
 
   test('random selection excludes the last ten source levels', () async {
@@ -102,22 +104,28 @@ void main() {
       ..remove('endlessRoundsCompleted')
       ..remove('activeEndlessSourceLevelId')
       ..remove('endlessFoundWords')
+      ..remove('revealedHintCells')
+      ..remove('endlessRevealedHintCells')
       ..remove('endlessHinted')
       ..remove('recentEndlessSourceLevelIds');
     final migrated = CampaignProgress.fromJson(oldJson);
     expect(migrated.campaignCompleted, isTrue);
     expect(migrated.endlessRoundsCompleted, 0);
     expect(migrated.campaignFinalSeen, isFalse);
+    expect(migrated.endlessRevealedHintCells, isEmpty);
 
     final sourceId = migrated.startEndless(levels, random: Random(3));
     final source = levels.singleWhere((level) => level.id == sourceId);
     migrated.recordEndlessWord(source, source.words.first.text);
+    migrated.recordEndlessHint();
+    migrated.recordEndlessRevealedHintCell('0:0');
     await ProgressRepository().save(migrated);
     final restored = await ProgressRepository().load();
     expect(restored.campaignCompleted, isTrue);
     expect(restored.currentLevel, 150);
     expect(restored.activeEndlessSourceLevelId, sourceId);
     expect(restored.endlessFoundWords, {source.words.first.text});
+    expect(restored.endlessRevealedHintCells, {'0:0'});
     expect(restored.startEndless(levels, random: Random(99)), sourceId);
     expect(restored.recentEndlessSourceLevelIds, [sourceId]);
   });

@@ -1,3 +1,6 @@
+import '../../interface_language.dart';
+import '../../l10n/localized_content.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -7,6 +10,7 @@ import '../../core/theme/game_theme.dart';
 import '../../core/widgets/pixel_ui.dart';
 import '../../core/widgets/scenic_background.dart';
 import '../../features/game/models/level.dart';
+import '../../game_language.dart';
 import '../../progress/achievements.dart';
 import '../../progress/campaign_progress.dart';
 import 'info_content.dart';
@@ -18,12 +22,18 @@ class MenuScreen extends StatefulWidget {
     required this.onThemeChanged,
     required this.progress,
     required this.levels,
+    this.language = GameLanguage.ru,
+    this.englishAvailable = false,
+    this.onLanguageChanged,
   });
 
   final ThemeMode themeMode;
   final ValueChanged<ThemeMode> onThemeChanged;
   final CampaignProgress progress;
   final List<Level> levels;
+  final GameLanguage language;
+  final bool englishAvailable;
+  final Future<bool> Function(GameLanguage)? onLanguageChanged;
 
   @override
   State<MenuScreen> createState() => _MenuScreenState();
@@ -43,6 +53,96 @@ class _MenuScreenState extends State<MenuScreen> {
     ),
   );
 
+  void _showInterfaceLanguage() => Navigator.of(context).push(
+    MaterialPageRoute<void>(
+      builder: (context) {
+        final settings = InterfaceLanguageScope.maybeOf(context);
+        return _DetailScreen(
+          title: context.l10n.interfaceLanguage,
+          children: [
+            for (final language in InterfaceLanguage.values)
+              PixelPanel(
+                padding: EdgeInsets.zero,
+                child: ListTile(
+                  title: Text(language.label),
+                  trailing: Icon(
+                    (settings?.language ?? InterfaceLanguage.ru) == language
+                        ? Icons.radio_button_checked
+                        : Icons.radio_button_unchecked,
+                    color: GamePalette.of(context).accent,
+                  ),
+                  onTap: settings == null
+                      ? null
+                      : () => settings.select(language),
+                ),
+              ),
+          ],
+        );
+      },
+    ),
+  );
+
+  void _showLanguage() => Navigator.of(context).push(
+    MaterialPageRoute<void>(
+      builder: (context) => _DetailScreen(
+        title: context.l10n.crosswordLanguage,
+        children: [
+          for (final choice in GameLanguage.values) _languageChoice(choice),
+        ],
+      ),
+    ),
+  );
+
+  void _showDictionaryLicense() => Navigator.of(context).push(
+    MaterialPageRoute<void>(
+      builder: (context) => _DetailScreen(
+        title: context.l10n.dictionaryLicenseTitle,
+        children: [
+          FutureBuilder<String>(
+            future: rootBundle.loadString(
+              'assets/licenses/SCOWL_Copyright.txt',
+            ),
+            builder: (context, snapshot) => SelectableText(
+              snapshot.data ?? context.l10n.licenseLoading,
+              style: TextStyle(color: GamePalette.of(context).ink),
+            ),
+          ),
+        ],
+      ),
+    ),
+  );
+
+  Widget _languageChoice(GameLanguage choice) => Builder(
+    builder: (context) {
+      final palette = GamePalette.of(context);
+      final available = choice == GameLanguage.ru || widget.englishAvailable;
+      return PixelPanel(
+        padding: EdgeInsets.zero,
+        child: ListTile(
+          title: Text(choice.label),
+          subtitle: available ? null : Text(context.l10n.englishUnavailable),
+          trailing: Icon(
+            !available
+                ? Icons.lock_outline
+                : widget.language == choice
+                ? Icons.radio_button_checked
+                : Icons.radio_button_unchecked,
+            color: palette.accent,
+          ),
+          onTap: !available
+              ? null
+              : () async {
+                  final changed =
+                      await widget.onLanguageChanged?.call(choice) ?? true;
+                  if (!context.mounted || !changed) return;
+                  Navigator.of(context).pop();
+                  if (mounted) Navigator.of(this.context).pop();
+                },
+        ),
+      );
+    },
+  );
+
   @override
   Widget build(BuildContext context) {
     final palette = GamePalette.of(context);
@@ -50,7 +150,7 @@ class _MenuScreenState extends State<MenuScreen> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('МЕНЮ'),
+          title: Text(context.l10n.menuTitle),
           bottom: TabBar(
             indicatorColor: palette.accent,
             labelColor: palette.ink,
@@ -59,9 +159,9 @@ class _MenuScreenState extends State<MenuScreen> {
               fontSize: 17,
               fontWeight: FontWeight.w900,
             ),
-            tabs: const [
-              Tab(text: 'ИГРА'),
-              Tab(text: 'ИНФО'),
+            tabs: [
+              Tab(text: context.l10n.gameTab),
+              Tab(text: context.l10n.infoTab),
             ],
           ),
         ),
@@ -82,21 +182,21 @@ class _MenuScreenState extends State<MenuScreen> {
   Widget _gameTab(GamePalette palette) => ListView(
     padding: const EdgeInsets.all(20),
     children: [
-      _sectionTitle('ТЕМА', palette),
+      _sectionTitle(context.l10n.themeSection, palette),
       const SizedBox(height: 10),
       PixelPanel(
         padding: EdgeInsets.zero,
         child: Column(
           children: [
             _themeRow(
-              'Тёмная',
+              context.l10n.darkTheme,
               Icons.dark_mode_outlined,
               ThemeMode.dark,
               palette,
             ),
             Divider(height: 1, color: palette.outline),
             _themeRow(
-              'Светлая',
+              context.l10n.lightTheme,
               Icons.light_mode_outlined,
               ThemeMode.light,
               palette,
@@ -105,17 +205,31 @@ class _MenuScreenState extends State<MenuScreen> {
         ),
       ),
       const SizedBox(height: 28),
-      _sectionTitle('ПРОГРЕСС', palette),
+      _row(
+        context.l10n.interfaceLanguage,
+        Icons.translate,
+        palette,
+        _showInterfaceLanguage,
+      ),
+      const SizedBox(height: 12),
+      _row(
+        context.l10n.crosswordLanguage,
+        Icons.language,
+        palette,
+        _showLanguage,
+      ),
+      const SizedBox(height: 28),
+      _sectionTitle(context.l10n.progressSection, palette),
       const SizedBox(height: 10),
       _row(
-        'Статистика',
+        context.l10n.statisticsTitle,
         Icons.bar_chart_rounded,
         palette,
         () => _showStatistics(),
       ),
       const SizedBox(height: 12),
       _row(
-        'Достижения',
+        context.l10n.achievementsTitle,
         Icons.emoji_events_outlined,
         palette,
         () => _showAchievements(),
@@ -153,35 +267,42 @@ class _MenuScreenState extends State<MenuScreen> {
     padding: const EdgeInsets.all(20),
     children: [
       _row(
-        'Об игре',
+        context.l10n.aboutTitle,
         Icons.menu_book_outlined,
         palette,
         () => _open(aboutDocument),
       ),
       const SizedBox(height: 12),
       _row(
-        'Как играть',
+        context.l10n.howToTitle,
         Icons.help_outline_rounded,
         palette,
         () => _open(howToDocument),
       ),
       const SizedBox(height: 12),
       _row(
-        'Политика конфиденциальности',
+        context.l10n.privacyTitle,
         Icons.privacy_tip_outlined,
         palette,
         () => _open(privacyDocument),
       ),
       const SizedBox(height: 12),
       _row(
-        'Пользовательское соглашение',
+        context.l10n.termsTitle,
         Icons.description_outlined,
         palette,
         () => _open(termsDocument),
       ),
       const SizedBox(height: 12),
       _row(
-        'Обратная связь',
+        context.l10n.dictionaryLicenseMenu,
+        Icons.article_outlined,
+        palette,
+        _showDictionaryLicense,
+      ),
+      const SizedBox(height: 12),
+      _row(
+        context.l10n.feedbackTitle,
         Icons.mail_outline,
         palette,
         () => _open(feedbackDocument),
@@ -191,8 +312,8 @@ class _MenuScreenState extends State<MenuScreen> {
         future: PackageInfo.fromPlatform(),
         builder: (context, snapshot) => Text(
           snapshot.hasData
-              ? 'КроссСлов · версия ${snapshot.data!.version}'
-              : 'КроссСлов · версия недоступна',
+              ? context.l10n.appVersion(snapshot.data!.version)
+              : context.l10n.appVersionUnavailable,
           textAlign: TextAlign.center,
           style: TextStyle(color: palette.muted, fontSize: 14),
         ),
@@ -235,23 +356,33 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void _showStatistics() => Navigator.of(context).push(
     MaterialPageRoute<void>(
-      builder: (_) => _DetailScreen(
-        title: 'Статистика',
+      builder: (context) => _DetailScreen(
+        title: context.l10n.statisticsTitle,
         children: [
+          Text('${context.l10n.crosswordLanguage}: ${widget.language.label}'),
           _stat(
-            'Пройдено уровней',
+            context.l10n.statsLevelsCompleted,
             '${widget.progress.completedLevels} / ${widget.levels.length}',
           ),
-          _stat('Найдено слов', '${widget.progress.wordsFound}'),
+          _stat(context.l10n.statsWordsFound, '${widget.progress.wordsFound}'),
           _stat(
-            'Бесконечные раунды',
+            context.l10n.statsEndlessRounds,
             '${widget.progress.endlessRoundsCompleted}',
           ),
-          _stat('Без подсказок', '${widget.progress.levelsWithoutHints}'),
-          _stat('Использовано подсказок', '${widget.progress.hintsUsed}'),
-          _stat('Текущая серия', '${widget.progress.currentStreak}'),
-          _stat('Лучшая серия', '${widget.progress.bestStreak}'),
-          _stat('Заработано кристаллов', '${widget.progress.crystalsEarned}'),
+          _stat(
+            context.l10n.statsWithoutHints,
+            '${widget.progress.levelsWithoutHints}',
+          ),
+          _stat(context.l10n.statsHintsUsed, '${widget.progress.hintsUsed}'),
+          _stat(
+            context.l10n.statsCurrentStreak,
+            '${widget.progress.currentStreak}',
+          ),
+          _stat(context.l10n.statsBestStreak, '${widget.progress.bestStreak}'),
+          _stat(
+            context.l10n.statsCrystalsEarned,
+            '${widget.progress.crystalsEarned}',
+          ),
         ],
       ),
     ),
@@ -259,30 +390,35 @@ class _MenuScreenState extends State<MenuScreen> {
 
   void _showAchievements() => Navigator.of(context).push(
     MaterialPageRoute<void>(
-      builder: (_) => _DetailScreen(
-        title: 'Достижения',
+      builder: (context) => _DetailScreen(
+        title: context.l10n.achievementsTitle,
         children: [
+          Text('${context.l10n.crosswordLanguage}: ${widget.language.label}'),
           for (final category
-              in AchievementRules.all.map((a) => a.category).toSet()) ...[
+              in AchievementRules.all
+                  .map((a) => context.l10n.achievementGroup(a.metric))
+                  .toSet()) ...[
             Builder(
               builder: (context) => Padding(
                 padding: const EdgeInsets.only(top: 8),
                 child: _sectionTitle(
-                  category.toUpperCase(),
+                  context.l10n.achievementCategory(category).toUpperCase(),
                   GamePalette.of(context),
                 ),
               ),
             ),
             for (final achievement in AchievementRules.all.where(
-              (a) => a.category == category,
+              (a) => context.l10n.achievementGroup(a.metric) == category,
             ))
               _achievement(
-                achievement.title,
-                achievement.description,
+                context.l10n.achievementName(achievement.id),
+                context.l10n.achievementDescription(achievement),
                 achievement.isUnlocked(widget.progress),
                 progress: achievement.progress(widget.progress, widget.levels),
                 target: achievement.target,
-                chapterName: achievement.chapter?.name,
+                chapterName: achievement.chapter == null
+                    ? null
+                    : context.l10n.chapterName(achievement.chapter!.id),
               ),
           ],
         ],
@@ -388,8 +524,9 @@ class _InfoDocumentScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final palette = GamePalette.of(context);
+    final localized = context.l10n.document(document);
     return Scaffold(
-      appBar: AppBar(title: Text(document.title)),
+      appBar: AppBar(title: Text(localized.title)),
       body: ScenicBackground(
         child: Center(
           child: ConstrainedBox(
@@ -398,35 +535,45 @@ class _InfoDocumentScreen extends StatelessWidget {
               child: ListView(
                 padding: const EdgeInsets.all(20),
                 children: [
-                  for (final section in document.sections) ...[
-                    PixelPanel(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          if (section.title.isNotEmpty) ...[
+                  if (localized.plainText)
+                    Text(
+                      localized.sections.single.text,
+                      style: TextStyle(
+                        color: palette.ink,
+                        fontSize: 17,
+                        height: 1.55,
+                      ),
+                    )
+                  else
+                    for (final section in localized.sections) ...[
+                      PixelPanel(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            if (section.title.isNotEmpty) ...[
+                              Text(
+                                section.title,
+                                style: TextStyle(
+                                  color: palette.accent,
+                                  fontSize: 19,
+                                  fontWeight: FontWeight.w900,
+                                ),
+                              ),
+                              const SizedBox(height: 10),
+                            ],
                             Text(
-                              section.title,
+                              section.text,
                               style: TextStyle(
-                                color: palette.accent,
-                                fontSize: 19,
-                                fontWeight: FontWeight.w900,
+                                color: palette.ink,
+                                fontSize: 17,
+                                height: 1.45,
                               ),
                             ),
-                            const SizedBox(height: 10),
                           ],
-                          Text(
-                            section.text,
-                            style: TextStyle(
-                              color: palette.ink,
-                              fontSize: 17,
-                              height: 1.45,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 14),
-                  ],
+                      const SizedBox(height: 14),
+                    ],
                   if (document == feedbackDocument) const _ContactLinks(),
                 ],
               ),
@@ -448,11 +595,9 @@ class _ContactLinks extends StatelessWidget {
       // The copy action below remains available if no external app can open.
     }
     if (context.mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Не удалось открыть приложение. Скопируйте контакт.'),
-        ),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text(context.l10n.contactOpenFailed)));
     }
   }
 
@@ -500,12 +645,12 @@ class _ContactLinks extends StatelessWidget {
             ),
           ),
           IconButton(
-            tooltip: 'Скопировать $label',
+            tooltip: context.l10n.copyContactTooltip(label),
             onPressed: () async {
               await Clipboard.setData(ClipboardData(text: label));
               if (context.mounted) {
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Контакт скопирован')),
+                  SnackBar(content: Text(context.l10n.contactCopied)),
                 );
               }
             },

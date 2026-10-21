@@ -144,14 +144,18 @@ class LetterBoardState extends State<LetterBoard>
       pointer = local;
       for (var slot = 0; slot < positions.length; slot++) {
         final id = order[slot];
-        if ((positions[slot] - local).distance <= radius + 10 &&
-            !selected.contains(id)) {
+        if ((positions[slot] - local).distance > radius + 10) continue;
+        if (selected.length >= 2 && id == selected[selected.length - 2]) {
+          selected.removeLast();
+        } else if (!selected.contains(id)) {
           selected.add(id);
-          widget.onSelectionChanged(
-            selected.map((index) => widget.letters[index]).join(),
-          );
+        } else {
           break;
         }
+        widget.onSelectionChanged(
+          selected.map((index) => widget.letters[index]).join(),
+        );
+        break;
       }
     });
   }

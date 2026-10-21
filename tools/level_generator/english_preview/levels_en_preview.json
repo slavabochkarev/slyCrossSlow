@@ -1,0 +1,1033 @@
+[
+  {
+    "id": 1,
+    "letters": [
+      "A",
+      "C",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "CAT",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "ACT",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "preview": {
+      "seed": "CAT",
+      "wordCount": 2,
+      "width": 3,
+      "height": 3,
+      "crossings": 1,
+      "difficultyScore": 3.05,
+      "wordPotential": 2,
+      "reviewedPotential": 2,
+      "review": {}
+    }
+  },
+  {
+    "id": 2,
+    "letters": [
+      "O",
+      "P",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "TOP",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "POT",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "TOP",
+      "wordCount": 2,
+      "width": 3,
+      "height": 3,
+      "crossings": 1,
+      "difficultyScore": 3.05,
+      "wordPotential": 3,
+      "reviewedPotential": 2,
+      "review": {}
+    }
+  },
+  {
+    "id": 3,
+    "letters": [
+      "A",
+      "E",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "EAT",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "TEA",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ATE",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "EAT",
+      "wordCount": 3,
+      "width": 3,
+      "height": 3,
+      "crossings": 2,
+      "difficultyScore": 5.65,
+      "wordPotential": 3,
+      "reviewedPotential": 3,
+      "review": {
+        "ATE": "inflected form; confirm editorial policy (not a rare word); same word family in this grid: ATE, EAT",
+        "EAT": "same word family in this grid: ATE, EAT"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "letters": [
+      "A",
+      "R",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "STAR",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "RAT",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "ART",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "STAR",
+      "wordCount": 3,
+      "width": 3,
+      "height": 4,
+      "crossings": 2,
+      "difficultyScore": 14.33,
+      "wordPotential": 6,
+      "reviewedPotential": 3,
+      "review": {}
+    }
+  },
+  {
+    "id": 5,
+    "letters": [
+      "O",
+      "P",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "STOP",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "SPOT",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "POST",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "STOP",
+      "wordCount": 3,
+      "width": 4,
+      "height": 4,
+      "crossings": 2,
+      "difficultyScore": 15.4,
+      "wordPotential": 8,
+      "reviewedPotential": 5,
+      "review": {}
+    }
+  },
+  {
+    "id": 6,
+    "letters": [
+      "A",
+      "E",
+      "M",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "TEAM",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "TAME",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "MATE",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "MEAT",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "TEAM",
+      "wordCount": 4,
+      "width": 4,
+      "height": 4,
+      "crossings": 4,
+      "difficultyScore": 17.6,
+      "wordPotential": 8,
+      "reviewedPotential": 4,
+      "review": {
+        "TAME": "less basic than CAT/TOP; ordinary English adjective/verb"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "letters": [
+      "A",
+      "C",
+      "E",
+      "R"
+    ],
+    "words": [
+      {
+        "text": "CARE",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "CAR",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "RACE",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "EAR",
+        "row": 2,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "CARE",
+      "wordCount": 4,
+      "width": 4,
+      "height": 5,
+      "crossings": 3,
+      "difficultyScore": 18.25,
+      "wordPotential": 8,
+      "reviewedPotential": 4,
+      "review": {}
+    }
+  },
+  {
+    "id": 8,
+    "letters": [
+      "A",
+      "L",
+      "N",
+      "P",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "PLANT",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "PLAN",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "TAP",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "PAN",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "PLANT",
+      "wordCount": 4,
+      "width": 4,
+      "height": 5,
+      "crossings": 3,
+      "difficultyScore": 26.43,
+      "wordPotential": 7,
+      "reviewedPotential": 4,
+      "review": {}
+    }
+  },
+  {
+    "id": 9,
+    "letters": [
+      "E",
+      "N",
+      "O",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "STONE",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "NOTES",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "NOSE",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "SENT",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "STONE",
+      "wordCount": 4,
+      "width": 5,
+      "height": 5,
+      "crossings": 4,
+      "difficultyScore": 27.3,
+      "wordPotential": 21,
+      "reviewedPotential": 15,
+      "review": {
+        "NOTES": "inflected form; confirm editorial policy (not a rare word)",
+        "SENT": "inflected form; confirm editorial policy (not a rare word)"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "letters": [
+      "A",
+      "E",
+      "H",
+      "R",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "HEART",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "EARTH",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "HATE",
+        "row": 1,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "RATE",
+        "row": 1,
+        "col": 2,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "HEART",
+      "wordCount": 4,
+      "width": 5,
+      "height": 5,
+      "crossings": 3,
+      "difficultyScore": 27.7,
+      "wordPotential": 18,
+      "reviewedPotential": 15,
+      "review": {}
+    }
+  },
+  {
+    "id": 11,
+    "letters": [
+      "A",
+      "I",
+      "N",
+      "R",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "TRAIN",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "AIR",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "ART",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "RAIN",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "RAT",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "preview": {
+      "seed": "TRAIN",
+      "wordCount": 5,
+      "width": 5,
+      "height": 5,
+      "crossings": 4,
+      "difficultyScore": 29.67,
+      "wordPotential": 8,
+      "reviewedPotential": 5,
+      "review": {}
+    }
+  },
+  {
+    "id": 12,
+    "letters": [
+      "E",
+      "I",
+      "L",
+      "M",
+      "S"
+    ],
+    "words": [
+      {
+        "text": "SMILE",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "MILES",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "LIE",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "LIES",
+        "row": 2,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "SLIM",
+        "row": 2,
+        "col": 4,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "SMILE",
+      "wordCount": 5,
+      "width": 5,
+      "height": 6,
+      "crossings": 5,
+      "difficultyScore": 30.44,
+      "wordPotential": 6,
+      "reviewedPotential": 6,
+      "review": {
+        "MILES": "inflected form; confirm editorial policy (not a rare word)",
+        "LIES": "inflected form; confirm editorial policy (not a rare word); same word family in this grid: LIE, LIES",
+        "LIE": "same word family in this grid: LIE, LIES"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "letters": [
+      "A",
+      "E",
+      "M",
+      "R",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "STREAM",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "MASTER",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "TEARS",
+        "row": 0,
+        "col": 1,
+        "direction": "down"
+      },
+      {
+        "text": "TEAMS",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "ARTS",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "STREAM",
+      "wordCount": 5,
+      "width": 6,
+      "height": 6,
+      "crossings": 6,
+      "difficultyScore": 39.64,
+      "wordPotential": 41,
+      "reviewedPotential": 34,
+      "review": {
+        "TEARS": "inflected form; confirm editorial policy (not a rare word)",
+        "TEAMS": "inflected form; confirm editorial policy (not a rare word)",
+        "ARTS": "plural/multiple senses of ART; confirm early-level vocabulary"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "letters": [
+      "A",
+      "E",
+      "L",
+      "N",
+      "P",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "PLANET",
+        "row": 1,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "PANEL",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "PLATE",
+        "row": 1,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "TALE",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "TAPE",
+        "row": 1,
+        "col": 5,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "PLANET",
+      "wordCount": 5,
+      "width": 6,
+      "height": 6,
+      "crossings": 5,
+      "difficultyScore": 39.76,
+      "wordPotential": 29,
+      "reviewedPotential": 24,
+      "review": {}
+    }
+  },
+  {
+    "id": 15,
+    "letters": [
+      "A",
+      "D",
+      "E",
+      "G",
+      "N",
+      "R"
+    ],
+    "words": [
+      {
+        "text": "GARDEN",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "DANGER",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "ANGER",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "GRAND",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "RAGE",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "GARDEN",
+      "wordCount": 5,
+      "width": 6,
+      "height": 6,
+      "crossings": 5,
+      "difficultyScore": 40.04,
+      "wordPotential": 27,
+      "reviewedPotential": 20,
+      "review": {}
+    }
+  },
+  {
+    "id": 16,
+    "letters": [
+      "E",
+      "I",
+      "L",
+      "N",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "LISTEN",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "SILENT",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "LINES",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "TIES",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "SITE",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "SET",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      }
+    ],
+    "preview": {
+      "seed": "LISTEN",
+      "wordCount": 6,
+      "width": 6,
+      "height": 6,
+      "crossings": 6,
+      "difficultyScore": 42.27,
+      "wordPotential": 32,
+      "reviewedPotential": 19,
+      "review": {
+        "LINES": "inflected form; confirm editorial policy (not a rare word)",
+        "TIES": "inflected form; confirm editorial policy (not a rare word)"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "letters": [
+      "D",
+      "E",
+      "F",
+      "I",
+      "N",
+      "R"
+    ],
+    "words": [
+      {
+        "text": "FRIEND",
+        "row": 0,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "FRIED",
+        "row": 2,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "FIND",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "RIDE",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "FIRE",
+        "row": 0,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "FINE",
+        "row": 4,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "FRIEND",
+      "wordCount": 6,
+      "width": 6,
+      "height": 8,
+      "crossings": 6,
+      "difficultyScore": 43.95,
+      "wordPotential": 19,
+      "reviewedPotential": 8,
+      "review": {
+        "FRIED": "inflected form; confirm editorial policy (not a rare word)"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "letters": [
+      "A",
+      "E",
+      "N",
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "PARENTS",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "TAPES",
+        "row": 0,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "PARTS",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "SPARE",
+        "row": 0,
+        "col": 5,
+        "direction": "down"
+      },
+      {
+        "text": "TEAR",
+        "row": 3,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "TRAPS",
+        "row": 2,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "PARENTS",
+      "wordCount": 6,
+      "width": 6,
+      "height": 7,
+      "crossings": 6,
+      "difficultyScore": 51.52,
+      "wordPotential": 65,
+      "reviewedPotential": 52,
+      "review": {
+        "PARENTS": "inflected form; confirm editorial policy (not a rare word)",
+        "TAPES": "inflected form; confirm editorial policy (not a rare word)",
+        "PARTS": "inflected form; confirm editorial policy (not a rare word)",
+        "TRAPS": "inflected form; confirm editorial policy (not a rare word)"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "letters": [
+      "A",
+      "C",
+      "E",
+      "E",
+      "H",
+      "R",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "TEACHER",
+        "row": 0,
+        "col": 4,
+        "direction": "down"
+      },
+      {
+        "text": "CREATE",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "REACH",
+        "row": 4,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "TRACE",
+        "row": 2,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "HEAR",
+        "row": 6,
+        "col": 1,
+        "direction": "across"
+      },
+      {
+        "text": "TEAR",
+        "row": 2,
+        "col": 2,
+        "direction": "across"
+      },
+      {
+        "text": "ERA",
+        "row": 3,
+        "col": 0,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "TEACHER",
+      "wordCount": 7,
+      "width": 6,
+      "height": 7,
+      "crossings": 8,
+      "difficultyScore": 53.5,
+      "wordPotential": 45,
+      "reviewedPotential": 27,
+      "review": {}
+    }
+  },
+  {
+    "id": 20,
+    "letters": [
+      "A",
+      "E",
+      "L",
+      "P",
+      "R",
+      "S",
+      "T"
+    ],
+    "words": [
+      {
+        "text": "PLASTER",
+        "row": 0,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "PLATES",
+        "row": 0,
+        "col": 0,
+        "direction": "down"
+      },
+      {
+        "text": "STARE",
+        "row": 5,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "TALES",
+        "row": 3,
+        "col": 0,
+        "direction": "across"
+      },
+      {
+        "text": "LEAP",
+        "row": 3,
+        "col": 2,
+        "direction": "down"
+      },
+      {
+        "text": "SALE",
+        "row": 0,
+        "col": 3,
+        "direction": "down"
+      },
+      {
+        "text": "RATS",
+        "row": 0,
+        "col": 6,
+        "direction": "down"
+      }
+    ],
+    "preview": {
+      "seed": "PLASTER",
+      "wordCount": 7,
+      "width": 7,
+      "height": 7,
+      "crossings": 8,
+      "difficultyScore": 54.65,
+      "wordPotential": 67,
+      "reviewedPotential": 56,
+      "review": {
+        "PLATES": "inflected form; confirm editorial policy (not a rare word)",
+        "TALES": "inflected form; confirm editorial policy (not a rare word)",
+        "RATS": "inflected form; confirm editorial policy (not a rare word)"
+      }
+    }
+  }
+]

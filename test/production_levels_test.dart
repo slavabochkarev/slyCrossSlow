@@ -149,7 +149,7 @@ void main() {
   );
 
   test(
-    'state and achievements restore; legacy test progress resets once',
+    'state and achievements restore; obsolete test keys are retained',
     () async {
       SharedPreferencesAsyncPlatform.instance =
           InMemorySharedPreferencesAsync.empty();
@@ -164,9 +164,13 @@ void main() {
       expect(state.completed, isEmpty);
       expect(state.crystals, 0);
       expect(await ThemeRepository().load(), ThemeMode.light);
-      expect(await preferences.getInt('current_level'), isNull);
-      expect(await preferences.getStringList('completed_levels'), isNull);
-      expect(await preferences.getInt('crystal_balance'), isNull);
+      expect(await preferences.getInt('current_level'), 13);
+      expect(await preferences.getStringList('completed_levels'), [
+        '1',
+        '2',
+        '3',
+      ]);
+      expect(await preferences.getInt('crystal_balance'), 39);
       state.unlockedAt['first_step'] = DateTime.utc(2026, 10, 4);
       state.currentLevel = 21;
       state.pendingChapterId = 2;

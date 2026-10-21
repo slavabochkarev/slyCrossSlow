@@ -1,4 +1,4 @@
-package com.example.cross_slow
+package ru.bochk.crossslov
 
 import io.flutter.embedding.android.FlutterActivity
 

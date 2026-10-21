@@ -70,6 +70,47 @@ void main() {
     expect(submitted, 'КОТ');
   });
 
+  testWidgets('dragging back removes one selected letter at a time', (
+    tester,
+  ) async {
+    String? submitted;
+    final selections = <String>[];
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: Center(
+            child: SizedBox.square(
+              dimension: 240,
+              child: LetterBoard(
+                letters: const ['А', 'Б', 'В', 'Г'],
+                onWord: (word) => submitted = word,
+                onSelectionChanged: selections.add,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+    final origin = tester.getTopLeft(find.byType(LetterBoard));
+    Offset at(double x, double y) => origin + Offset(240 * x, 240 * y);
+    final gesture = await tester.startGesture(at(.5, .18));
+    await gesture.moveTo(at(.2, .52));
+    await gesture.moveTo(at(.8, .52));
+    await gesture.moveTo(at(.5, .82));
+    expect(selections.last, 'АБВГ');
+
+    await gesture.moveTo(at(.8, .52));
+    expect(selections.last, 'АБВ');
+    await gesture.moveTo(at(.2, .52));
+    expect(selections.last, 'АБ');
+
+    await gesture.moveTo(at(.5, .82));
+    expect(selections.last, 'АБГ');
+    await gesture.up();
+    expect(submitted, 'АБГ');
+    expect(selections.last, isEmpty);
+  });
+
   testWidgets(
     'accepted word reveals cells in sequence and hint skips crossings',
     (tester) async {

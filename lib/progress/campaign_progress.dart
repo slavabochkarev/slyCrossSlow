@@ -17,6 +17,7 @@ class CampaignProgress {
     this.crystalsEarned = 0,
     this.crystals = 0,
     Map<int, Set<String>>? foundWords,
+    Map<int, Set<String>>? revealedHintCells,
     Set<int>? hintedLevels,
     Map<String, DateTime>? unlockedAt,
     Set<String>? seenScenes,
@@ -25,14 +26,17 @@ class CampaignProgress {
     this.endlessRoundsCompleted = 0,
     this.activeEndlessSourceLevelId,
     Set<String>? endlessFoundWords,
+    Set<String>? endlessRevealedHintCells,
     this.endlessHinted = false,
     List<int>? recentEndlessSourceLevelIds,
   }) : completed = completed ?? <int>{},
        foundWords = foundWords ?? <int, Set<String>>{},
+       revealedHintCells = revealedHintCells ?? <int, Set<String>>{},
        hintedLevels = hintedLevels ?? <int>{},
        unlockedAt = unlockedAt ?? <String, DateTime>{},
        seenScenes = seenScenes ?? <String>{},
        endlessFoundWords = endlessFoundWords ?? <String>{},
+       endlessRevealedHintCells = endlessRevealedHintCells ?? <String>{},
        recentEndlessSourceLevelIds = recentEndlessSourceLevelIds ?? <int>[];
 
   int currentLevel;
@@ -45,6 +49,7 @@ class CampaignProgress {
   int crystalsEarned;
   int crystals;
   final Map<int, Set<String>> foundWords;
+  final Map<int, Set<String>> revealedHintCells;
   final Set<int> hintedLevels;
   final Map<String, DateTime> unlockedAt;
   final Set<String> seenScenes;
@@ -53,6 +58,7 @@ class CampaignProgress {
   int endlessRoundsCompleted;
   int? activeEndlessSourceLevelId;
   final Set<String> endlessFoundWords;
+  final Set<String> endlessRevealedHintCells;
   bool endlessHinted;
   final List<int> recentEndlessSourceLevelIds;
 
@@ -64,6 +70,21 @@ class CampaignProgress {
       completed.contains(CampaignChapters.all.last.lastLevel);
 
   Set<String> wordsFor(int level) => foundWords[level] ?? const <String>{};
+
+  Set<String> revealedCellsFor(int level) =>
+      revealedHintCells[level] ?? const <String>{};
+
+  void recordRevealedHintCell(int level, String cell) {
+    if (!completed.contains(level)) {
+      revealedHintCells.putIfAbsent(level, () => <String>{}).add(cell);
+    }
+  }
+
+  void recordEndlessRevealedHintCell(String cell) {
+    if (activeEndlessSourceLevelId != null) {
+      endlessRevealedHintCells.add(cell);
+    }
+  }
 
   bool recordWord(Level level, String word) {
     if (completed.contains(level.id) ||
@@ -86,6 +107,7 @@ class CampaignProgress {
 
   bool complete(Level level) {
     if (!completed.add(level.id)) return false;
+    revealedHintCells.remove(level.id);
     if (!hintedLevels.contains(level.id)) {
       levelsWithoutHints++;
       currentStreak++;
@@ -121,6 +143,7 @@ class CampaignProgress {
     final selected = choices[(random ?? Random()).nextInt(choices.length)].id;
     activeEndlessSourceLevelId = selected;
     endlessFoundWords.clear();
+    endlessRevealedHintCells.clear();
     endlessHinted = false;
     recentEndlessSourceLevelIds.add(selected);
     if (recentEndlessSourceLevelIds.length > 10) {
@@ -166,6 +189,7 @@ class CampaignProgress {
     crystalsEarned += 3;
     activeEndlessSourceLevelId = null;
     endlessFoundWords.clear();
+    endlessRevealedHintCells.clear();
     endlessHinted = false;
     return true;
   }
@@ -184,6 +208,9 @@ class CampaignProgress {
     'foundWords': foundWords.map(
       (id, words) => MapEntry('$id', words.toList()..sort()),
     ),
+    'revealedHintCells': revealedHintCells.map(
+      (id, cells) => MapEntry('$id', cells.toList()..sort()),
+    ),
     'hintedLevels': hintedLevels.toList()..sort(),
     'unlockedAt': unlockedAt.map(
       (id, time) => MapEntry(id, time.toIso8601String()),
@@ -194,6 +221,7 @@ class CampaignProgress {
     'endlessRoundsCompleted': endlessRoundsCompleted,
     'activeEndlessSourceLevelId': activeEndlessSourceLevelId,
     'endlessFoundWords': endlessFoundWords.toList()..sort(),
+    'endlessRevealedHintCells': endlessRevealedHintCells.toList()..sort(),
     'endlessHinted': endlessHinted,
     'recentEndlessSourceLevelIds': recentEndlessSourceLevelIds,
   };
@@ -206,6 +234,11 @@ class CampaignProgress {
       (key, value) =>
           MapEntry(int.parse(key), (value as List).cast<String>().toSet()),
     );
+    final revealed = (json['revealedHintCells'] as Map<String, dynamic>? ?? {})
+        .map(
+          (key, value) =>
+              MapEntry(int.parse(key), (value as List).cast<String>().toSet()),
+        );
     final unlocks = (json['unlockedAt'] as Map<String, dynamic>? ?? {}).map(
       (key, value) => MapEntry(key, DateTime.parse(value as String)),
     );
@@ -220,6 +253,7 @@ class CampaignProgress {
       crystalsEarned: json['crystalsEarned'] as int? ?? 0,
       crystals: json['crystals'] as int? ?? 0,
       foundWords: found,
+      revealedHintCells: revealed,
       hintedLevels: (json['hintedLevels'] as List? ?? []).cast<int>().toSet(),
       unlockedAt: unlocks,
       seenScenes: (json['seenScenes'] as List? ?? []).cast<String>().toSet(),
@@ -230,6 +264,10 @@ class CampaignProgress {
       endlessFoundWords: (json['endlessFoundWords'] as List? ?? [])
           .cast<String>()
           .toSet(),
+      endlessRevealedHintCells:
+          (json['endlessRevealedHintCells'] as List? ?? [])
+              .cast<String>()
+              .toSet(),
       endlessHinted: json['endlessHinted'] as bool? ?? false,
       recentEndlessSourceLevelIds:
           (json['recentEndlessSourceLevelIds'] as List? ?? []).cast<int>(),

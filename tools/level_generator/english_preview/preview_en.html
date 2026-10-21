@@ -1,0 +1,561 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>КроссСлов · English 20 · Experiment</title><style>body{font:16px system-ui;background:#eef2f6;color:#162238;margin:20px}main{max-width:1200px;margin:auto}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:20px}section{background:white;border-radius:14px;padding:20px;box-shadow:0 3px 14px #14263a12}h2{margin-top:0}.grid{display:grid;grid-template-columns:repeat(var(--cols),30px);gap:2px;margin:18px 0}.cell{height:30px;box-sizing:border-box;border:1px solid #8292a3;text-align:center;line-height:28px;font-weight:750;border-radius:3px}.cross{background:#dceeff}.empty{border:0;background:transparent}.cell.active{background:#ffe099;border-color:#d88b00}button{font:inherit;border:1px solid #b3c3d5;border-radius:6px;background:#f5f8fc;padding:5px 8px;margin:3px;cursor:pointer}button.active{background:#ffe099}p{line-height:1.5}pre{white-space:pre-wrap;font-size:12px}details{margin-top:10px}header{padding-bottom:18px}</style><main><header><h1>English · 20 тестовых уровней</h1><p>Эксперимент, к Flutter не подключён. Нажмите слово для подсветки его клеток. Синие клетки — пересечения; ⚑ — редакционная проверка словоформы или смысла.</p><p>Все 20 сеток прошли проверки. Difficulty — относительная эвристика. Русские данные сохранены.</p></header><div class="cards"><section><h2>01 · ACT</h2><p>2 слов · 3×3 · 1 пересечений · difficulty 3.05</p><div class="grid" style="--cols:3"><div class="cell" data-words="CAT">C</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="CAT ACT">A</div><div class="cell" data-words="ACT">C</div><div class="cell" data-words="ACT">T</div><div class="cell" data-words="CAT">T</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="CAT" title="Common word">CAT</button> <button data-word="ACT" title="Common word">ACT</button></div><p>Word potential: 2; после ручного отбора: 2</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;CAT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ACT&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>02 · OPT</h2><p>2 слов · 3×3 · 1 пересечений · difficulty 3.05</p><div class="grid" style="--cols:3"><div class="cell empty" data-words=""></div><div class="cell" data-words="POT">P</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TOP">T</div><div class="cell cross" data-words="TOP POT">O</div><div class="cell" data-words="TOP">P</div><div class="cell empty" data-words=""></div><div class="cell" data-words="POT">T</div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="TOP" title="Common word">TOP</button> <button data-word="POT" title="Common word">POT</button></div><p>Word potential: 3; после ручного отбора: 2</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;TOP&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;POT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>03 · AET</h2><p>3 слов · 3×3 · 2 пересечений · difficulty 5.65</p><div class="grid" style="--cols:3"><div class="cell" data-words="ATE">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="EAT">E</div><div class="cell cross" data-words="TEA ATE">T</div><div class="cell" data-words="TEA">E</div><div class="cell cross" data-words="EAT TEA">A</div><div class="cell" data-words="ATE">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="EAT">T</div></div><div class="words"><button data-word="EAT" title="same word family in this grid: ATE, EAT">EAT ⚑</button> <button data-word="TEA" title="Common word">TEA</button> <button data-word="ATE" title="inflected form; confirm editorial policy (not a rare word); same word family in this grid: ATE, EAT">ATE ⚑</button></div><p>Word potential: 3; после ручного отбора: 3</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;EAT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TEA&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ATE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>ATE: inflected form; confirm editorial policy (not a rare word); same word family in this grid: ATE, EAT; EAT: same word family in this grid: ATE, EAT</p></details></section><section><h2>04 · ARST</h2><p>3 слов · 3×4 · 2 пересечений · difficulty 14.33</p><div class="grid" style="--cols:3"><div class="cell" data-words="ART">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STAR">S</div><div class="cell cross" data-words="RAT ART">R</div><div class="cell" data-words="RAT">A</div><div class="cell cross" data-words="STAR RAT">T</div><div class="cell" data-words="ART">T</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STAR">A</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="STAR">R</div></div><div class="words"><button data-word="STAR" title="Common word">STAR</button> <button data-word="RAT" title="Common word">RAT</button> <button data-word="ART" title="Common word">ART</button></div><p>Word potential: 6; после ручного отбора: 3</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;STAR&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RAT&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ART&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>05 · OPST</h2><p>3 слов · 4×4 · 2 пересечений · difficulty 15.40</p><div class="grid" style="--cols:4"><div class="cell" data-words="POST">P</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STOP">S</div><div class="cell empty" data-words=""></div><div class="cell" data-words="POST">O</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STOP">T</div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="SPOT POST">S</div><div class="cell" data-words="SPOT">P</div><div class="cell cross" data-words="STOP SPOT">O</div><div class="cell" data-words="SPOT">T</div><div class="cell" data-words="POST">T</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STOP">P</div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="STOP" title="Common word">STOP</button> <button data-word="SPOT" title="Common word">SPOT</button> <button data-word="POST" title="Common word">POST</button></div><p>Word potential: 8; после ручного отбора: 5</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;STOP&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SPOT&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;POST&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>06 · AEMT</h2><p>4 слов · 4×4 · 4 пересечений · difficulty 17.60</p><div class="grid" style="--cols:4"><div class="cell cross" data-words="TEAM TAME">T</div><div class="cell" data-words="TAME">A</div><div class="cell cross" data-words="TAME MEAT">M</div><div class="cell" data-words="TAME">E</div><div class="cell" data-words="TEAM">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="MEAT">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEAM">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="MEAT">A</div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="TEAM MATE">M</div><div class="cell" data-words="MATE">A</div><div class="cell cross" data-words="MATE MEAT">T</div><div class="cell" data-words="MATE">E</div></div><div class="words"><button data-word="TEAM" title="Common word">TEAM</button> <button data-word="TAME" title="less basic than CAT/TOP; ordinary English adjective/verb">TAME ⚑</button> <button data-word="MATE" title="Common word">MATE</button> <button data-word="MEAT" title="Common word">MEAT</button></div><p>Word potential: 8; после ручного отбора: 4</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;TEAM&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TAME&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;MATE&quot;,
+    &quot;row&quot;: 3,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;MEAT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>TAME: less basic than CAT/TOP; ordinary English adjective/verb</p></details></section><section><h2>07 · ACER</h2><p>4 слов · 4×5 · 3 пересечений · difficulty 18.25</p><div class="grid" style="--cols:4"><div class="cell" data-words="RACE">R</div><div class="cell" data-words="RACE">A</div><div class="cell cross" data-words="CAR RACE">C</div><div class="cell" data-words="RACE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="CAR">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="CARE">C</div><div class="cell" data-words="CARE">A</div><div class="cell cross" data-words="CARE CAR">R</div><div class="cell cross" data-words="CARE EAR">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="EAR">A</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="EAR">R</div></div><div class="words"><button data-word="CARE" title="Common word">CARE</button> <button data-word="CAR" title="Common word">CAR</button> <button data-word="RACE" title="Common word">RACE</button> <button data-word="EAR" title="Common word">EAR</button></div><p>Word potential: 8; после ручного отбора: 4</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;CARE&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;CAR&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RACE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;EAR&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 3,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>08 · ALNPT</h2><p>4 слов · 4×5 · 3 пересечений · difficulty 26.43</p><div class="grid" style="--cols:4"><div class="cell" data-words="TAP">T</div><div class="cell" data-words="TAP">A</div><div class="cell cross" data-words="PLANT TAP">P</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="PLANT">L</div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="PLAN PAN">P</div><div class="cell" data-words="PLAN">L</div><div class="cell cross" data-words="PLANT PLAN">A</div><div class="cell" data-words="PLAN">N</div><div class="cell" data-words="PAN">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="PLANT">N</div><div class="cell empty" data-words=""></div><div class="cell" data-words="PAN">N</div><div class="cell empty" data-words=""></div><div class="cell" data-words="PLANT">T</div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="PLANT" title="Common word">PLANT</button> <button data-word="PLAN" title="Common word">PLAN</button> <button data-word="TAP" title="Common word">TAP</button> <button data-word="PAN" title="Common word">PAN</button></div><p>Word potential: 7; после ручного отбора: 4</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;PLANT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;PLAN&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TAP&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;PAN&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>09 · ENOST</h2><p>4 слов · 5×5 · 4 пересечений · difficulty 27.30</p><div class="grid" style="--cols:5"><div class="cell empty" data-words=""></div><div class="cell cross" data-words="NOTES NOSE">N</div><div class="cell" data-words="NOSE">O</div><div class="cell cross" data-words="NOSE SENT">S</div><div class="cell" data-words="NOSE">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="NOTES">O</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SENT">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STONE">S</div><div class="cell cross" data-words="STONE NOTES">T</div><div class="cell" data-words="STONE">O</div><div class="cell cross" data-words="STONE SENT">N</div><div class="cell" data-words="STONE">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="NOTES">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SENT">T</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="NOTES">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="STONE" title="Common word">STONE</button> <button data-word="NOTES" title="inflected form; confirm editorial policy (not a rare word)">NOTES ⚑</button> <button data-word="NOSE" title="Common word">NOSE</button> <button data-word="SENT" title="inflected form; confirm editorial policy (not a rare word)">SENT ⚑</button></div><p>Word potential: 21; после ручного отбора: 15</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;STONE&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;NOTES&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;NOSE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SENT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 3,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>NOTES: inflected form; confirm editorial policy (not a rare word); SENT: inflected form; confirm editorial policy (not a rare word)</p></details></section><section><h2>10 · AEHRT</h2><p>4 слов · 5×5 · 3 пересечений · difficulty 27.70</p><div class="grid" style="--cols:5"><div class="cell" data-words="HEART">H</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="HEART EARTH">E</div><div class="cell" data-words="EARTH">A</div><div class="cell cross" data-words="EARTH RATE">R</div><div class="cell" data-words="EARTH">T</div><div class="cell cross" data-words="EARTH HATE">H</div><div class="cell" data-words="HEART">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RATE">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="HATE">A</div><div class="cell" data-words="HEART">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RATE">T</div><div class="cell empty" data-words=""></div><div class="cell" data-words="HATE">T</div><div class="cell" data-words="HEART">T</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RATE">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="HATE">E</div></div><div class="words"><button data-word="HEART" title="Common word">HEART</button> <button data-word="EARTH" title="Common word">EARTH</button> <button data-word="HATE" title="Common word">HATE</button> <button data-word="RATE" title="Common word">RATE</button></div><p>Word potential: 18; после ручного отбора: 15</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;HEART&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;EARTH&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;HATE&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 4,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RATE&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>11 · AINRT</h2><p>5 слов · 5×5 · 4 пересечений · difficulty 29.67</p><div class="grid" style="--cols:5"><div class="cell" data-words="RAIN">R</div><div class="cell cross" data-words="AIR RAIN">A</div><div class="cell" data-words="RAIN">I</div><div class="cell" data-words="RAIN">N</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="AIR">I</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="TRAIN">T</div><div class="cell cross" data-words="TRAIN AIR">R</div><div class="cell cross" data-words="TRAIN ART">A</div><div class="cell" data-words="TRAIN">I</div><div class="cell" data-words="TRAIN">N</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="ART">R</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="RAT">R</div><div class="cell" data-words="RAT">A</div><div class="cell cross" data-words="ART RAT">T</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="TRAIN" title="Common word">TRAIN</button> <button data-word="AIR" title="Common word">AIR</button> <button data-word="ART" title="Common word">ART</button> <button data-word="RAIN" title="Common word">RAIN</button> <button data-word="RAT" title="Common word">RAT</button></div><p>Word potential: 8; после ручного отбора: 5</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;TRAIN&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;AIR&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ART&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RAIN&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RAT&quot;,
+    &quot;row&quot;: 4,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>12 · EILMS</h2><p>5 слов · 5×6 · 5 пересечений · difficulty 30.44</p><div class="grid" style="--cols:5"><div class="cell" data-words="SMILE">S</div><div class="cell cross" data-words="SMILE MILES">M</div><div class="cell" data-words="SMILE">I</div><div class="cell cross" data-words="SMILE LIE">L</div><div class="cell" data-words="SMILE">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="MILES">I</div><div class="cell empty" data-words=""></div><div class="cell" data-words="LIE">I</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="MILES LIES">L</div><div class="cell" data-words="LIES">I</div><div class="cell cross" data-words="LIE LIES">E</div><div class="cell cross" data-words="LIES SLIM">S</div><div class="cell empty" data-words=""></div><div class="cell" data-words="MILES">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="SLIM">L</div><div class="cell empty" data-words=""></div><div class="cell" data-words="MILES">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="SLIM">I</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="SLIM">M</div></div><div class="words"><button data-word="SMILE" title="Common word">SMILE</button> <button data-word="MILES" title="inflected form; confirm editorial policy (not a rare word)">MILES ⚑</button> <button data-word="LIE" title="same word family in this grid: LIE, LIES">LIE ⚑</button> <button data-word="LIES" title="inflected form; confirm editorial policy (not a rare word); same word family in this grid: LIE, LIES">LIES ⚑</button> <button data-word="SLIM" title="Common word">SLIM</button></div><p>Word potential: 6; после ручного отбора: 6</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;SMILE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;MILES&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;LIE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 3,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;LIES&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SLIM&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 4,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>MILES: inflected form; confirm editorial policy (not a rare word); LIES: inflected form; confirm editorial policy (not a rare word); same word family in this grid: LIE, LIES; LIE: same word family in this grid: LIE, LIES</p></details></section><section><h2>13 · AEMRST</h2><p>5 слов · 6×6 · 6 пересечений · difficulty 39.64</p><div class="grid" style="--cols:6"><div class="cell empty" data-words=""></div><div class="cell cross" data-words="TEARS TEAMS">T</div><div class="cell" data-words="TEAMS">E</div><div class="cell cross" data-words="TEAMS ARTS">A</div><div class="cell" data-words="TEAMS">M</div><div class="cell cross" data-words="STREAM TEAMS">S</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEARS">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="ARTS">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STREAM">T</div><div class="cell" data-words="MASTER">M</div><div class="cell cross" data-words="MASTER TEARS">A</div><div class="cell" data-words="MASTER">S</div><div class="cell cross" data-words="MASTER ARTS">T</div><div class="cell" data-words="MASTER">E</div><div class="cell cross" data-words="STREAM MASTER">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEARS">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="ARTS">S</div><div class="cell empty" data-words=""></div><div class="cell" data-words="STREAM">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEARS">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="STREAM">A</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="STREAM">M</div></div><div class="words"><button data-word="STREAM" title="Common word">STREAM</button> <button data-word="MASTER" title="Common word">MASTER</button> <button data-word="TEARS" title="inflected form; confirm editorial policy (not a rare word)">TEARS ⚑</button> <button data-word="TEAMS" title="inflected form; confirm editorial policy (not a rare word)">TEAMS ⚑</button> <button data-word="ARTS" title="plural/multiple senses of ART; confirm early-level vocabulary">ARTS ⚑</button></div><p>Word potential: 41; после ручного отбора: 34</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;STREAM&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 5,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;MASTER&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TEARS&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TEAMS&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ARTS&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 3,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>TEARS: inflected form; confirm editorial policy (not a rare word); TEAMS: inflected form; confirm editorial policy (not a rare word); ARTS: plural/multiple senses of ART; confirm early-level vocabulary</p></details></section><section><h2>14 · AELNPT</h2><p>5 слов · 6×6 · 5 пересечений · difficulty 39.76</p><div class="grid" style="--cols:6"><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="PANEL">P</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="PLANET PLATE">P</div><div class="cell" data-words="PLANET">L</div><div class="cell cross" data-words="PLANET PANEL">A</div><div class="cell" data-words="PLANET">N</div><div class="cell" data-words="PLANET">E</div><div class="cell cross" data-words="PLANET TAPE">T</div><div class="cell" data-words="PLATE">L</div><div class="cell empty" data-words=""></div><div class="cell" data-words="PANEL">N</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="TAPE">A</div><div class="cell" data-words="PLATE">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="PANEL">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="TAPE">P</div><div class="cell cross" data-words="PLATE TALE">T</div><div class="cell" data-words="TALE">A</div><div class="cell cross" data-words="PANEL TALE">L</div><div class="cell" data-words="TALE">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TAPE">E</div><div class="cell" data-words="PLATE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="PLANET" title="Common word">PLANET</button> <button data-word="PANEL" title="Common word">PANEL</button> <button data-word="PLATE" title="Common word">PLATE</button> <button data-word="TALE" title="Common word">TALE</button> <button data-word="TAPE" title="Common word">TAPE</button></div><p>Word potential: 29; после ручного отбора: 24</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;PLANET&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;PANEL&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;PLATE&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TALE&quot;,
+    &quot;row&quot;: 4,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TAPE&quot;,
+    &quot;row&quot;: 1,
+    &quot;col&quot;: 5,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>15 · ADEGNR</h2><p>5 слов · 6×6 · 5 пересечений · difficulty 40.04</p><div class="grid" style="--cols:6"><div class="cell" data-words="GRAND">G</div><div class="cell" data-words="GRAND">R</div><div class="cell cross" data-words="ANGER GRAND">A</div><div class="cell" data-words="GRAND">N</div><div class="cell cross" data-words="DANGER GRAND">D</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="ANGER">N</div><div class="cell empty" data-words=""></div><div class="cell" data-words="DANGER">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RAGE">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="ANGER">G</div><div class="cell empty" data-words=""></div><div class="cell" data-words="DANGER">N</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RAGE">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="ANGER">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="DANGER">G</div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="GARDEN RAGE">G</div><div class="cell" data-words="GARDEN">A</div><div class="cell cross" data-words="GARDEN ANGER">R</div><div class="cell" data-words="GARDEN">D</div><div class="cell cross" data-words="GARDEN DANGER">E</div><div class="cell" data-words="GARDEN">N</div><div class="cell" data-words="RAGE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="DANGER">R</div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="GARDEN" title="Common word">GARDEN</button> <button data-word="DANGER" title="Common word">DANGER</button> <button data-word="ANGER" title="Common word">ANGER</button> <button data-word="GRAND" title="Common word">GRAND</button> <button data-word="RAGE" title="Common word">RAGE</button></div><p>Word potential: 27; после ручного отбора: 20</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;GARDEN&quot;,
+    &quot;row&quot;: 4,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;DANGER&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 4,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ANGER&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;GRAND&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RAGE&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>16 · EILNST</h2><p>6 слов · 6×6 · 6 пересечений · difficulty 42.27</p><div class="grid" style="--cols:6"><div class="cell cross" data-words="SILENT SET">S</div><div class="cell" data-words="SET">E</div><div class="cell" data-words="SET">T</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="LINES">L</div><div class="cell" data-words="SILENT">I</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="LINES">I</div><div class="cell cross" data-words="LISTEN SILENT">L</div><div class="cell" data-words="LISTEN">I</div><div class="cell cross" data-words="LISTEN SITE">S</div><div class="cell" data-words="LISTEN">T</div><div class="cell" data-words="LISTEN">E</div><div class="cell cross" data-words="LISTEN LINES">N</div><div class="cell" data-words="SILENT">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SITE">I</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="LINES">E</div><div class="cell" data-words="SILENT">N</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SITE">T</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="LINES">S</div><div class="cell cross" data-words="SILENT TIES">T</div><div class="cell" data-words="TIES">I</div><div class="cell cross" data-words="TIES SITE">E</div><div class="cell" data-words="TIES">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="LISTEN" title="Common word">LISTEN</button> <button data-word="SILENT" title="Common word">SILENT</button> <button data-word="LINES" title="inflected form; confirm editorial policy (not a rare word)">LINES ⚑</button> <button data-word="TIES" title="inflected form; confirm editorial policy (not a rare word)">TIES ⚑</button> <button data-word="SITE" title="Common word">SITE</button> <button data-word="SET" title="Common word">SET</button></div><p>Word potential: 32; после ручного отбора: 19</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;LISTEN&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SILENT&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;LINES&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 5,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TIES&quot;,
+    &quot;row&quot;: 5,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SITE&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SET&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  }
+]</pre><p>LINES: inflected form; confirm editorial policy (not a rare word); TIES: inflected form; confirm editorial policy (not a rare word)</p></details></section><section><h2>17 · DEFINR</h2><p>6 слов · 6×8 · 6 пересечений · difficulty 43.95</p><div class="grid" style="--cols:6"><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="FRIEND FIRE">F</div><div class="cell" data-words="FIRE">I</div><div class="cell cross" data-words="RIDE FIRE">R</div><div class="cell" data-words="FIRE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="FRIEND">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RIDE">I</div><div class="cell empty" data-words=""></div><div class="cell" data-words="FRIED">F</div><div class="cell" data-words="FRIED">R</div><div class="cell cross" data-words="FRIEND FRIED">I</div><div class="cell" data-words="FRIED">E</div><div class="cell cross" data-words="FRIED RIDE">D</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="FRIEND">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RIDE">E</div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="FIND FINE">F</div><div class="cell" data-words="FIND">I</div><div class="cell cross" data-words="FRIEND FIND">N</div><div class="cell" data-words="FIND">D</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="FINE">I</div><div class="cell empty" data-words=""></div><div class="cell" data-words="FRIEND">D</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="FINE">N</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="FINE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="FRIEND" title="Common word">FRIEND</button> <button data-word="FRIED" title="inflected form; confirm editorial policy (not a rare word)">FRIED ⚑</button> <button data-word="FIND" title="Common word">FIND</button> <button data-word="RIDE" title="Common word">RIDE</button> <button data-word="FIRE" title="Common word">FIRE</button> <button data-word="FINE" title="Common word">FINE</button></div><p>Word potential: 19; после ручного отбора: 8</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;FRIEND&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;FRIED&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;FIND&quot;,
+    &quot;row&quot;: 4,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RIDE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 4,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;FIRE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;FINE&quot;,
+    &quot;row&quot;: 4,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>FRIED: inflected form; confirm editorial policy (not a rare word)</p></details></section><section><h2>18 · AENPRST</h2><p>6 слов · 6×7 · 6 пересечений · difficulty 51.52</p><div class="grid" style="--cols:6"><div class="cell empty" data-words=""></div><div class="cell" data-words="TAPES">T</div><div class="cell" data-words="TAPES">A</div><div class="cell cross" data-words="PARENTS TAPES">P</div><div class="cell" data-words="TAPES">E</div><div class="cell cross" data-words="TAPES SPARE">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="PARENTS">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SPARE">P</div><div class="cell" data-words="TRAPS">T</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="PARENTS">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SPARE">A</div><div class="cell" data-words="TRAPS">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEAR">T</div><div class="cell cross" data-words="PARENTS TEAR">E</div><div class="cell" data-words="TEAR">A</div><div class="cell cross" data-words="SPARE TEAR">R</div><div class="cell" data-words="TRAPS">A</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="PARENTS">N</div><div class="cell empty" data-words=""></div><div class="cell" data-words="SPARE">E</div><div class="cell cross" data-words="PARTS TRAPS">P</div><div class="cell" data-words="PARTS">A</div><div class="cell" data-words="PARTS">R</div><div class="cell cross" data-words="PARENTS PARTS">T</div><div class="cell" data-words="PARTS">S</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TRAPS">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="PARENTS">S</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="PARENTS" title="inflected form; confirm editorial policy (not a rare word)">PARENTS ⚑</button> <button data-word="TAPES" title="inflected form; confirm editorial policy (not a rare word)">TAPES ⚑</button> <button data-word="PARTS" title="inflected form; confirm editorial policy (not a rare word)">PARTS ⚑</button> <button data-word="SPARE" title="Common word">SPARE</button> <button data-word="TEAR" title="Common word">TEAR</button> <button data-word="TRAPS" title="inflected form; confirm editorial policy (not a rare word)">TRAPS ⚑</button></div><p>Word potential: 65; после ручного отбора: 52</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;PARENTS&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 3,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TAPES&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;PARTS&quot;,
+    &quot;row&quot;: 5,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SPARE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 5,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TEAR&quot;,
+    &quot;row&quot;: 3,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TRAPS&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>PARENTS: inflected form; confirm editorial policy (not a rare word); TAPES: inflected form; confirm editorial policy (not a rare word); PARTS: inflected form; confirm editorial policy (not a rare word); TRAPS: inflected form; confirm editorial policy (not a rare word)</p></details></section><section><h2>19 · ACEEHRT</h2><p>7 слов · 6×7 · 8 пересечений · difficulty 53.50</p><div class="grid" style="--cols:6"><div class="cell" data-words="CREATE">C</div><div class="cell" data-words="CREATE">R</div><div class="cell" data-words="CREATE">E</div><div class="cell" data-words="CREATE">A</div><div class="cell cross" data-words="TEACHER CREATE">T</div><div class="cell" data-words="CREATE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEACHER">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="TRACE TEAR">T</div><div class="cell" data-words="TEAR">E</div><div class="cell cross" data-words="TEACHER TEAR">A</div><div class="cell" data-words="TEAR">R</div><div class="cell" data-words="ERA">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TRACE">R</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEACHER">C</div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="REACH ERA">R</div><div class="cell" data-words="REACH">E</div><div class="cell cross" data-words="REACH TRACE">A</div><div class="cell" data-words="REACH">C</div><div class="cell cross" data-words="TEACHER REACH">H</div><div class="cell empty" data-words=""></div><div class="cell" data-words="ERA">A</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TRACE">C</div><div class="cell empty" data-words=""></div><div class="cell" data-words="TEACHER">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="HEAR">H</div><div class="cell cross" data-words="TRACE HEAR">E</div><div class="cell" data-words="HEAR">A</div><div class="cell cross" data-words="TEACHER HEAR">R</div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="TEACHER" title="Common word">TEACHER</button> <button data-word="CREATE" title="Common word">CREATE</button> <button data-word="REACH" title="Common word">REACH</button> <button data-word="TRACE" title="Common word">TRACE</button> <button data-word="HEAR" title="Common word">HEAR</button> <button data-word="TEAR" title="Common word">TEAR</button> <button data-word="ERA" title="Common word">ERA</button></div><p>Word potential: 45; после ручного отбора: 27</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;TEACHER&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 4,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;CREATE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;REACH&quot;,
+    &quot;row&quot;: 4,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TRACE&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;HEAR&quot;,
+    &quot;row&quot;: 6,
+    &quot;col&quot;: 1,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TEAR&quot;,
+    &quot;row&quot;: 2,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;ERA&quot;,
+    &quot;row&quot;: 3,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>Нет дополнительных флагов</p></details></section><section><h2>20 · AELPRST</h2><p>7 слов · 7×7 · 8 пересечений · difficulty 54.65</p><div class="grid" style="--cols:7"><div class="cell cross" data-words="PLASTER PLATES">P</div><div class="cell" data-words="PLASTER">L</div><div class="cell" data-words="PLASTER">A</div><div class="cell cross" data-words="PLASTER SALE">S</div><div class="cell" data-words="PLASTER">T</div><div class="cell" data-words="PLASTER">E</div><div class="cell cross" data-words="PLASTER RATS">R</div><div class="cell" data-words="PLATES">L</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="SALE">A</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="RATS">A</div><div class="cell" data-words="PLATES">A</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="SALE">L</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="RATS">T</div><div class="cell cross" data-words="PLATES TALES">T</div><div class="cell" data-words="TALES">A</div><div class="cell cross" data-words="TALES LEAP">L</div><div class="cell cross" data-words="TALES SALE">E</div><div class="cell" data-words="TALES">S</div><div class="cell empty" data-words=""></div><div class="cell" data-words="RATS">S</div><div class="cell" data-words="PLATES">E</div><div class="cell empty" data-words=""></div><div class="cell" data-words="LEAP">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell cross" data-words="PLATES STARE">S</div><div class="cell" data-words="STARE">T</div><div class="cell cross" data-words="STARE LEAP">A</div><div class="cell" data-words="STARE">R</div><div class="cell" data-words="STARE">E</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell" data-words="LEAP">P</div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div><div class="cell empty" data-words=""></div></div><div class="words"><button data-word="PLASTER" title="Common word">PLASTER</button> <button data-word="PLATES" title="inflected form; confirm editorial policy (not a rare word)">PLATES ⚑</button> <button data-word="STARE" title="Common word">STARE</button> <button data-word="TALES" title="inflected form; confirm editorial policy (not a rare word)">TALES ⚑</button> <button data-word="LEAP" title="Common word">LEAP</button> <button data-word="SALE" title="Common word">SALE</button> <button data-word="RATS" title="inflected form; confirm editorial policy (not a rare word)">RATS ⚑</button></div><p>Word potential: 67; после ручного отбора: 56</p><details><summary>Размещения / ручная проверка</summary><pre>[
+  {
+    &quot;text&quot;: &quot;PLASTER&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;PLATES&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;STARE&quot;,
+    &quot;row&quot;: 5,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;TALES&quot;,
+    &quot;row&quot;: 3,
+    &quot;col&quot;: 0,
+    &quot;direction&quot;: &quot;across&quot;
+  },
+  {
+    &quot;text&quot;: &quot;LEAP&quot;,
+    &quot;row&quot;: 3,
+    &quot;col&quot;: 2,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;SALE&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 3,
+    &quot;direction&quot;: &quot;down&quot;
+  },
+  {
+    &quot;text&quot;: &quot;RATS&quot;,
+    &quot;row&quot;: 0,
+    &quot;col&quot;: 6,
+    &quot;direction&quot;: &quot;down&quot;
+  }
+]</pre><p>PLATES: inflected form; confirm editorial policy (not a rare word); TALES: inflected form; confirm editorial policy (not a rare word); RATS: inflected form; confirm editorial policy (not a rare word)</p></details></section></div></main><script>document.querySelectorAll('button[data-word]').forEach(b=>b.onclick=()=>{const s=b.closest('section'),w=b.dataset.word;const on=!b.classList.contains('active');s.querySelectorAll('.active').forEach(x=>x.classList.remove('active'));if(on){b.classList.add('active');s.querySelectorAll('.cell').forEach(c=>{if(c.dataset.words.split(' ').includes(w))c.classList.add('active')})}});</script></html>

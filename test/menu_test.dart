@@ -1,4 +1,5 @@
 import 'package:cross_slow/core/theme/game_theme.dart';
+import 'package:cross_slow/core/widgets/pixel_ui.dart';
 import 'package:cross_slow/features/menu/menu_screen.dart';
 import 'package:cross_slow/progress/theme_repository.dart';
 import 'package:cross_slow/progress/campaign_progress.dart';
@@ -44,6 +45,7 @@ void main() {
         await tester.tap(find.text('Светлая'));
         await tester.pump();
         expect(chosen, ThemeMode.light);
+        await tester.ensureVisible(find.text('Статистика'));
         await tester.tap(find.text('Статистика'));
         await tester.pumpAndSettle();
         expect(find.text('1 / 1'), findsOneWidget);
@@ -53,6 +55,21 @@ void main() {
         await tester.tap(find.text('ИНФО'));
         await tester.pumpAndSettle();
         expect(find.text('Как играть'), findsOneWidget);
+        await tester.tap(find.text('Политика конфиденциальности'));
+        await tester.pumpAndSettle();
+        expect(
+          find.textContaining(
+            RegExp('облачная синхронизация', caseSensitive: false),
+          ),
+          findsOneWidget,
+        );
+        expect(find.byType(PixelPanel), findsNothing);
+        await tester.pageBack();
+        await tester.pumpAndSettle();
+        await tester.tap(find.text('Пользовательское соглашение'));
+        await tester.pumpAndSettle();
+        expect(find.textContaining('Кристаллы являются'), findsOneWidget);
+        expect(find.byType(PixelPanel), findsNothing);
         expect(tester.takeException(), isNull);
       },
     );

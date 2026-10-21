@@ -1,3 +1,7 @@
+import '../interface_language.dart';
+import '../l10n/app_localizations.dart';
+import '../l10n/localized_content.dart';
+
 import 'dart:collection';
 import 'dart:convert';
 
@@ -15,8 +19,10 @@ import '../features/game/models/level.dart';
 import '../features/home/home_screen.dart';
 import '../features/menu/menu_screen.dart';
 import '../features/splash/splash_screen.dart';
+import '../game_language.dart';
 import '../progress/achievements.dart';
 import '../progress/campaign_progress.dart';
+import '../progress/game_profiles.dart';
 import '../progress/progress_repository.dart';
 import '../progress/theme_repository.dart';
 
@@ -30,8 +36,14 @@ class CrossSlowApp extends StatefulWidget {
 class _CrossSlowAppState extends State<CrossSlowApp> {
   final repository = ProgressRepository();
   final themeRepository = ThemeRepository();
-  late final Future<List<Level>> levels;
+  final interfaceLanguage = InterfaceLanguageController();
+  late Future<List<Level>> levels;
+  GameProfiles profiles = GameProfiles();
   CampaignProgress progress = CampaignProgress();
+  GameLanguage language = GameLanguage.ru;
+  bool englishAvailable = false;
+  bool switchingLanguage = false;
+  bool languageHome = false;
   Future<void> pendingSave = Future.value();
   final Queue<AchievementDefinition> toastQueue = Queue();
   AchievementDefinition? toast;
@@ -53,12 +65,22 @@ class _CrossSlowAppState extends State<CrossSlowApp> {
   }
 
   Future<List<Level>> _initialize() async {
+    await interfaceLanguage.load();
     final savedTheme = await themeRepository.load();
     if (mounted) setState(() => themeMode = savedTheme);
-    final data = await LevelRepository().load();
-    final saved = await repository.load();
+    final savedProfiles = await repository.loadProfiles();
+    englishAvailable = LevelRepository.englishCampaignIncluded;
+    if (savedProfiles.selectedLanguage == GameLanguage.en &&
+        !englishAvailable) {
+      savedProfiles.select(GameLanguage.ru);
+      await repository.saveProfiles(savedProfiles);
+    }
+    final data = await LevelRepository().load(savedProfiles.selectedLanguage);
+    final saved = savedProfiles.active;
     if (mounted) {
       setState(() {
+        profiles = savedProfiles;
+        language = savedProfiles.selectedLanguage;
         progress = saved;
         playingLevelId = saved.currentLevel;
         inTransition = saved.pendingChapterId != null;
@@ -67,14 +89,55 @@ class _CrossSlowAppState extends State<CrossSlowApp> {
     return data;
   }
 
+  @override
+  void dispose() {
+    interfaceLanguage.dispose();
+    super.dispose();
+  }
+
   void _setTheme(ThemeMode mode) {
     setState(() => themeMode = mode);
     themeRepository.save(mode);
   }
 
   void _save() {
-    final snapshot = jsonEncode(progress.toJson());
-    pendingSave = pendingSave.then((_) => repository.saveEncoded(snapshot));
+    final snapshot = jsonEncode(profiles.toJson());
+    pendingSave = pendingSave.then(
+      (_) => repository.saveProfilesEncoded(snapshot),
+    );
+  }
+
+  Future<bool> _changeLanguage(GameLanguage selected) async {
+    if (selected == GameLanguage.en && !englishAvailable) return false;
+    if (switchingLanguage) return false;
+    switchingLanguage = true;
+    try {
+      await pendingSave;
+      final selectedLevels = await LevelRepository().load(selected);
+      if (!mounted) return false;
+      // Commit a complete snapshot only after the destination assets loaded.
+      final switched = GameProfiles.fromJson(profiles.toJson())
+        ..select(selected);
+      await repository.saveProfiles(switched);
+      if (!mounted) return false;
+      setState(() {
+        profiles = switched;
+        language = selected;
+        progress = profiles.active;
+        levels = Future.value(selectedLevels);
+        playingLevelId = progress.currentLevel;
+        playingEndlessSourceLevelId = null;
+        inGame = false;
+        inEndless = false;
+        inTransition = false;
+        languageHome = true;
+        toastQueue.clear();
+        toast = null;
+      });
+      return true;
+    } finally {
+      switchingLanguage = false;
+    }
   }
 
   void _checkAchievements(List<Level> data) {
@@ -112,9 +175,17 @@ class _CrossSlowAppState extends State<CrossSlowApp> {
     } else if (!progress.recordHint(playingLevelId)) {
       return false;
     }
-    _save();
     setState(() {});
     return true;
+  }
+
+  void _cellRevealed(String cell) {
+    if (inEndless) {
+      progress.recordEndlessRevealedHintCell(cell);
+    } else {
+      progress.recordRevealedHintCell(playingLevelId, cell);
+    }
+    _save();
   }
 
   void _complete(List<Level> data, Level level) {
@@ -178,7 +249,7 @@ class _CrossSlowAppState extends State<CrossSlowApp> {
     try {
       await pendingSave;
       progress.seenScenes.add(scene.id);
-      await repository.save(progress);
+      await repository.saveProfiles(profiles);
       if (!mounted) return;
       setState(() => sceneBusy = false);
     } catch (_) {
@@ -193,7 +264,7 @@ class _CrossSlowAppState extends State<CrossSlowApp> {
     try {
       await pendingSave;
       progress.acknowledgeChapter();
-      await repository.save(progress);
+      await repository.saveProfiles(profiles);
       if (!mounted) return;
       setState(() {
         transitionBusy = false;
@@ -213,162 +284,199 @@ class _CrossSlowAppState extends State<CrossSlowApp> {
   }
 
   @override
-  Widget build(BuildContext context) => MaterialApp(
-    title: 'КроссСлов',
-    debugShowCheckedModeBanner: false,
-    theme: GameTheme.light,
-    darkTheme: GameTheme.dark,
-    themeMode: themeMode,
-    home: !splashFinished
-        ? SplashScreen(onFinished: () => setState(() => splashFinished = true))
-        : FutureBuilder<List<Level>>(
-            future: levels,
-            builder: (context, snapshot) {
-              if (snapshot.hasError) {
-                return Scaffold(
-                  body: Center(
-                    child: Text(
-                      'Не удалось загрузить уровни: ${snapshot.error}',
-                    ),
-                  ),
-                );
-              }
-              if (!snapshot.hasData) {
-                return const Scaffold(
-                  body: Center(child: CircularProgressIndicator()),
-                );
-              }
-              final data = snapshot.data!;
-              final index = data.indexWhere(
-                (level) =>
-                    level.id ==
-                    (inEndless ? playingEndlessSourceLevelId : playingLevelId),
-              );
-              final level = data[index < 0 ? 0 : index];
-              Widget screen;
-              if (inTransition) {
-                final chapter = CampaignChapters.all.firstWhere(
-                  (item) => item.id == progress.pendingChapterId,
-                );
-                screen = ChapterTransitionScreen(
-                  chapter: chapter,
-                  onContinue: _continueChapter,
-                );
-              } else if (inGame) {
-                screen = GameScreen(
-                  key: ValueKey(
-                    inEndless
-                        ? 'endless-$playingEndlessRound-$playingEndlessSourceLevelId'
-                        : 'campaign-$playingLevelId',
-                  ),
-                  level: level,
-                  initialFound: inEndless
-                      ? progress.endlessFoundWords
-                      : progress.wordsFor(level.id),
-                  crystals: progress.crystals,
-                  endlessRound: inEndless ? playingEndlessRound : null,
-                  sceneOverride: inEndless ? ChapterScenes.forLevel(150) : null,
-                  onBack: () => setState(() {
-                    inGame = false;
-                    inEndless = false;
-                  }),
-                  onWordFound: (word) => _wordFound(data, level, word),
-                  onHintUsed: _hintUsed,
-                  onComplete: () => _complete(data, level),
-                  onNext: () => _next(data),
-                  hasNext: inEndless || level.id < data.length,
-                );
-              } else if (progress.campaignCompleted &&
-                  !progress.campaignFinalSeen) {
-                screen = ChapterSceneRevealScreen(
-                  key: const ValueKey('campaign-final'),
-                  scene: ChapterScenes.forLevel(150)!,
-                  title: 'ПУТЕШЕСТВИЕ ЗАВЕРШЕНО',
-                  subtitle: 'Пройдено 150 уровней',
-                  caption: 'Но слова не заканчиваются...',
-                  buttonLabel: 'ПРОДОЛЖИТЬ ИГРАТЬ',
-                  onContinue: _continueFinal,
-                );
-              } else if (ChapterScenes.unseenOpeningForLevel(
-                    progress.currentLevel,
-                    progress.seenScenes,
-                  )
-                  case final scene?) {
-                screen = ChapterSceneRevealScreen(
-                  key: ValueKey('scene-reveal-${scene.id}'),
-                  scene: scene,
-                  onContinue: () => _continueScene(scene),
-                );
-              } else {
-                screen = HomeScreen(
-                  level: progress.currentLevel,
-                  totalLevels: data.length,
-                  completed: progress.completedLevels,
-                  campaignCompleted: progress.campaignCompleted,
-                  endlessRoundsCompleted: progress.endlessRoundsCompleted,
-                  crystals: progress.crystals,
-                  onContinue: () {
-                    if (progress.campaignCompleted) {
-                      _startEndless(data);
-                      return;
-                    }
-                    setState(() {
-                      if (progress.pendingChapterId != null) {
-                        inTransition = true;
-                      } else if (!progress.campaignCompleted) {
-                        playingLevelId = progress.currentLevel;
-                        inGame = true;
-                      }
-                    });
-                  },
-                  onMenu: (menuContext) => Navigator.of(menuContext).push(
-                    MaterialPageRoute<void>(
-                      builder: (_) => MenuScreen(
-                        themeMode: themeMode,
-                        onThemeChanged: _setTheme,
-                        progress: progress,
-                        levels: data,
+  Widget build(BuildContext context) => InterfaceLanguageScope(
+    controller: interfaceLanguage,
+    child: ListenableBuilder(
+      listenable: interfaceLanguage,
+      builder: (context, _) => MaterialApp(
+        locale: interfaceLanguage.language.locale,
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        supportedLocales: AppLocalizations.supportedLocales,
+        title: 'КроссСлов',
+        debugShowCheckedModeBanner: false,
+        theme: GameTheme.light,
+        darkTheme: GameTheme.dark,
+        themeMode: themeMode,
+        home: !splashFinished
+            ? SplashScreen(
+                onFinished: () => setState(() => splashFinished = true),
+              )
+            : FutureBuilder<List<Level>>(
+                future: levels,
+                builder: (context, snapshot) {
+                  if (snapshot.hasError) {
+                    return Scaffold(
+                      body: Center(
+                        child: Text(
+                          context.l10n.levelsLoadError('${snapshot.error}'),
+                        ),
                       ),
-                    ),
-                  ),
-                );
-              }
-              return Stack(
-                children: [
-                  screen,
-                  if (toast != null)
-                    Positioned(
-                      top: 38,
-                      left: 24,
-                      right: 24,
-                      child: IgnorePointer(
-                        child: Center(
-                          child: Material(
-                            color: Colors.transparent,
-                            child: PixelPanel(
-                              highlight: true,
-                              child: Column(
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
-                                  const Text('★ ДОСТИЖЕНИЕ ★'),
-                                  Text(
-                                    toast!.title,
-                                    style: const TextStyle(
-                                      fontSize: 19,
-                                      fontWeight: FontWeight.w900,
-                                    ),
+                    );
+                  }
+                  if (!snapshot.hasData) {
+                    return const Scaffold(
+                      body: Center(child: CircularProgressIndicator()),
+                    );
+                  }
+                  final data = snapshot.data!;
+                  final index = data.indexWhere(
+                    (level) =>
+                        level.id ==
+                        (inEndless
+                            ? playingEndlessSourceLevelId
+                            : playingLevelId),
+                  );
+                  final level = data[index < 0 ? 0 : index];
+                  Widget screen;
+                  if (inTransition) {
+                    final chapter = CampaignChapters.all.firstWhere(
+                      (item) => item.id == progress.pendingChapterId,
+                    );
+                    screen = ChapterTransitionScreen(
+                      chapter: chapter,
+                      onContinue: _continueChapter,
+                    );
+                  } else if (inGame) {
+                    screen = GameScreen(
+                      key: ValueKey(
+                        inEndless
+                            ? '${language.code}-endless-$playingEndlessRound-$playingEndlessSourceLevelId'
+                            : '${language.code}-campaign-$playingLevelId',
+                      ),
+                      level: level,
+                      language: language,
+                      initialFound: inEndless
+                          ? progress.endlessFoundWords
+                          : progress.wordsFor(level.id),
+                      initialRevealed: inEndless
+                          ? progress.endlessRevealedHintCells
+                          : progress.revealedCellsFor(level.id),
+                      crystals: progress.crystals,
+                      endlessRound: inEndless ? playingEndlessRound : null,
+                      sceneOverride: inEndless
+                          ? ChapterScenes.forLevel(150)
+                          : null,
+                      onBack: () => setState(() {
+                        inGame = false;
+                        inEndless = false;
+                      }),
+                      onWordFound: (word) => _wordFound(data, level, word),
+                      onHintUsed: _hintUsed,
+                      onCellRevealed: _cellRevealed,
+                      onComplete: () => _complete(data, level),
+                      onNext: () => _next(data),
+                      hasNext: inEndless || level.id < data.length,
+                    );
+                  } else if (!languageHome &&
+                      progress.campaignCompleted &&
+                      !progress.campaignFinalSeen) {
+                    screen = ChapterSceneRevealScreen(
+                      key: const ValueKey('campaign-final'),
+                      scene: ChapterScenes.forLevel(150)!,
+                      title: context.l10n.campaignFinalTitle,
+                      subtitle: context.l10n.campaignFinalSummary(150),
+                      caption: context.l10n.campaignFinalCaption,
+                      buttonLabel: context.l10n.continuePlayingButton,
+                      onContinue: _continueFinal,
+                    );
+                  } else if ((languageHome
+                          ? null
+                          : ChapterScenes.unseenOpeningForLevel(
+                              progress.currentLevel,
+                              progress.seenScenes,
+                            ))
+                      case final scene?) {
+                    screen = ChapterSceneRevealScreen(
+                      key: ValueKey('scene-reveal-${scene.id}'),
+                      scene: scene,
+                      onContinue: () => _continueScene(scene),
+                    );
+                  } else {
+                    screen = HomeScreen(
+                      language: language,
+                      level: progress.currentLevel,
+                      totalLevels: data.length,
+                      completed: progress.completedLevels,
+                      campaignCompleted: progress.campaignCompleted,
+                      endlessRoundsCompleted: progress.endlessRoundsCompleted,
+                      crystals: progress.crystals,
+                      onContinue: () {
+                        setState(() => languageHome = false);
+                        if (progress.campaignCompleted) {
+                          if (!progress.campaignFinalSeen) return;
+                          _startEndless(data);
+                          return;
+                        }
+                        setState(() {
+                          if (progress.pendingChapterId != null) {
+                            inTransition = true;
+                          } else if (ChapterScenes.unseenOpeningForLevel(
+                                progress.currentLevel,
+                                progress.seenScenes,
+                              ) ==
+                              null) {
+                            playingLevelId = progress.currentLevel;
+                            inGame = true;
+                          }
+                        });
+                      },
+                      onMenu: (menuContext) => Navigator.of(menuContext).push(
+                        MaterialPageRoute<void>(
+                          builder: (_) => MenuScreen(
+                            themeMode: themeMode,
+                            onThemeChanged: _setTheme,
+                            progress: progress,
+                            levels: data,
+                            language: language,
+                            englishAvailable: englishAvailable,
+                            onLanguageChanged: _changeLanguage,
+                          ),
+                        ),
+                      ),
+                    );
+                  }
+                  return Stack(
+                    children: [
+                      screen,
+                      if (toast != null)
+                        Positioned(
+                          top: 38,
+                          left: 24,
+                          right: 24,
+                          child: IgnorePointer(
+                            child: Center(
+                              child: Material(
+                                color: Colors.transparent,
+                                child: PixelPanel(
+                                  highlight: true,
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      Text(context.l10n.achievementToastTitle),
+                                      Text(
+                                        context.l10n.achievementName(toast!.id),
+                                        style: const TextStyle(
+                                          fontSize: 19,
+                                          fontWeight: FontWeight.w900,
+                                        ),
+                                      ),
+                                      Text(
+                                        context.l10n.achievementDescription(
+                                          toast!,
+                                        ),
+                                      ),
+                                    ],
                                   ),
-                                  Text(toast!.description),
-                                ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                      ),
-                    ),
-                ],
-              );
-            },
-          ),
+                    ],
+                  );
+                },
+              ),
+      ),
+    ),
   );
 }

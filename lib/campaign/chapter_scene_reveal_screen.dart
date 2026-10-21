@@ -1,3 +1,5 @@
+import '../l10n/localized_content.dart';
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -15,7 +17,7 @@ class ChapterSceneRevealScreen extends StatefulWidget {
     this.title,
     this.subtitle,
     this.caption,
-    this.buttonLabel = 'ПРОДОЛЖИТЬ',
+    this.buttonLabel,
   });
 
   final ChapterScene scene;
@@ -23,7 +25,7 @@ class ChapterSceneRevealScreen extends StatefulWidget {
   final String? title;
   final String? subtitle;
   final String? caption;
-  final String buttonLabel;
+  final String? buttonLabel;
 
   @override
   State<ChapterSceneRevealScreen> createState() =>
@@ -66,7 +68,8 @@ class _ChapterSceneRevealScreenState extends State<ChapterSceneRevealScreen> {
                 children: [
                   const Spacer(),
                   Text(
-                    widget.title ?? widget.scene.title.toUpperCase(),
+                    widget.title ??
+                        context.l10n.sceneName(widget.scene.id).toUpperCase(),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       color: Colors.white,
@@ -115,7 +118,7 @@ class _ChapterSceneRevealScreenState extends State<ChapterSceneRevealScreen> {
                       onPressed: widget.onContinue,
                       borderRadius: 30,
                       child: Text(
-                        widget.buttonLabel,
+                        widget.buttonLabel ?? context.l10n.continueButton,
                         style: const TextStyle(fontSize: 17),
                       ),
                     ),

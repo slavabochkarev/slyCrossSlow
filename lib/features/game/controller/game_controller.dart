@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 
 import '../models/level.dart';
 import '../data/game_dictionary.dart';
+import '../../../game_language.dart';
 
 enum WordResult { correct, alreadyFound, validNotInCrossword, unknown }
 
@@ -13,26 +14,34 @@ class GameController extends ChangeNotifier {
     Random? random,
     Set<String> dictionary = const {},
     Set<String> initialFound = const {},
+    Set<String> initialRevealed = const {},
+    this.language = GameLanguage.ru,
   }) : _random = random ?? Random(),
        // The public parameter keeps the dictionary injectable for tests.
        // ignore: prefer_initializing_formals
        _dictionary = dictionary,
-       found = {...initialFound};
+       found = {...initialFound},
+       revealed = {...initialRevealed};
 
   final Level level;
+  final GameLanguage language;
   final Random _random;
   Set<String> _dictionary;
   final Set<String> found;
-  final Set<String> revealed = {};
+  final Set<String> revealed;
 
   bool get completed => found.length == level.words.length;
 
   bool get canRevealOne => _closedCells().isNotEmpty;
 
+  bool get allCellsVisible => !canRevealOne;
+
   void setDictionary(Set<String> words) => _dictionary = words;
 
   bool _canCompose(String word) {
-    final remaining = level.letters.map(GameDictionary.normalize).toList();
+    final remaining = level.letters
+        .map((letter) => GameDictionary.normalize(letter, language))
+        .toList();
     for (final letter in word.split('')) {
       if (!remaining.remove(letter)) return false;
     }
@@ -40,7 +49,7 @@ class GameController extends ChangeNotifier {
   }
 
   WordResult submit(String word) {
-    final normalized = GameDictionary.normalize(word);
+    final normalized = GameDictionary.normalize(word, language);
     if (found.contains(normalized)) return WordResult.alreadyFound;
     if (!level.words.any((placement) => placement.text == normalized)) {
       return _canCompose(normalized) && _dictionary.contains(normalized)
@@ -66,11 +75,12 @@ class GameController extends ChangeNotifier {
     return cells.difference(alreadyVisible).toList();
   }
 
-  bool revealOne() {
+  String? revealOne() {
     final closed = _closedCells();
-    if (closed.isEmpty) return false;
-    revealed.add(closed[_random.nextInt(closed.length)]);
+    if (closed.isEmpty) return null;
+    final cell = closed[_random.nextInt(closed.length)];
+    revealed.add(cell);
     notifyListeners();
-    return true;
+    return cell;
   }
 }

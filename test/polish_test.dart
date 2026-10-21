@@ -31,12 +31,12 @@ void main() {
     for (var seed = 0; seed < 30; seed++) {
       final controller = GameController(crossingLevel, random: Random(seed));
       expect(controller.submit('КОТ'), WordResult.correct);
-      expect(controller.revealOne(), isTrue);
+      expect(controller.revealOne(), isNotNull);
       firstChoices.add(controller.revealed.single);
       expect(controller.revealed.single, isIn({'1:2', '2:2'}));
-      expect(controller.revealOne(), isTrue);
+      expect(controller.revealOne(), isNotNull);
       expect(controller.revealed, {'1:2', '2:2'});
-      expect(controller.revealOne(), isFalse);
+      expect(controller.revealOne(), isNull);
       expect(controller.revealed.length, 2);
     }
     expect(firstChoices, {'1:2', '2:2'});
@@ -52,12 +52,91 @@ void main() {
       crystals: 13,
     );
     expect(progress.recordHint(2), isTrue);
+    progress.recordRevealedHintCell(2, '1:2');
     await repository.save(progress);
     final loaded = await ProgressRepository().load();
     expect(loaded.currentLevel, 2);
     expect(loaded.completed, {1});
     expect(loaded.crystals, 3);
     expect(loaded.hintsUsed, 1);
+    expect(loaded.revealedCellsFor(2), {'1:2'});
+  });
+
+  testWidgets('last hinted cell completes the crossword and saves the result', (
+    tester,
+  ) async {
+    await tester.binding.setSurfaceSize(const Size(390, 700));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    final progress = CampaignProgress(
+      crystals: 10,
+      foundWords: {
+        1: {'КОТ'},
+      },
+      revealedHintCells: {
+        1: {'1:2'},
+      },
+    );
+    var completions = 0;
+    await tester.pumpWidget(
+      MaterialApp(
+        home: GameScreen(
+          level: crossingLevel,
+          initialFound: progress.wordsFor(1),
+          initialRevealed: progress.revealedCellsFor(1),
+          crystals: progress.crystals,
+          onBack: () {},
+          onHintUsed: () => progress.recordHint(1),
+          onCellRevealed: (cell) => progress.recordRevealedHintCell(1, cell),
+          onWordFound: (word) => progress.recordWord(crossingLevel, word),
+          onComplete: () {
+            completions++;
+            progress.complete(crossingLevel);
+          },
+          onNext: () {},
+          hasNext: true,
+        ),
+      ),
+    );
+    await tester.tap(find.byIcon(Icons.lightbulb));
+    await tester.pump();
+    expect(completions, 1);
+    expect(progress.completed, {1});
+    expect(progress.wordsFor(1), {'КОТ', 'ТОК'});
+    expect(progress.hintsUsed, 1);
+    expect(progress.crystals, 3);
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.text('ПРОДОЛЖИТЬ ИГРАТЬ'), findsOneWidget);
+  });
+
+  testWidgets('hinted cell is visible after reopening the game', (
+    tester,
+  ) async {
+    await tester.binding.setSurfaceSize(const Size(390, 700));
+    addTearDown(() => tester.binding.setSurfaceSize(null));
+    final saved = CampaignProgress(crystals: 10);
+    expect(saved.recordHint(1), isTrue);
+    saved.recordRevealedHintCell(1, '0:0');
+    final restored = CampaignProgress.fromJson(saved.toJson());
+    await tester.pumpWidget(
+      MaterialApp(
+        home: GameScreen(
+          level: crossingLevel,
+          initialRevealed: restored.revealedCellsFor(1),
+          crystals: restored.crystals,
+          onBack: () {},
+          onComplete: () {},
+          onNext: () {},
+          hasNext: true,
+        ),
+      ),
+    );
+    await tester.pump();
+    final opened = tester
+        .widgetList<PixelCell>(find.byType(PixelCell))
+        .where((cell) => cell.letter == 'К' && cell.open);
+    expect(opened, hasLength(1));
+    expect(restored.crystals, 0);
+    await tester.pump(const Duration(milliseconds: 400));
   });
 
   testWidgets('hint updates header balance and blocks unaffordable hint', (

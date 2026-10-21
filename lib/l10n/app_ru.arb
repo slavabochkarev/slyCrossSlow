@@ -1,0 +1,590 @@
+{
+  "@@locale": "ru",
+  "menuTitle": "МЕНЮ",
+  "@menuTitle": {
+    "description": "menuTitle"
+  },
+  "gameTab": "ИГРА",
+  "@gameTab": {
+    "description": "gameTab"
+  },
+  "infoTab": "ИНФО",
+  "@infoTab": {
+    "description": "infoTab"
+  },
+  "menuTooltip": "Меню",
+  "@menuTooltip": {
+    "description": "menuTooltip"
+  },
+  "journeyTitle": "ПУТЕШЕСТВИЕ",
+  "@journeyTitle": {
+    "description": "journeyTitle"
+  },
+  "campaignCompleted": "Кампания пройдена",
+  "@campaignCompleted": {
+    "description": "campaignCompleted"
+  },
+  "playButton": "ИГРАТЬ",
+  "@playButton": {
+    "description": "playButton"
+  },
+  "continueButton": "ПРОДОЛЖИТЬ",
+  "@continueButton": {
+    "description": "continueButton"
+  },
+  "backHomeTooltip": "На главную",
+  "@backHomeTooltip": {
+    "description": "backHomeTooltip"
+  },
+  "endlessTitle": "БЕСКОНЕЧНАЯ ИГРА",
+  "@endlessTitle": {
+    "description": "endlessTitle"
+  },
+  "shuffleTooltip": "Перемешать",
+  "@shuffleTooltip": {
+    "description": "shuffleTooltip"
+  },
+  "revealLetterTooltip": "Открыть букву",
+  "@revealLetterTooltip": {
+    "description": "revealLetterTooltip"
+  },
+  "themeSection": "ТЕМА",
+  "@themeSection": {
+    "description": "themeSection"
+  },
+  "darkTheme": "Тёмная",
+  "@darkTheme": {
+    "description": "darkTheme"
+  },
+  "lightTheme": "Светлая",
+  "@lightTheme": {
+    "description": "lightTheme"
+  },
+  "crosswordLanguage": "Язык кроссвордов",
+  "@crosswordLanguage": {
+    "description": "crosswordLanguage"
+  },
+  "interfaceLanguage": "Язык интерфейса",
+  "@interfaceLanguage": {
+    "description": "interfaceLanguage"
+  },
+  "englishUnavailable": "Доступен после добавления английских уровней",
+  "@englishUnavailable": {
+    "description": "englishUnavailable"
+  },
+  "progressSection": "ПРОГРЕСС",
+  "@progressSection": {
+    "description": "progressSection"
+  },
+  "statisticsTitle": "Статистика",
+  "@statisticsTitle": {
+    "description": "statisticsTitle"
+  },
+  "achievementsTitle": "Достижения",
+  "@achievementsTitle": {
+    "description": "achievementsTitle"
+  },
+  "wordAlreadyFound": "УЖЕ НАЙДЕНО",
+  "@wordAlreadyFound": {
+    "description": "wordAlreadyFound"
+  },
+  "wordOutsideCrossword": "СЛОВО ЕСТЬ! НО НЕ В ЭТОМ КРОССВОРДЕ",
+  "@wordOutsideCrossword": {
+    "description": "wordOutsideCrossword"
+  },
+  "tryAgain": "ПОПРОБУЙТЕ ЕЩЁ",
+  "@tryAgain": {
+    "description": "tryAgain"
+  },
+  "notEnoughCrystals": "НЕДОСТАТОЧНО КРИСТАЛЛОВ",
+  "@notEnoughCrystals": {
+    "description": "notEnoughCrystals"
+  },
+  "letterRevealed": "БУКВА ОТКРЫТА",
+  "@letterRevealed": {
+    "description": "letterRevealed"
+  },
+  "roundCompletedTitle": "★  РАУНД ЗАВЕРШЁН  ★",
+  "@roundCompletedTitle": {
+    "description": "roundCompletedTitle"
+  },
+  "levelCompletedTitle": "★  УРОВЕНЬ ПРОЙДЕН  ★",
+  "@levelCompletedTitle": {
+    "description": "levelCompletedTitle"
+  },
+  "journeyCompletedTitle": "★  ПУТЕШЕСТВИЕ ЗАВЕРШЕНО  ★",
+  "@journeyCompletedTitle": {
+    "description": "journeyCompletedTitle"
+  },
+  "allWordsSolved": "Все слова разгаданы",
+  "@allWordsSolved": {
+    "description": "allWordsSolved"
+  },
+  "nextRoundButton": "СЛЕДУЮЩИЙ РАУНД",
+  "@nextRoundButton": {
+    "description": "nextRoundButton"
+  },
+  "continuePlayingButton": "ПРОДОЛЖИТЬ ИГРАТЬ",
+  "@continuePlayingButton": {
+    "description": "continuePlayingButton"
+  },
+  "backHomeButton": "НА ГЛАВНУЮ",
+  "@backHomeButton": {
+    "description": "backHomeButton"
+  },
+  "campaignFinalTitle": "ПУТЕШЕСТВИЕ ЗАВЕРШЕНО",
+  "@campaignFinalTitle": {
+    "description": "campaignFinalTitle"
+  },
+  "campaignFinalCaption": "Но слова не заканчиваются...",
+  "@campaignFinalCaption": {
+    "description": "campaignFinalCaption"
+  },
+  "achievementToastTitle": "★ ДОСТИЖЕНИЕ ★",
+  "@achievementToastTitle": {
+    "description": "achievementToastTitle"
+  },
+  "journeyContinues": "Путь продолжается...",
+  "@journeyContinues": {
+    "description": "journeyContinues"
+  },
+  "statsLevelsCompleted": "Пройдено уровней",
+  "@statsLevelsCompleted": {
+    "description": "statsLevelsCompleted"
+  },
+  "statsWordsFound": "Найдено слов",
+  "@statsWordsFound": {
+    "description": "statsWordsFound"
+  },
+  "statsEndlessRounds": "Бесконечные раунды",
+  "@statsEndlessRounds": {
+    "description": "statsEndlessRounds"
+  },
+  "statsWithoutHints": "Без подсказок",
+  "@statsWithoutHints": {
+    "description": "statsWithoutHints"
+  },
+  "statsHintsUsed": "Использовано подсказок",
+  "@statsHintsUsed": {
+    "description": "statsHintsUsed"
+  },
+  "statsCurrentStreak": "Текущая серия",
+  "@statsCurrentStreak": {
+    "description": "statsCurrentStreak"
+  },
+  "statsBestStreak": "Лучшая серия",
+  "@statsBestStreak": {
+    "description": "statsBestStreak"
+  },
+  "statsCrystalsEarned": "Заработано кристаллов",
+  "@statsCrystalsEarned": {
+    "description": "statsCrystalsEarned"
+  },
+  "appVersionUnavailable": "КроссСлов · версия недоступна",
+  "@appVersionUnavailable": {
+    "description": "appVersionUnavailable"
+  },
+  "dictionaryLicenseTitle": "Лицензия словаря",
+  "@dictionaryLicenseTitle": {
+    "description": "dictionaryLicenseTitle"
+  },
+  "dictionaryLicenseMenu": "Лицензия английского словаря",
+  "@dictionaryLicenseMenu": {
+    "description": "dictionaryLicenseMenu"
+  },
+  "licenseLoading": "Загрузка лицензии…",
+  "@licenseLoading": {
+    "description": "licenseLoading"
+  },
+  "contactOpenFailed": "Не удалось открыть приложение. Скопируйте контакт.",
+  "@contactOpenFailed": {
+    "description": "contactOpenFailed"
+  },
+  "contactCopied": "Контакт скопирован",
+  "@contactCopied": {
+    "description": "contactCopied"
+  },
+  "aboutTitle": "Об игре",
+  "@aboutTitle": {
+    "description": "aboutTitle"
+  },
+  "howToTitle": "Как играть",
+  "@howToTitle": {
+    "description": "howToTitle"
+  },
+  "privacyTitle": "Политика конфиденциальности",
+  "@privacyTitle": {
+    "description": "privacyTitle"
+  },
+  "termsTitle": "Пользовательское соглашение",
+  "@termsTitle": {
+    "description": "termsTitle"
+  },
+  "feedbackTitle": "Обратная связь",
+  "@feedbackTitle": {
+    "description": "feedbackTitle"
+  },
+  "feedbackDetailsTitle": "Что указать",
+  "@feedbackDetailsTitle": {
+    "description": "feedbackDetailsTitle"
+  },
+  "aboutBody": "«КроссСлов» — игра о путешествии через мир слов. Соединяйте буквы, находите слова и заполняйте кроссворды. Проходите уровни и открывайте новые главы.",
+  "@aboutBody": {
+    "description": "aboutBody"
+  },
+  "howToConnectTitle": "1. Соединяйте",
+  "@howToConnectTitle": {
+    "description": "howToConnectTitle"
+  },
+  "howToConnectBody": "Проведите пальцем или мышью от одной буквы к другой. Каждую букву можно выбрать один раз за слово.",
+  "@howToConnectBody": {
+    "description": "howToConnectBody"
+  },
+  "howToFindTitle": "2. Находите слова",
+  "@howToFindTitle": {
+    "description": "howToFindTitle"
+  },
+  "howToFindBody": "Правильное слово появится в кроссворде. Заполните все слова, чтобы пройти уровень.",
+  "@howToFindBody": {
+    "description": "howToFindBody"
+  },
+  "howToHintTitle": "3. Если застряли",
+  "@howToHintTitle": {
+    "description": "howToHintTitle"
+  },
+  "howToHintBody": "Попробуйте перемешать буквы: иногда это наталкивает на слово! Или откройте одну клетку подсказкой.",
+  "@howToHintBody": {
+    "description": "howToHintBody"
+  },
+  "feedbackBody": "Нашли ошибку или хотите предложить улучшение «КроссСлов»? Напишите разработчику по электронной почте или в Telegram.",
+  "@feedbackBody": {
+    "description": "feedbackBody"
+  },
+  "feedbackDetailsBody": "Опишите, что произошло, на каком уровне и какого результата вы ожидали. Сообщение отправляете вы сами через выбранное приложение.",
+  "@feedbackDetailsBody": {
+    "description": "feedbackDetailsBody"
+  },
+  "levelLabel": "УРОВЕНЬ {level}",
+  "@levelLabel": {
+    "description": "levelLabel",
+    "placeholders": {
+      "level": {
+        "type": "int"
+      }
+    }
+  },
+  "chapterLabel": "Глава {number} · {name}",
+  "@chapterLabel": {
+    "description": "chapterLabel",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chapterOpeningLabel": "ГЛАВА {number}",
+  "@chapterOpeningLabel": {
+    "description": "chapterOpeningLabel",
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "endlessHomeSummary": "Бесконечная игра · {count}",
+  "@endlessHomeSummary": {
+    "description": "endlessHomeSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "roundLabel": "Раунд {round}",
+  "@roundLabel": {
+    "description": "roundLabel",
+    "placeholders": {
+      "round": {
+        "type": "int"
+      }
+    }
+  },
+  "appVersion": "КроссСлов · версия {version}",
+  "@appVersion": {
+    "description": "appVersion",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "levelsLoadError": "Не удалось загрузить уровни: {error}",
+  "@levelsLoadError": {
+    "description": "levelsLoadError",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "copyContactTooltip": "Скопировать {contact}",
+  "@copyContactTooltip": {
+    "description": "copyContactTooltip",
+    "placeholders": {
+      "contact": {
+        "type": "String"
+      }
+    }
+  },
+  "achievementChapterDescription": "Пройти главу «{chapter}»",
+  "@achievementChapterDescription": {
+    "description": "achievementChapterDescription",
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      }
+    }
+  },
+  "achievementLargeDescription": "Пройти уровень с {count} или более словами",
+  "@achievementLargeDescription": {
+    "description": "achievementLargeDescription",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "campaignFinalSummary": "{count, plural, one{Пройден {count} уровень} few{Пройдено {count} уровня} many{Пройдено {count} уровней} other{Пройдено {count} уровня}}",
+  "@campaignFinalSummary": {
+    "description": "campaignFinalSummary",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "allLevelsCompleted": "{count, plural, one{Весь {count} уровень пройден} few{Все {count} уровня пройдены} many{Все {count} уровней пройдены} other{Все {count} уровня пройдены}}",
+  "@allLevelsCompleted": {
+    "description": "allLevelsCompleted",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementLevelsDescription": "{count, plural, one{Пройти {count} уровень} few{Пройти {count} уровня} many{Пройти {count} уровней} other{Пройти {count} уровня}}",
+  "@achievementLevelsDescription": {
+    "description": "achievementLevelsDescription",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementWordsDescription": "{count, plural, one{Открыть {count} слово} few{Открыть {count} слова} many{Открыть {count} слов} other{Открыть {count} слова}}",
+  "@achievementWordsDescription": {
+    "description": "achievementWordsDescription",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementNoHintsDescription": "{count, plural, one{Пройти {count} уровень без подсказок} few{Пройти {count} уровня без подсказок} many{Пройти {count} уровней без подсказок} other{Пройти {count} уровня без подсказок}}",
+  "@achievementNoHintsDescription": {
+    "description": "achievementNoHintsDescription",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chapterForest": "Лес",
+  "@chapterForest": {
+    "description": "chapterForest"
+  },
+  "chapterLake": "Озеро",
+  "@chapterLake": {
+    "description": "chapterLake"
+  },
+  "chapterMountains": "Горы",
+  "@chapterMountains": {
+    "description": "chapterMountains"
+  },
+  "chapterCastle": "Замок",
+  "@chapterCastle": {
+    "description": "chapterCastle"
+  },
+  "chapterNorth": "Север",
+  "@chapterNorth": {
+    "description": "chapterNorth"
+  },
+  "sceneForest01": "Лесная опушка",
+  "@sceneForest01": {
+    "description": "sceneForest01"
+  },
+  "sceneForest02": "Глубокий лес",
+  "@sceneForest02": {
+    "description": "sceneForest02"
+  },
+  "sceneForest03": "Край леса",
+  "@sceneForest03": {
+    "description": "sceneForest03"
+  },
+  "sceneLake01": "Берег озера",
+  "@sceneLake01": {
+    "description": "sceneLake01"
+  },
+  "sceneLake02": "Вдоль озера",
+  "@sceneLake02": {
+    "description": "sceneLake02"
+  },
+  "sceneLake03": "Поселение у воды",
+  "@sceneLake03": {
+    "description": "sceneLake03"
+  },
+  "sceneLake04": "Путь к горам",
+  "@sceneLake04": {
+    "description": "sceneLake04"
+  },
+  "sceneMountains01": "Начало подъёма",
+  "@sceneMountains01": {
+    "description": "sceneMountains01"
+  },
+  "sceneMountains02": "Высокогорье",
+  "@sceneMountains02": {
+    "description": "sceneMountains02"
+  },
+  "sceneMountains03": "Горный перевал",
+  "@sceneMountains03": {
+    "description": "sceneMountains03"
+  },
+  "sceneMountains04": "Дорога к замку",
+  "@sceneMountains04": {
+    "description": "sceneMountains04"
+  },
+  "sceneCastle01": "У ворот",
+  "@sceneCastle01": {
+    "description": "sceneCastle01"
+  },
+  "sceneCastle02": "Старый двор",
+  "@sceneCastle02": {
+    "description": "sceneCastle02"
+  },
+  "sceneCastle03": "Высокая башня",
+  "@sceneCastle03": {
+    "description": "sceneCastle03"
+  },
+  "sceneCastle04": "Северные ворота",
+  "@sceneCastle04": {
+    "description": "sceneCastle04"
+  },
+  "sceneNorth01": "Северная долина",
+  "@sceneNorth01": {
+    "description": "sceneNorth01"
+  },
+  "sceneNorth02": "Ледяные просторы",
+  "@sceneNorth02": {
+    "description": "sceneNorth02"
+  },
+  "sceneNorth03": "Северное сияние",
+  "@sceneNorth03": {
+    "description": "sceneNorth03"
+  },
+  "sceneNorth04": "Последний приют",
+  "@sceneNorth04": {
+    "description": "sceneNorth04"
+  },
+  "sceneNorth05": "Край света",
+  "@sceneNorth05": {
+    "description": "sceneNorth05"
+  },
+  "achievementFirstStepTitle": "Первый шаг",
+  "@achievementFirstStepTitle": {
+    "description": "achievementFirstStepTitle"
+  },
+  "achievementChapter1Title": "Следопыт",
+  "@achievementChapter1Title": {
+    "description": "achievementChapter1Title"
+  },
+  "achievementChapter2Title": "У озера",
+  "@achievementChapter2Title": {
+    "description": "achievementChapter2Title"
+  },
+  "achievementChapter3Title": "Покоритель вершин",
+  "@achievementChapter3Title": {
+    "description": "achievementChapter3Title"
+  },
+  "achievementChapter4Title": "Хранитель замка",
+  "@achievementChapter4Title": {
+    "description": "achievementChapter4Title"
+  },
+  "achievementChapter5Title": "На краю Севера",
+  "@achievementChapter5Title": {
+    "description": "achievementChapter5Title"
+  },
+  "achievementCampaignTitle": "КроссСлов",
+  "@achievementCampaignTitle": {
+    "description": "achievementCampaignTitle"
+  },
+  "achievementWords100Title": "Словарный запас",
+  "@achievementWords100Title": {
+    "description": "achievementWords100Title"
+  },
+  "achievementWords500Title": "Знаток слов",
+  "@achievementWords500Title": {
+    "description": "achievementWords500Title"
+  },
+  "achievementWords1000Title": "Эрудит",
+  "@achievementWords1000Title": {
+    "description": "achievementWords1000Title"
+  },
+  "achievementNoHints10Title": "Самостоятельный",
+  "@achievementNoHints10Title": {
+    "description": "achievementNoHints10Title"
+  },
+  "achievementNoHints50Title": "Мастер",
+  "@achievementNoHints50Title": {
+    "description": "achievementNoHints50Title"
+  },
+  "achievementLargeCrosswordTitle": "Большой кроссворд",
+  "@achievementLargeCrosswordTitle": {
+    "description": "achievementLargeCrosswordTitle"
+  },
+  "achievementCategoryJourney": "Путешествие",
+  "@achievementCategoryJourney": {
+    "description": "achievementCategoryJourney"
+  },
+  "achievementCategoryWords": "Слова",
+  "@achievementCategoryWords": {
+    "description": "achievementCategoryWords"
+  },
+  "achievementCategoryWithoutHints": "Без подсказок",
+  "@achievementCategoryWithoutHints": {
+    "description": "achievementCategoryWithoutHints"
+  },
+  "achievementCategoryLargeCrosswords": "Большие Crossword",
+  "@achievementCategoryLargeCrosswords": {
+    "description": "achievementCategoryLargeCrosswords"
+  },
+  "achievementCampaignDescription": "Пройти все {count} уровней",
+  "@achievementCampaignDescription": {
+    "description": "Complete the entire campaign",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "privacyBody": "«КроссСлов» не требует регистрации и не запрашивает имя, номер телефона, адрес электронной почты или иные персональные данные для использования игры.\n\nИгровой прогресс, найденные слова незавершённого уровня, баланс кристаллов, статистика, достижения, состояние бесконечной игры, настройки и выбранная тема сохраняются локально на устройстве пользователя. Облачная синхронизация игровых данных не используется.\n\nПриложение не передаёт игровой прогресс разработчику и не использует его для идентификации пользователя. Локальные игровые данные можно удалить средствами операционной системы, очистив данные приложения, либо удалив приложение с устройства.\n\nПри обращении к разработчику по электронной почте или через Telegram пользователь самостоятельно передаёт данные выбранному сервису связи. Обработка таких данных осуществляется в соответствии с правилами соответствующего сервиса.\n\n",
+  "termsBody": "«КроссСлов» — игра в слова. Используя приложение, пользователь соглашается с условиями настоящего Пользовательского соглашения.\n\nИгра предоставляется для личного некоммерческого использования. Пользователь может проходить кампанию, разгадывать кроссворды, использовать подсказки, получать достижения и после завершения кампании продолжать игру в бесконечном режиме.\n\nКристаллы являются исключительно внутриигровым ресурсом. Они могут начисляться за игровые действия и расходоваться на предусмотренные игрой функции. Кристаллы не являются денежными средствами, не имеют денежной стоимости и не подлежат обмену на деньги.\n\nИгровой прогресс и настройки сохраняются локально на устройстве. Пользователь самостоятельно отвечает за сохранность данных своего устройства. При удалении приложения, очистке его данных, сбросе устройства или в иных случаях локальные игровые данные могут быть утрачены.\n\nРазработчик вправе выпускать обновления, исправлять ошибки, изменять игровой баланс, содержание, оформление и функциональные возможности приложения. Обновления могут отличаться от предыдущих версий игры.\n\nПриложение предоставляется в состоянии «как есть». Разработчик стремится обеспечивать корректную работу игры, однако не гарантирует отсутствие программных ошибок или совместимость со всеми устройствами и версиями операционной системы.\n\nПользователь не должен пытаться вмешиваться в работу приложения, распространять изменённые версии приложения от имени разработчика либо использовать материалы игры с нарушением применимого законодательства и прав правообладателей.\n\n",
+  "@privacyBody": {
+    "description": "Full Privacy Policy, preserving the current approved Russian source."
+  },
+  "@termsBody": {
+    "description": "Full EULA, preserving the current approved Russian source."
+  }
+}

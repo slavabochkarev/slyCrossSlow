@@ -1,3 +1,5 @@
+import '../l10n/localized_content.dart';
+
 import 'package:flutter/material.dart';
 
 import '../core/theme/game_theme.dart';
@@ -31,7 +33,7 @@ class ChapterTransitionScreen extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'ГЛАВА ${chapter.id}',
+                      context.l10n.chapterOpeningLabel(chapter.id),
                       style: const TextStyle(
                         fontSize: 20,
                         color: GameColors.orange,
@@ -40,14 +42,14 @@ class ChapterTransitionScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 14),
                     Text(
-                      chapter.name.toUpperCase(),
+                      context.l10n.chapterName(chapter.id).toUpperCase(),
                       style: const TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.w900,
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const Text('Путь продолжается...'),
+                    Text(context.l10n.journeyContinues),
                     const SizedBox(height: 26),
                     SizedBox(
                       width: double.infinity,
@@ -55,7 +57,7 @@ class ChapterTransitionScreen extends StatelessWidget {
                       child: PixelButton(
                         onPressed: onContinue,
                         accent: true,
-                        child: const Text('ПРОДОЛЖИТЬ'),
+                        child: Text(context.l10n.continueButton),
                       ),
                     ),
                   ],

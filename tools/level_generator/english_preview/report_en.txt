@@ -1,0 +1,180 @@
+КроссСлов — английская экспериментальная кампания: 20 уровней
+Seed: 20261020; game dictionary: 5948; recognition: 27854; excludes: 81
+Движок: существующие crossword.search / validate / can_place; generator.possible_words; scoring.metrics / score.
+Русская нормализация не вызывается. Русские данные и Flutter не изменяются.
+Отбор качества: вручную просмотренная общеупотребительная подвыборка игрового словаря; wordfreq и внешние частоты не используются.
+Для вводных наборов дополнительно выбраны конкретные простые слова; PANT/LENT/DINER и некоторые повторы основ избегаются локально без изменения словарей.
+В каждом уровне seed использует все буквы набора. Количество слов растёт 2→7; размеры ограничены 9 клетками по стороне.
+Difficulty — относительная эвристика, не результат тестирования на игроках:
+8*(letters-3) + 3*(words-2) + .15*area + .7*average_word_length - .4*crossings.
+Проверки: dictionary / recognition / multiplicity / connected / adjacency / conflicts / pair crossings / excludes / unique sets: PASS.
+Прогрессия: score не убывает, шаг <=14; изменение ширины/высоты <=2; прирост слов <=1: PASS.
+Уникальных использованных слов: 87.
+Максимальный шаг difficulty: 9.20.
+HTML: статическая структура проверяется test_english_preview.py; визуальная проверка браузером не выполнена — политика браузера запрещает file://.
+Слово может повторяться между уровнями; при выборе действует мягкий штраф за повтор. Letter Sets не повторяются.
+Ручные флаги обозначают словоформы/многозначность, а не подтверждённую ошибку.
+
+LEVEL | LETTER SET | WORDS | GRID (width×height) | CROSSINGS | DIFFICULTY | WORD LIST
+01 | ACT | 2 | 3×3 | 1 | 3.05 | CAT, ACT
+C . .
+A C T
+T . .
+
+02 | OPT | 2 | 3×3 | 1 | 3.05 | TOP, POT
+. P .
+T O P
+. T .
+
+03 | AET | 3 | 3×3 | 2 | 5.65 | EAT, TEA, ATE
+A . E
+T E A
+E . T
+REVIEW: ATE: inflected form; confirm editorial policy (not a rare word); same word family in this grid: ATE, EAT; EAT: same word family in this grid: ATE, EAT
+
+04 | ARST | 3 | 3×4 | 2 | 14.33 | STAR, RAT, ART
+A . S
+R A T
+T . A
+. . R
+
+05 | OPST | 3 | 4×4 | 2 | 15.40 | STOP, SPOT, POST
+P . S .
+O . T .
+S P O T
+T . P .
+
+06 | AEMT | 4 | 4×4 | 4 | 17.60 | TEAM, TAME, MATE, MEAT
+T A M E
+E . E .
+A . A .
+M A T E
+REVIEW: TAME: less basic than CAT/TOP; ordinary English adjective/verb
+
+07 | ACER | 4 | 4×5 | 3 | 18.25 | CARE, CAR, RACE, EAR
+R A C E
+. . A .
+C A R E
+. . . A
+. . . R
+
+08 | ALNPT | 4 | 4×5 | 3 | 26.43 | PLANT, PLAN, TAP, PAN
+T A P .
+. . L .
+P L A N
+A . N .
+N . T .
+
+09 | ENOST | 4 | 5×5 | 4 | 27.30 | STONE, NOTES, NOSE, SENT
+. N O S E
+. O . E .
+S T O N E
+. E . T .
+. S . . .
+REVIEW: NOTES: inflected form; confirm editorial policy (not a rare word); SENT: inflected form; confirm editorial policy (not a rare word)
+
+10 | AEHRT | 4 | 5×5 | 3 | 27.70 | HEART, EARTH, HATE, RATE
+H . . . .
+E A R T H
+A . A . A
+R . T . T
+T . E . E
+
+11 | AINRT | 5 | 5×5 | 4 | 29.67 | TRAIN, AIR, ART, RAIN, RAT
+R A I N .
+. I . . .
+T R A I N
+. . R . .
+R A T . .
+
+12 | EILMS | 5 | 5×6 | 5 | 30.44 | SMILE, MILES, LIE, LIES, SLIM
+S M I L E
+. I . I .
+. L I E S
+. E . . L
+. S . . I
+. . . . M
+REVIEW: MILES: inflected form; confirm editorial policy (not a rare word); LIES: inflected form; confirm editorial policy (not a rare word); same word family in this grid: LIE, LIES; LIE: same word family in this grid: LIE, LIES
+
+13 | AEMRST | 5 | 6×6 | 6 | 39.64 | STREAM, MASTER, TEARS, TEAMS, ARTS
+. T E A M S
+. E . R . T
+M A S T E R
+. R . S . E
+. S . . . A
+. . . . . M
+REVIEW: TEARS: inflected form; confirm editorial policy (not a rare word); TEAMS: inflected form; confirm editorial policy (not a rare word); ARTS: plural/multiple senses of ART; confirm early-level vocabulary
+
+14 | AELNPT | 5 | 6×6 | 5 | 39.76 | PLANET, PANEL, PLATE, TALE, TAPE
+. . P . . .
+P L A N E T
+L . N . . A
+A . E . . P
+T A L E . E
+E . . . . .
+
+15 | ADEGNR | 5 | 6×6 | 5 | 40.04 | GARDEN, DANGER, ANGER, GRAND, RAGE
+G R A N D .
+. . N . A .
+R . G . N .
+A . E . G .
+G A R D E N
+E . . . R .
+
+16 | EILNST | 6 | 6×6 | 6 | 42.27 | LISTEN, SILENT, LINES, TIES, SITE, SET
+S E T . . L
+I . . . . I
+L I S T E N
+E . I . . E
+N . T . . S
+T I E S . .
+REVIEW: LINES: inflected form; confirm editorial policy (not a rare word); TIES: inflected form; confirm editorial policy (not a rare word)
+
+17 | DEFINR | 6 | 6×8 | 6 | 43.95 | FRIEND, FRIED, FIND, RIDE, FIRE, FINE
+. . F I R E
+. . R . I .
+F R I E D .
+. . E . E .
+F I N D . .
+I . D . . .
+N . . . . .
+E . . . . .
+REVIEW: FRIED: inflected form; confirm editorial policy (not a rare word)
+
+18 | AENPRST | 6 | 6×7 | 6 | 51.52 | PARENTS, TAPES, PARTS, SPARE, TEAR, TRAPS
+. T A P E S
+. . . A . P
+T . . R . A
+R . T E A R
+A . . N . E
+P A R T S .
+S . . S . .
+REVIEW: PARENTS: inflected form; confirm editorial policy (not a rare word); TAPES: inflected form; confirm editorial policy (not a rare word); PARTS: inflected form; confirm editorial policy (not a rare word); TRAPS: inflected form; confirm editorial policy (not a rare word)
+
+19 | ACEEHRT | 7 | 6×7 | 8 | 53.50 | TEACHER, CREATE, REACH, TRACE, HEAR, TEAR, ERA
+C R E A T E
+. . . . E .
+. . T E A R
+E . R . C .
+R E A C H .
+A . C . E .
+. H E A R .
+
+20 | AELPRST | 7 | 7×7 | 8 | 54.65 | PLASTER, PLATES, STARE, TALES, LEAP, SALE, RATS
+P L A S T E R
+L . . A . . A
+A . . L . . T
+T A L E S . S
+E . E . . . .
+S T A R E . .
+. . P . . . .
+REVIEW: PLATES: inflected form; confirm editorial policy (not a rare word); TALES: inflected form; confirm editorial policy (not a rare word); RATS: inflected form; confirm editorial policy (not a rare word)
+
+ОЦЕНКА КАЧЕСТВА
+Первые уровни используют ACT/CAT, POT/TOP, EAT/ATE/TEA и другие базовые слова. Подтверждённо редких слов не выбрано.
+Словоформы допустимы в эксперименте: ATE, множественные числа и формы глаголов помечены для ручного решения.
+В сетке SMILE остаётся повтор одной основы (например LIE/LIES либо MILE/MILES): из шести доступных базовых слов нужно выбрать пять. Он помечен для ручной проверки.
+Отсутствуют реальные частотные оценки, поэтому commonness является редакционной оценкой, а difficulty требует playtest.
+Базовый словарь имеет пробелы: обычные слова ANT, LIME, PAINTER и др. отсутствуют. Мы не добавляли их обходным путём.
+Просмотренные кандидаты, отсутствующие в game dictionary: ACHE, ACRE, ANT, CHEATER, DEN, ENLIST, FIN, HARE, HEATER, ISLE, LAP, LIME, MATES, MEATS, NAP, PAINTER, PANE, PASTEL, PEAR, PEARS, PETAL, PETALS, POTS, REPAINT, RIND, SEAM, SLIME, STAPLE, STAPLER, TAMES, TAN, TAR
+ИТОГ: 20/20 валидны; prohibited/excluded words used: 0; duplicate Letter Sets: 0.

@@ -1,9 +1,13 @@
 import 'dart:math' as math;
 
+import '../../l10n/localized_content.dart';
+import '../../l10n/app_localizations.dart';
+
 import 'package:flutter/material.dart';
 import 'package:sly_fl_effects_lab/effects/sly_fl_effects.dart';
 
 import '../../campaign/chapter_scene.dart';
+import '../../game_language.dart';
 import '../../campaign/chapter_scene_backdrop.dart';
 import '../../core/theme/game_theme.dart';
 import '../../core/widgets/pixel_ui.dart';
@@ -15,6 +19,27 @@ import 'widgets/crossword_board.dart';
 import 'widgets/crossword_layout.dart';
 import 'widgets/letter_board.dart';
 
+enum GameFeedback {
+  correct,
+  alreadyFound,
+  outsideCrossword,
+  tryAgain,
+  notEnoughCrystals,
+  letterRevealed;
+
+  bool get shakes => this == tryAgain;
+  bool get compact => this == outsideCrossword;
+
+  String message(AppLocalizations l10n, String word) => switch (this) {
+    correct => '✦ $word ✦',
+    alreadyFound => l10n.wordAlreadyFound,
+    outsideCrossword => l10n.wordOutsideCrossword,
+    tryAgain => l10n.tryAgain,
+    notEnoughCrystals => l10n.notEnoughCrystals,
+    letterRevealed => l10n.letterRevealed,
+  };
+}
+
 class GameScreen extends StatefulWidget {
   const GameScreen({
     super.key,
@@ -24,8 +49,10 @@ class GameScreen extends StatefulWidget {
     required this.onNext,
     required this.hasNext,
     this.initialFound = const {},
+    this.initialRevealed = const {},
     this.onWordFound,
     this.onHintUsed,
+    this.onCellRevealed,
     this.crystals = 0,
     this.devLabel,
     this.onDevNext,
@@ -34,6 +61,7 @@ class GameScreen extends StatefulWidget {
     this.onCrosswordLayout,
     this.endlessRound,
     this.sceneOverride,
+    this.language = GameLanguage.ru,
   });
 
   final Level level;
@@ -42,8 +70,10 @@ class GameScreen extends StatefulWidget {
   final VoidCallback onNext;
   final bool hasNext;
   final Set<String> initialFound;
+  final Set<String> initialRevealed;
   final ValueChanged<String>? onWordFound;
   final bool Function()? onHintUsed;
+  final ValueChanged<String>? onCellRevealed;
   final int crystals;
   final String? devLabel;
   final VoidCallback? onDevNext;
@@ -52,6 +82,7 @@ class GameScreen extends StatefulWidget {
   final ValueChanged<CrosswordLayoutDiagnostics>? onCrosswordLayout;
   final int? endlessRound;
   final ChapterScene? sceneOverride;
+  final GameLanguage language;
 
   @override
   State<GameScreen> createState() => _GameScreenState();
@@ -60,12 +91,15 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   late final GameController controller = GameController(
     widget.level,
+    language: widget.language,
     initialFound: widget.initialFound,
+    initialRevealed: widget.initialRevealed,
   );
   late final Future<Set<String>> dictionary;
   final boardKey = GlobalKey<LetterBoardState>();
   String currentWord = '';
-  String feedback = '';
+  GameFeedback? feedback;
+  String feedbackWord = '';
   Color feedbackColor = GameColors.cream;
   int feedbackSequence = 0;
   int submissionSequence = 0;
@@ -79,7 +113,7 @@ class _GameScreenState extends State<GameScreen> {
   void initState() {
     super.initState();
     currentWord = widget.devPreviewWord ?? '';
-    dictionary = GameDictionary.load();
+    dictionary = GameDictionary.load(widget.language);
   }
 
   void _advance() {
@@ -94,15 +128,16 @@ class _GameScreenState extends State<GameScreen> {
     super.dispose();
   }
 
-  void _showFeedback(String message, Color color) {
+  void _showFeedback(GameFeedback message, Color color, [String word = '']) {
     final sequence = ++feedbackSequence;
     setState(() {
       feedback = message;
+      feedbackWord = word;
       feedbackColor = color;
     });
     Future.delayed(const Duration(milliseconds: 850), () {
       if (mounted && sequence == feedbackSequence) {
-        setState(() => feedback = '');
+        setState(() => feedback = null);
       }
     });
   }
@@ -119,40 +154,63 @@ class _GameScreenState extends State<GameScreen> {
     }
     switch (result) {
       case WordResult.correct:
-        widget.onWordFound?.call(GameDictionary.normalize(word));
+        widget.onWordFound?.call(
+          GameDictionary.normalize(word, widget.language),
+        );
         boardKey.currentState?.showReaction(LetterBoardReaction.correct);
-        _showFeedback('✦ $word ✦', GamePalette.of(context).accent);
-        if (controller.completed) {
-          finishing = true;
-          widget.onComplete();
-          Future.delayed(const Duration(milliseconds: 480), () {
-            if (mounted) setState(() => celebrating = true);
-          });
-          Future.delayed(const Duration(milliseconds: 760), () {
-            if (mounted) setState(() => showVictory = true);
-          });
-        }
+        _showFeedback(
+          GameFeedback.correct,
+          GamePalette.of(context).accent,
+          word,
+        );
+        _finishIfCompleted();
       case WordResult.alreadyFound:
         boardKey.currentState?.showReaction(LetterBoardReaction.neutral);
-        _showFeedback('УЖЕ НАЙДЕНО', GameColors.cream);
+        _showFeedback(GameFeedback.alreadyFound, GameColors.cream);
       case WordResult.validNotInCrossword:
         boardKey.currentState?.showReaction(LetterBoardReaction.neutral);
-        _showFeedback('СЛОВО ЕСТЬ! НО НЕ В ЭТОМ КРОССВОРДЕ', GameColors.cyan);
+        _showFeedback(GameFeedback.outsideCrossword, GameColors.cyan);
       case WordResult.unknown:
         boardKey.currentState?.showReaction(LetterBoardReaction.wrong);
-        _showFeedback('ПОПРОБУЙТЕ ЕЩЁ', Theme.of(context).colorScheme.error);
+        _showFeedback(
+          GameFeedback.tryAgain,
+          Theme.of(context).colorScheme.error,
+        );
     }
+  }
+
+  void _finishIfCompleted() {
+    if (finishing || !controller.completed) return;
+    finishing = true;
+    widget.onComplete();
+    Future.delayed(const Duration(milliseconds: 480), () {
+      if (mounted) setState(() => celebrating = true);
+    });
+    Future.delayed(const Duration(milliseconds: 760), () {
+      if (mounted) setState(() => showVictory = true);
+    });
   }
 
   void _hint() {
     if (finishing || !controller.canRevealOne) return;
     if (widget.onHintUsed != null && !widget.onHintUsed!()) {
-      _showFeedback('НЕДОСТАТОЧНО КРИСТАЛЛОВ', GameColors.orange);
+      _showFeedback(GameFeedback.notEnoughCrystals, GameColors.orange);
       return;
     }
-    if (!controller.revealOne()) return;
+    final cell = controller.revealOne();
+    if (cell == null) return;
+    widget.onCellRevealed?.call(cell);
     setState(() => hintPulse = true);
-    _showFeedback('БУКВА ОТКРЫТА', GameColors.cyan);
+    _showFeedback(GameFeedback.letterRevealed, GameColors.cyan);
+    if (controller.allCellsVisible) {
+      // Fully revealed crossings count as solved words for progression and stats.
+      for (final placement in widget.level.words) {
+        if (controller.submit(placement.text) == WordResult.correct) {
+          widget.onWordFound?.call(placement.text);
+        }
+      }
+      _finishIfCompleted();
+    }
     Future.delayed(const Duration(milliseconds: 220), () {
       if (mounted) setState(() => hintPulse = false);
     });
@@ -260,7 +318,9 @@ class _GameScreenState extends State<GameScreen> {
     children: [
       PixelIconButton(
         icon: Icons.arrow_back,
-        label: widget.devLabel == null ? 'На главную' : 'Предыдущая сетка',
+        label: widget.devLabel == null
+            ? context.l10n.backHomeTooltip
+            : 'Предыдущая сетка',
         onPressed: widget.onBack,
       ),
       Expanded(
@@ -282,7 +342,8 @@ class _GameScreenState extends State<GameScreen> {
                     fit: BoxFit.scaleDown,
                     child: widget.endlessRound == null
                         ? Text(
-                            widget.devLabel ?? 'УРОВЕНЬ ${widget.level.id}',
+                            widget.devLabel ??
+                                context.l10n.levelLabel(widget.level.id),
                             style: const TextStyle(
                               fontSize: 17,
                               fontWeight: FontWeight.w900,
@@ -292,15 +353,15 @@ class _GameScreenState extends State<GameScreen> {
                         : Column(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              const Text(
-                                'БЕСКОНЕЧНАЯ ИГРА',
+                              Text(
+                                context.l10n.endlessTitle,
                                 style: TextStyle(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w900,
                                 ),
                               ),
                               Text(
-                                'Раунд ${widget.endlessRound}',
+                                context.l10n.roundLabel(widget.endlessRound!),
                                 style: const TextStyle(
                                   fontSize: 13,
                                   fontWeight: FontWeight.w700,
@@ -346,11 +407,11 @@ class _GameScreenState extends State<GameScreen> {
                 ),
                 child: FadeTransition(opacity: animation, child: child),
               ),
-              child: currentWord.isNotEmpty || feedback.isNotEmpty
+              child: currentWord.isNotEmpty || feedback != null
                   ? TweenAnimationBuilder<double>(
                       key: ValueKey('word-reaction-$feedbackSequence'),
                       tween: Tween(
-                        begin: feedback == 'ПОПРОБУЙТЕ ЕЩЁ' ? 1 : 0,
+                        begin: (feedback?.shakes ?? false) ? 1 : 0,
                         end: 0,
                       ),
                       duration: const Duration(milliseconds: 260),
@@ -367,20 +428,23 @@ class _GameScreenState extends State<GameScreen> {
                           horizontal: 15,
                           vertical: 5,
                         ),
-                        highlight: feedback.startsWith('✦'),
-                        child: Text(
-                          currentWord.isNotEmpty ? currentWord : feedback,
-                          style: TextStyle(
-                            fontSize: feedback.startsWith('СЛОВО ЕСТЬ!')
-                                ? 13
-                                : 23,
-                            color: currentWord.isNotEmpty
-                                ? GamePalette.of(context).accent
-                                : feedbackColor,
-                            fontWeight: FontWeight.w900,
-                            letterSpacing: feedback.startsWith('СЛОВО ЕСТЬ!')
-                                ? .2
-                                : 2,
+                        highlight: feedback == GameFeedback.correct,
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Text(
+                            currentWord.isNotEmpty
+                                ? currentWord
+                                : feedback!.message(context.l10n, feedbackWord),
+                            style: TextStyle(
+                              fontSize: (feedback?.compact ?? false) ? 13 : 23,
+                              color: currentWord.isNotEmpty
+                                  ? GamePalette.of(context).accent
+                                  : feedbackColor,
+                              fontWeight: FontWeight.w900,
+                              letterSpacing: (feedback?.compact ?? false)
+                                  ? .2
+                                  : 2,
+                            ),
                           ),
                         ),
                       ),
@@ -412,12 +476,12 @@ class _GameScreenState extends State<GameScreen> {
                 ),
               ),
               Positioned(
-                left: 0,
+                right: 0,
                 bottom: 12,
                 width: 48,
                 height: 44,
                 child: Tooltip(
-                  message: 'Перемешать',
+                  message: context.l10n.shuffleTooltip,
                   child: PixelButton(
                     onPressed: () => boardKey.currentState?.shuffle(),
                     padding: const EdgeInsets.all(6),
@@ -426,7 +490,7 @@ class _GameScreenState extends State<GameScreen> {
                 ),
               ),
               Positioned(
-                right: 0,
+                left: 0,
                 bottom: 12,
                 width: 48,
                 height: 44,
@@ -434,7 +498,7 @@ class _GameScreenState extends State<GameScreen> {
                   scale: hintPulse ? 1.14 : 1,
                   duration: const Duration(milliseconds: 150),
                   child: Tooltip(
-                    message: 'Открыть букву',
+                    message: context.l10n.revealLetterTooltip,
                     child: PixelButton(
                       onPressed: _hint,
                       padding: const EdgeInsets.all(6),
@@ -473,10 +537,10 @@ class _GameScreenState extends State<GameScreen> {
                   children: [
                     Text(
                       widget.endlessRound != null
-                          ? '★  РАУНД ЗАВЕРШЁН  ★'
+                          ? context.l10n.roundCompletedTitle
                           : widget.hasNext
-                          ? '★  УРОВЕНЬ ПРОЙДЕН  ★'
-                          : '★  ПУТЕШЕСТВИЕ ЗАВЕРШЕНО  ★',
+                          ? context.l10n.levelCompletedTitle
+                          : context.l10n.journeyCompletedTitle,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         fontSize: 21,
@@ -487,10 +551,10 @@ class _GameScreenState extends State<GameScreen> {
                     const SizedBox(height: 12),
                     Text(
                       widget.endlessRound != null
-                          ? 'Все слова разгаданы'
+                          ? context.l10n.allWordsSolved
                           : widget.hasNext
-                          ? 'Все слова разгаданы'
-                          : 'Все 150 уровней пройдены',
+                          ? context.l10n.allWordsSolved
+                          : context.l10n.allLevelsCompleted(150),
                       style: const TextStyle(fontSize: 15),
                     ),
                     const SizedBox(height: 9),
@@ -520,10 +584,10 @@ class _GameScreenState extends State<GameScreen> {
                           fit: BoxFit.scaleDown,
                           child: Text(
                             widget.endlessRound != null
-                                ? 'СЛЕДУЮЩИЙ РАУНД'
+                                ? context.l10n.nextRoundButton
                                 : widget.hasNext
-                                ? 'ПРОДОЛЖИТЬ ИГРАТЬ'
-                                : 'НА ГЛАВНУЮ',
+                                ? context.l10n.continuePlayingButton
+                                : context.l10n.backHomeButton,
                             style: const TextStyle(
                               fontSize: 17,
                               letterSpacing: 1,

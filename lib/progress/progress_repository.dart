@@ -3,45 +3,65 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'campaign_progress.dart';
+import 'game_profiles.dart';
 
 class ProgressRepository {
   ProgressRepository({SharedPreferencesAsync? preferences})
     : _preferences = preferences ?? SharedPreferencesAsync();
 
   static const stateKey = 'campaign_150_state_v2';
-  static const _legacyKeys = <String>[
-    'current_level',
-    'completed_levels',
-    'crystal_balance',
-  ];
+  static const profilesKey = 'game_profiles_v1';
 
   final SharedPreferencesAsync _preferences;
 
-  Future<CampaignProgress> load() async {
-    final source = await _preferences.getString(stateKey);
-    if (source != null) {
+  Future<GameProfiles> loadProfiles() async {
+    final profilesSource = await _preferences.getString(profilesKey);
+    if (profilesSource != null) {
       try {
-        return CampaignProgress.fromJson(
-          jsonDecode(source) as Map<String, dynamic>,
+        return GameProfiles.fromJson(
+          jsonDecode(profilesSource) as Map<String, dynamic>,
         );
       } on FormatException {
-        // A malformed or unknown campaign schema starts a clean campaign.
+        throw const FormatException('Cannot load game profiles');
       } on TypeError {
-        // Treat malformed local state the same way as an unknown schema.
+        throw const FormatException('Cannot load game profiles');
       }
     }
-    final fresh = CampaignProgress();
-    // Save first so a crash during legacy cleanup cannot revive test progress.
-    await save(fresh);
-    for (final key in _legacyKeys) {
-      await _preferences.remove(key);
+
+    final oldSource = await _preferences.getString(stateKey);
+    if (oldSource != null) {
+      try {
+        final old = CampaignProgress.fromJson(
+          jsonDecode(oldSource) as Map<String, dynamic>,
+        );
+        final migrated = GameProfiles(ru: old, crystals: old.crystals);
+        // One write commits the complete migration. Keep the old key as backup.
+        await saveProfiles(migrated);
+        return migrated;
+      } on FormatException {
+        throw const FormatException('Cannot migrate Russian campaign state');
+      } on TypeError {
+        throw const FormatException('Cannot migrate Russian campaign state');
+      }
     }
+    final fresh = GameProfiles();
+    await saveProfiles(fresh);
     return fresh;
   }
 
-  Future<void> save(CampaignProgress state) =>
-      saveEncoded(jsonEncode(state.toJson()));
+  Future<CampaignProgress> load() async => (await loadProfiles()).ru;
 
-  Future<void> saveEncoded(String encoded) =>
-      _preferences.setString(stateKey, encoded);
+  Future<void> save(CampaignProgress state) async {
+    final profiles = await loadProfiles();
+    profiles.ru = state;
+    profiles.crystals = state.crystals;
+    profiles.en.crystals = state.crystals;
+    await saveProfiles(profiles);
+  }
+
+  Future<void> saveProfiles(GameProfiles profiles) =>
+      saveProfilesEncoded(jsonEncode(profiles.toJson()));
+
+  Future<void> saveProfilesEncoded(String encoded) =>
+      _preferences.setString(profilesKey, encoded);
 }
