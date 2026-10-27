@@ -51,7 +51,9 @@ def scene_background(master: Image.Image) -> Image.Image:
 
 def foreground(master: Image.Image, scale: float) -> Image.Image:
     side = round(108 * scale)
-    art_side = round(60 * scale)
+    # 72 dp artwork centered in the 108 dp adaptive layer: 18 dp per side.
+    # Do not add another inset in the adaptive-icon XML.
+    art_side = round(72 * scale)
     result = Image.new("RGBA", (side, side), (0, 0, 0, 0))
     art = master.resize((art_side, art_side), Image.Resampling.LANCZOS)
     result.alpha_composite(art, ((side - art_side) // 2, (side - art_side) // 2))
